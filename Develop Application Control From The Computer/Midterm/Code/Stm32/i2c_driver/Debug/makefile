@@ -9,6 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Library/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -60,8 +61,8 @@ all: main-build
 main-build: i2c_ver3.elf secondary-outputs
 
 # Tool invocations
-i2c_ver3.elf i2c_ver3.map: $(OBJS) $(USER_OBJS) C:\Users\maith\Documents\Learning\Master\Develop\ Application\ Control\ From\ The\ Computer\Midterm\Code\Stm32\i2c_driver\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "i2c_ver3.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\maith\Documents\Learning\Master\Develop Application Control From The Computer\Midterm\Code\Stm32\i2c_driver\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="i2c_ver3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+i2c_ver3.elf i2c_ver3.map: $(OBJS) $(USER_OBJS) C:\Users\maith\Documents\Learning\learn_master\Develop\ Application\ Control\ From\ The\ Computer\Midterm\Code\Stm32\i2c_driver\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "i2c_ver3.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Midterm\Code\Stm32\i2c_driver\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="i2c_ver3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

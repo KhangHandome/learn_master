@@ -1,0 +1,10 @@
+../Core/Src/main.c:25:5:main	2
+../Core/Src/main.c:50:13:HAL_IP_I2C_Init	1
+../Core/Src/main.c:78:17:HAL_IP_I2C_Receive	6
+../Core/Src/main.c:112:17:HAL_IP_I2C_Transmit	5
+../Core/Src/main.c:138:17:HAL_IP_I2C_Master_Transmit	6
+../Core/Src/main.c:169:17:HAL_IP_I2C_Master_Receive	8
+../Core/Src/main.c:213:16:HAL_IP_I2C_GetTxFlag	1
+../Core/Src/main.c:218:16:HAL_IP_I2C_GetRxFlag	1
+../Core/Src/main.c:224:13:LED_Init	1
+../Core/Src/main.c:230:13:LED_Toggle	1

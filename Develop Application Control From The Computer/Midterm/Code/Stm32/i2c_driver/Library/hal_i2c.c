@@ -19,7 +19,7 @@ static uint8_t HAL_IP_I2C_GetTxFlag(void);
   *          sets timing registers (CR2, CCR, TRISE),
   *          assigns own slave address, enables ACK and I2C1.
   */
-void HAL_IP_I2C_Init(uint16_t clock_speed,uint16_t freq_mhz)
+void HAL_IP_I2C_Init(uint32_t clock_speed,uint16_t freq_mhz)
 {
     /* Enable clock for I2C1 */
     RCC->APB1ENR |= RCC_APB1ENR_I2C1EN;

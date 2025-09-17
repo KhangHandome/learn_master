@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=Net10K_1 Pin=NodeMCU-20
+Removed Pin From Net: NetName=NetNodeMCU_21 Pin=NodeMCU-21
+Removed Member From Class: ClassName=Sheet2 Member=NodeMCU
+Added Component: Designator=LoLin-1(LoLin NodeMcu V3)
+Added Pin To Net: NetName=NetNodeMCU_21 Pin=LoLin-1-D1
+Added Pin To Net: NetName=Net10K_1 Pin=LoLin-1-D2
+Change Net Name : Old Net Name=NetNodeMCU_21 New Net Name=NetLoLin-1_D1
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=LoLin-1-GND
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=LoLin-1-GND
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=LoLin-1-GND
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=LoLin-1-GND
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=LoLin-1-GND
+Added Pin To Net: NetName=NetLoLin-1_GND Pin=U1-39
+Added Net: Name=NetLoLin-1_GND
+Added Pin To Net: NetName=NetLoLin-1_VIN Pin=LoLin-1-VIN
+Added Pin To Net: NetName=NetLoLin-1_VIN Pin=U1-38
+Added Net: Name=NetLoLin-1_VIN
+Added Member To Class: ClassName=Sheet2 Member=Component LoLin-1 NodeMCU V1.0 ESP-12E_1

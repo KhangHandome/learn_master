@@ -15,7 +15,7 @@ int main(void)
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
 
     LED_Init();
-    HAL_IP_I2C_Init(CLOCK_SPEED,FREQ);
+    HAL_IP_I2C_Init(100000,FREQ);
     HAL_IP_I2C_EnableISR();
     HAL_IP_I2C_Slave_Receive_IT(data_rx,10, &status );
     while (1)

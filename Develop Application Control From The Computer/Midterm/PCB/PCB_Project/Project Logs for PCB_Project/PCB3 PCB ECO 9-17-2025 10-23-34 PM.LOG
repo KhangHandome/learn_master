@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=Net10K_2 Pin=10K-2
+Added Pin To Net: NetName=Net10K_2 Pin=LoLin-1-VIN
+Added Pin To Net: NetName=Net10K_2 Pin=R1-2
+Added Pin To Net: NetName=Net10K_2 Pin=U1-38
+Added Net: Name=Net10K_2

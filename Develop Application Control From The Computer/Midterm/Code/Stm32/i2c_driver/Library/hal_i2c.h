@@ -14,7 +14,7 @@ typedef enum
 } Status_t ;
 
 /* Private function prototypes */
-void HAL_IP_I2C_Init(uint16_t clock_speed,uint16_t freq_mhz);
+void HAL_IP_I2C_Init(uint32_t clock_speed,uint16_t freq_mhz);
 void HAL_IP_I2C_EnableISR(void);
 Status_t HAL_IP_I2C_Receive(uint8_t *pData, uint8_t size);
 Status_t HAL_IP_I2C_Transmit(uint8_t *pData, uint8_t size);

@@ -56,32 +56,38 @@ Status_t HAL_IP_I2C_Receive(uint8_t *pData, uint8_t size)
 {
     Status_t retVal = HAL_N_OK;
     static uint8_t counter = 0;
+    uint16_t SR2_Register_Status ;
 
     I2C1->CR1 |= I2C_CR1_ACK;   // Enable ACK
 
     /* EV1: Wait for address match */
     while (!(I2C1->SR1 & I2C_SR1_ADDR));
     (void)I2C1->SR1;
-    (void)I2C1->SR2;
-
-    /* EV2: Receive data */
-    for (counter = 0; counter < size; counter++)
+    /* Read TRA to check slave receive or transmit
+     * TRA = 0 : Slave receive
+     * TRA = 1 : Slave transmit
+     * */
+    SR2_Register_Status = I2C1->SR2;
+    if ( (SR2_Register_Status & I2C_SR2_TRA_Msk) == 0 )
     {
-        while (!HAL_IP_I2C_GetRxFlag()); // Wait RXNE=1
-        pData[counter] = I2C1->DR;
-
-        if (counter == (size - 1))
+        /* EV2: Receive data */
+        for (counter = 0; counter < size; counter++)
         {
-            I2C1->CR1 &= (~I2C_CR1_ACK_Msk); // Send NACK for last byte
+            while (!HAL_IP_I2C_GetRxFlag()); // Wait RXNE=1
+            pData[counter] = I2C1->DR;
+
+            if (counter == (size - 1))
+            {
+                I2C1->CR1 &= (~I2C_CR1_ACK_Msk); // Send NACK for last byte
+            }
         }
+        retVal = HAL_OK;
+
+        /* EV4: Wait for STOP */
+        while (!(I2C1->SR1 & I2C_SR1_STOPF));
+        (void)I2C1->SR1;
+        I2C1->CR1 |= 0;
     }
-    retVal = HAL_OK;
-
-    /* EV4: Wait for STOP */
-    while (!(I2C1->SR1 & I2C_SR1_STOPF));
-    (void)I2C1->SR1;
-    I2C1->CR1 |= 0;
-
     return retVal;
 }
 
@@ -100,24 +106,31 @@ Status_t HAL_IP_I2C_Transmit( uint8_t *pData, uint8_t size)
 {
     Status_t retVal = HAL_N_OK;
     static uint8_t counter = 0;
+    uint16_t SR2_Register_Status ;
 
     /* EV1: Wait for address match */
     while (!(I2C1->SR1 & I2C_SR1_ADDR));
     (void)I2C1->SR1;
-    (void)I2C1->SR2;
 
-    /* EV3: Send data until master NACK */
-    for (counter = 0; counter < size; counter++)
+    /* Read TRA to check slave receive or transmit
+     * TRA = 0 : Slave receive
+     * TRA = 1 : Slave transmit
+     * */
+    SR2_Register_Status = I2C1->SR2;
+    if ( SR2_Register_Status & I2C_SR2_TRA_Msk)
     {
-    	while (!HAL_IP_I2C_GetTxFlag());
-        I2C1->DR = pData[counter];
+        /* EV3: Send data until master NACK */
+        for (counter = 0; counter < size; counter++)
+        {
+        	while (!HAL_IP_I2C_GetTxFlag());
+            I2C1->DR = pData[counter];
+        }
+        retVal = HAL_OK;
+
+        /* EV3-2: Wait for AF = NACK */
+        while (!(I2C1->SR1 & I2C_SR1_AF));
+        I2C1->SR1 &= ~I2C_SR1_AF;   // Clear AF
     }
-    retVal = HAL_OK;
-
-    /* EV3-2: Wait for AF = NACK */
-    while (!(I2C1->SR1 & I2C_SR1_AF));
-    I2C1->SR1 &= ~I2C_SR1_AF;   // Clear AF
-
     return retVal;
 }
 

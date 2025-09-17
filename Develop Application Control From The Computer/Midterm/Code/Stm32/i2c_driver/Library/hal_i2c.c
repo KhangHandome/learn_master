@@ -1,5 +1,11 @@
 #include "hal_i2c.h"
 
+/* Private variables */
+static uint8_t *g_pRxData = 0;
+static Status_t *g_status  = 0;
+static uint8_t g_rxSize = 0;
+static uint8_t g_rxCount = 0;
+/* Private function */
 static uint8_t HAL_IP_I2C_GetRxFlag(void);
 static uint8_t HAL_IP_I2C_GetTxFlag(void);
 
@@ -38,6 +44,39 @@ void HAL_IP_I2C_Init(uint16_t clock_speed,uint16_t freq_mhz)
 
     /* Enable I2C and ACK */
     I2C1->CR1 |= I2C_CR1_PE | I2C_CR1_ACK;
+}
+/* ---------------- I2C Enable ISR ---------------- */
+/**
+  * @brief  Initialize I2C1 peripheral With Interrupt.
+  * @details Enable NVIC
+  */
+void HAL_IP_I2C_EnableISR(void)
+{
+	/*
+	 * Disable module i2c
+	 */
+	I2C1->CR1 &= (~I2C_CR1_PE_Msk);
+	/*
+	 * Enable NIVC
+	 */
+	NVIC_EnableIRQ(I2C1_ER_IRQn);
+	NVIC_EnableIRQ(I2C1_EV_IRQn);
+	/*
+	 * Enable interrup for event interrupt and error interrupt
+	 * This interrupt is generated when:
+		– SB = 1 (Master)
+		– ADDR = 1 (Master/Slave)
+		– ADD10= 1 (Master)
+		– STOPF = 1 (Slave)
+		– BTF = 1 with no TxE or RxNE event
+		– TxE event to 1 if ITBUFEN = 1
+		– RxNE event to 1if ITBUFEN = 1
+	 */
+	I2C1->CR2 |= (I2C_CR2_ITBUFEN);
+	I2C1->CR2 |= (I2C_CR2_ITEVTEN);
+    /* Enable I2C and ACK */
+    I2C1->CR1 |= I2C_CR1_PE | I2C_CR1_ACK;
+
 }
 
 /* ---------------- Slave Receiver ---------------- */
@@ -233,6 +272,30 @@ Status_t HAL_IP_I2C_Master_Receive( uint8_t slaveAddr,  uint8_t *pData,  uint8_t
     return retVal;
 }
 
+/* ---------------- Slave Receiver With Interrupt ---------------- */
+/**
+  * @brief  Receive data as I2C slave by Interupt.
+  * @param  pData : Pointer to buffer for storing received data.
+  * @param  size  : Number of bytes to receive.
+  * @retval HAL_OK   : Reception completed successfully.
+  * @retval HAL_N_OK : Error during reception.
+  * @details Waits for address match (EV1),
+  *          reads incoming bytes (EV2),
+  *          sends NACK for last byte,
+  *          waits for STOP condition (EV4).
+  */
+Status_t HAL_IP_I2C_Slave_Receive_IT(uint8_t *pData,uint8_t size, Status_t *status )
+{
+    g_pRxData = pData;
+    g_rxSize  = size;
+    g_rxCount = 0;
+    g_status  = status;
+
+    /* Enable ACK */
+    I2C1->CR1 |= I2C_CR1_ACK;
+
+    return 0;
+}
 /* ---------------- Helper ---------------- */
 static uint8_t HAL_IP_I2C_GetTxFlag(void)
 {
@@ -242,5 +305,68 @@ static uint8_t HAL_IP_I2C_GetTxFlag(void)
 static uint8_t HAL_IP_I2C_GetRxFlag(void)
 {
     return (I2C1->SR1 & I2C_SR1_RXNE);
+}
+void I2C1_EV_IRQHandler()
+{
+	uint32_t sr1 = I2C1->SR1;
+
+	/* EV1: Address matched */
+	if (sr1 & I2C_SR1_ADDR)
+	{
+		volatile uint32_t temp = I2C1->SR2; /* Clear ADDR flag */
+		(void)temp;
+	}
+	/* EV2: Receive buffer not empty */
+	else if (sr1 & I2C_SR1_RXNE)
+	{
+		uint8_t data = (uint8_t)I2C1->DR;
+
+		if (g_rxCount < g_rxSize)
+		{
+			g_pRxData[g_rxCount++] = data;
+
+			/* Nếu vừa nhận đủ số byte thì gửi NACK ngay */
+			if (g_rxCount == g_rxSize)
+			{
+				I2C1->CR1 &= ~I2C_CR1_ACK;  /* Gửi NACK cho byte kế */
+			}
+		}
+		else
+		{
+			/* Nếu master vẫn gửi thêm thì bỏ qua byte dư */
+			(void)data;
+		}
+	}
+	/* EV4: STOP condition detected */
+	else if (sr1 & I2C_SR1_STOPF)
+	{
+		/* Clear STOPF bằng cách đọc SR1 và ghi CR1 */
+		volatile uint32_t temp = I2C1->SR1;
+		(void)temp;
+		I2C1->CR1 |= I2C_CR1_PE;
+
+		/* Disable ACK */
+		I2C1->CR1 &= ~I2C_CR1_ACK;
+
+		/* Reception done */
+		if (g_rxCount == g_rxSize)
+		{
+			*g_status = HAL_OK;
+		}
+		else
+		{
+			*g_status = HAL_N_OK;
+		}
+
+        g_rxCount = 0;
+        I2C1->CR1 |= I2C_CR1_ACK; /* Luôn ACK cho phiên tiếp theo */
+	}
+}
+void I2C1_ER_IRQHandler()
+{
+	while(1)
+	{
+//		Do no thing here
+	}
 }
 

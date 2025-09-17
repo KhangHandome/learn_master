@@ -16,14 +16,16 @@ int main(void)
 
     LED_Init();
     HAL_IP_I2C_Init(CLOCK_SPEED,FREQ);
-
+    HAL_IP_I2C_EnableISR();
+    HAL_IP_I2C_Slave_Receive_IT(data_rx,10, &status );
     while (1)
     {
         /* Slave Receive Example */
-        status = HAL_IP_I2C_Receive(data_rx, 14);
+/*        status = HAL_IP_I2C_Receive(data_rx, 14); */
         if (status == HAL_OK)
         {
             LED_Toggle();
+            status = HAL_N_OK;
         }
     }
 }

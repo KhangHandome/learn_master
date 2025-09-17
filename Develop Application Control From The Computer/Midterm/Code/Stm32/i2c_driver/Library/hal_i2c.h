@@ -20,5 +20,9 @@ Status_t HAL_IP_I2C_Transmit(uint8_t *pData, uint8_t size);
 Status_t HAL_IP_I2C_Master_Transmit(uint8_t slaveAddr, uint8_t *pData, uint8_t size);
 Status_t HAL_IP_I2C_Master_Receive(uint8_t slaveAddr, uint8_t *pData, uint8_t size);
 Status_t HAL_IP_I2C_Slave_Receive_IT(uint8_t *pData,uint8_t size);
+Status_t HAL_IP_I2C_Slave_Transmit_IT(uint8_t *pData,uint8_t size);
+Status_t HAL_IP_I2C_Master_Transmit_IT(uint8_t *pData,uint8_t size);
+Status_t HAL_IP_I2C_Master_S_IT(uint8_t *pData,uint8_t size);
+
 
 #endif

@@ -52,9 +52,14 @@
     </UserControl.Resources>
 
     <Grid x:Name="Register_User_Grid"
-          Background="#0f3460"
           Width="1000"
           Height="650">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF0B28CC" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
 
         <Label Content="AI LÀ TRIỆU PHÚ"
                HorizontalAlignment="Center"

@@ -7,24 +7,29 @@
              mc:Ignorable="d" 
              d:DesignHeight="650" d:DesignWidth="1000">
 
-    <Grid Background="#FFA7D24F">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF0B28CC" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
 
         <!-- Các Button trả lời -->
-        <Button Content="A) Answers 1" HorizontalAlignment="Left" Margin="114,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click"/>
-        <Button Content="B) Answers 1" HorizontalAlignment="Left" Margin="498,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_3"/>
-        <Button Content="C) Answers 1" HorizontalAlignment="Left" Margin="114,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_2"/>
-        <Button Content="D) Answers 1" HorizontalAlignment="Left" Margin="498,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_1"/>
+        <Button Content="A) Answers 1" HorizontalAlignment="Left" Margin="114,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_A"/>
+        <Button Content="B) Answers 1" HorizontalAlignment="Left" Margin="498,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_B"/>
+        <Button Content="C) Answers 1" HorizontalAlignment="Left" Margin="114,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_C"/>
+        <Button Content="D) Answers 1" HorizontalAlignment="Left" Margin="498,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_D"/>
 
         <!-- Các Button trợ giúp -->
         <Button Content="50/50" HorizontalAlignment="Left" Margin="821,71,0,0" FontSize="22" VerticalAlignment="Top" Width="157" Height="50" Click="Button_Click"/>
         <Button Content="Ask Everyone" HorizontalAlignment="Left" Margin="821,138,0,0" FontSize="22" VerticalAlignment="Top" Width="157" Height="50" Click="Button_Click"/>
 
         <!-- Label và Image -->
-        <Label Content="Câu hỏi " FontSize="24" Height="100" Margin="114,297,152,253" />
-        <Label Content="Mức thưởng :" FontSize="24" Height="100" Margin="554,266,-288,284" />
-        <Label Content="Tiền thưởng : " FontSize="24" Height="100" Margin="554,216,-288,334" />
+        <Label x:Name ="labelQuestion" Content="Câu hỏi " FontSize="24" Height="100" Margin="114,297,152,253" Foreground="#FFDADC0C" />
         <Image HorizontalAlignment="Left" Height="162" Margin="30,26,0,0" VerticalAlignment="Top" Width="188" Source="/logo.png"/>
-        <Button Content="A) Answers 1" HorizontalAlignment="Left" Margin="306,558,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click"/>
+        <Button Content="Dừng cuộc chơi" HorizontalAlignment="Left" Margin="306,558,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click"/>
+        <Label x:Name="labelPrize" Content="Mốc thưởng" FontSize="24" Height="100" Margin="481,292,-215,258" BorderBrush="White" Foreground="#FFFFFBFB" />
 
     </Grid>
 </UserControl>

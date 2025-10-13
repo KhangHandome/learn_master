@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="WpfApp1.SelectUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="1000">
+    <Grid Width="1000" Height="650" Background="#FF44D05F">
+        <Button Content="A) Answers 1" HorizontalAlignment="Left" Margin="114,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click"/>
+        <Button Content="B) Answers 1" HorizontalAlignment="Left" Margin="498,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_3"/>
+        <Button Content="C) Answers 1" HorizontalAlignment="Left" Margin="114,455,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_2"/>
+        <Button Content="D) Answers 1" HorizontalAlignment="Left" Margin="498,397,0,0" FontSize="22" VerticalAlignment="Top" Width="350" Height="50" Click="Button_Click_1"/>
+        <Label Content="Câu hỏi " FontSize="24" Height="100" Margin="114,297,152,253" />
+        <Label HorizontalAlignment="Left" Margin="217,139,0,0" VerticalAlignment="Top" Width="509" Height="208">
+            <TextBlock 
+            Text="TRẢ LỜI ĐÚNG VÀ NHANH NHẤT ĐỂ CÓ THỂ CHƠI" 
+            Foreground="#FFD6410A" 
+            FontSize="40"
+            TextWrapping="Wrap"
+            TextAlignment="Center"/>
+        </Label>
+    </Grid>
+</UserControl>

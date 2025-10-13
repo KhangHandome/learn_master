@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qxQMl8SJGaA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maith\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.9\\microsoft.win32.systemevents.9.0.9.nupkg.sha512",
+    "C:\\Users\\maith\\.nuget\\packages\\system.drawing.common\\9.0.9\\system.drawing.common.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\bin\Debug\code_led_on_offd.exe.config
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\bin\Debug\code_led_on_offd.exe
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\bin\Debug\code_led_on_offd.pdb
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.csproj.AssemblyReference.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.Form1.resources
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.Properties.Resources.resources
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.csproj.GenerateResource.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.csproj.CoreCompileInputs.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.exe
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.pdb
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\UART_Example\code_led_on_offd\code_led_on_offd\obj\Debug\code_led_on_offd.exe.config

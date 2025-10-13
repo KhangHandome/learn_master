@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="WpfApp1.Register_User"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d"
+             d:DesignHeight="650" d:DesignWidth="1000">
+
+    <!-- Đưa phần Resources vào UserControl.Resources -->
+    <UserControl.Resources>
+        <!-- Style cho Button bo tròn -->
+        <Style x:Key="RoundedButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="15"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.85"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Style cho TextBox bo tròn -->
+        <Style x:Key="RoundedTextBox" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="10"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                          VerticalAlignment="Center"
+                                          Margin="10,0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:Name="Register_User_Grid"
+          Background="#0f3460"
+          Width="1000"
+          Height="650">
+
+        <Label Content="AI LÀ TRIỆU PHÚ"
+               HorizontalAlignment="Center"
+               Margin="0,74,0,0"
+               VerticalAlignment="Top"
+               Foreground="#FFD700"
+               FontSize="56"/>
+
+        <Label Content="Nhập tên người chơi"
+               HorizontalAlignment="Center"
+               Margin="0,180,0,0"
+               VerticalAlignment="Top"
+               Foreground="White"
+               FontSize="20"/>
+
+        <TextBox HorizontalAlignment="Center"
+                 VerticalAlignment="Top"
+                 Margin="0,259,0,0"
+                 Width="486"
+                 Height="79"
+                 FontSize="36"
+                 TextAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 Foreground="#FFB38F8F"
+                 Style="{StaticResource RoundedTextBox}"/>
+
+        <Button Content="BẮT ĐẦU"
+                Margin="339,414,339,164"
+                BorderBrush="#FFF0F101"
+                FontSize="24"
+                Foreground="White"
+                Background="#FF0A8E18"
+                BorderThickness="0"
+                Style="{StaticResource RoundedButton}"
+                Click="Button_Click"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,10 @@
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\Lesson_4\lcd_1602_uart\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

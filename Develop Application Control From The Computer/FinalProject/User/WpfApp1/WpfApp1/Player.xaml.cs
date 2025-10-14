@@ -28,26 +28,39 @@ namespace WpfApp1
 
         // Biến lưu câu hiện tại (0 = câu 1)
         private int currentQuestionIndex = 0;
-        private void UpdatePrize()
+        public async Task UpdatePrize()
         {
             if (currentQuestionIndex < prizeMilestones.Length)
             {
                 int currentPrize = prizeMilestones[currentQuestionIndex];
                 labelPrize.Text = $"Mốc thưởng: {currentPrize:N0} VND"; // N0 định dạng số với dấu phẩy*/
+                txtQuestionNum.Text = (1 + currentQuestionIndex).ToString();
             }
             else
             {
                 labelPrize.Text = "Thắng toàn bộ giải thưởng!";
+                // UI vẫn sẽ phản hồi trong suốt thời gian này.
+                await Task.Delay(2000);
+                if (currentQuestionIndex + 1 > 15)
+                {
+                    if (Application.Current.MainWindow is MainWindow main)
+                    {
+                        // Xóa nội dung cũ trong Grid có tên là MainContent
+                        main.MainContent.Children.Clear();
+
+                        // Tải UserControl mới (Player) vào Grid
+                        main.MainContent.Children.Add(new Register_User());
+                    }
+                }
             }
         }
-        private void CorrectAnswer()
+        private async void CorrectAnswer()
         {
             // Tăng câu hiện tại
             currentQuestionIndex++;
 
             // Cập nhật mốc thưởng
-            UpdatePrize();
-
+            await UpdatePrize();
             // Có thể load câu hỏi tiếp theo ở đây
             /*LoadNextQuestion();*/
         }
@@ -100,8 +113,14 @@ namespace WpfApp1
 
         private void Button_Click_Stop(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Phần thưởng của bạn là {prizeMilestones[currentQuestionIndex]}");
-            Application.Current.Shutdown();
+            if (Application.Current.MainWindow is MainWindow main)
+            {
+                // Xóa nội dung cũ trong Grid có tên là MainContent
+                main.MainContent.Children.Clear();
+
+                // Tải UserControl mới (Player) vào Grid
+                main.MainContent.Children.Add(new Register_User());
+            }
         }
     }
 }

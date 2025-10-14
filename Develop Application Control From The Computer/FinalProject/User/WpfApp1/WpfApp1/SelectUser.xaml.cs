@@ -44,17 +44,38 @@ namespace WpfApp1
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            if (true)
+            {
+                if (Application.Current.MainWindow is MainWindow main)
+                {
+                    main.MainContent.Children.Clear();
+                    main.MainContent.Children.Add(new Player());
+                }
+            }
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            if (true)
+            {
+                if (Application.Current.MainWindow is MainWindow main)
+                {
+                    main.MainContent.Children.Clear();
+                    main.MainContent.Children.Add(new Player());
+                }
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            if (true)
+            {
+                if (Application.Current.MainWindow is MainWindow main)
+                {
+                    main.MainContent.Children.Clear();
+                    main.MainContent.Children.Add(new Player());
+                }
+            }
         }
     }
 }

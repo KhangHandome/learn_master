@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="AI LÀ TRIỆU PHÚ"
-        Height="650"
-        Width="1000"
+        Height="900"
+        Width="1200"
         WindowStartupLocation="CenterScreen">
 
     <!-- Grid chứa phần nội dung động -->

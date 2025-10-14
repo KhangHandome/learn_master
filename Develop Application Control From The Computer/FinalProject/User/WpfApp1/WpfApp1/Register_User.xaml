@@ -3,99 +3,151 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:WpfApp1"
              mc:Ignorable="d"
-             d:DesignHeight="650" d:DesignWidth="1000">
-
-    <!-- Đưa phần Resources vào UserControl.Resources -->
+             d:DesignHeight="900" d:DesignWidth="1200">
     <UserControl.Resources>
-        <!-- Style cho Button bo tròn -->
-        <Style x:Key="RoundedButton" TargetType="Button">
+        <DropShadowEffect x:Key="CardShadowEffect"
+                          Color="Black"
+                          BlurRadius="25"
+                          ShadowDepth="5"
+                          Opacity="0.5"/>
+
+        <Style x:Key="PrimaryActionButton" TargetType="Button">
+            <Setter Property="Background" Value="#FFD700"/>
+            <Setter Property="Foreground" Value="#001C40"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            <Setter Property="Padding" Value="15, 5"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="15"
-                                BorderBrush="{TemplateBinding BorderBrush}"
-                                BorderThickness="{TemplateBinding BorderThickness}">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="30"
+                                Effect="{DynamicResource CardShadowEffect}">
                             <ContentPresenter HorizontalAlignment="Center"
                                               VerticalAlignment="Center"/>
                         </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFFFE033"/>
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#FFD700" BlurRadius="35" ShadowDepth="0" Opacity="0.9"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFC3B400"/>
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.98" ScaleY="0.98"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Opacity" Value="0.85"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
 
-        <!-- Style cho TextBox bo tròn -->
-        <Style x:Key="RoundedTextBox" TargetType="TextBox">
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#1C1C1C"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10, 5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="10"
-                                BorderBrush="{TemplateBinding BorderBrush}"
-                                BorderThickness="{TemplateBinding BorderThickness}">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                BorderBrush="#0A2D91"
+                                BorderThickness="2">
                             <ScrollViewer x:Name="PART_ContentHost"
-                                          VerticalAlignment="Center"
-                                          Margin="10,0"/>
+                                          Margin="{TemplateBinding Padding}"
+                                          VerticalAlignment="Center"/>
                         </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FFD700"/>
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#FFD700" BlurRadius="15" ShadowDepth="0" Opacity="0.5"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
     </UserControl.Resources>
 
-    <Grid x:Name="Register_User_Grid"
-          Width="1000"
-          Height="650">
+    <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="#FF0B28CC" Offset="1"/>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#0D1A3F" Offset="0"/>
+                <GradientStop Color="#000000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
 
-        <Label Content="AI LÀ TRIỆU PHÚ"
-               HorizontalAlignment="Center"
-               Margin="0,74,0,0"
+        <Image Source="/logo.png"
+               Width="80"
+               Height="80"
+               HorizontalAlignment="Left"
                VerticalAlignment="Top"
-               Foreground="#FFD700"
-               FontSize="56"/>
+               Margin="70,60,0,0"/>
+        <TextBlock Text="AI LÀ TRIỆU PHÚ"
+                   FontSize="60"
+                   FontFamily="Segoe UI Black"
+                   FontWeight="Bold"
+                   Foreground="#FFFFD700"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Margin="0,70,0,0">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFFDE910" BlurRadius="15" ShadowDepth="0" Opacity="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
 
-        <Label Content="Nhập tên người chơi"
-               HorizontalAlignment="Center"
-               Margin="0,180,0,0"
-               VerticalAlignment="Top"
-               Foreground="White"
-               FontSize="20"/>
+        <Border Background="#1A2B5B"
+                CornerRadius="25"
+                Width="600"
+                Height="400" HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Effect="{StaticResource CardShadowEffect}">
 
-        <TextBox HorizontalAlignment="Center"
-                 VerticalAlignment="Top"
-                 Margin="0,259,0,0"
-                 Width="486"
-                 Height="79"
-                 FontSize="36"
-                 TextAlignment="Center"
-                 VerticalContentAlignment="Center"
-                 AcceptsReturn="True"
-                 TextWrapping="Wrap"
-                 Foreground="#FFB38F8F"
-                 Style="{StaticResource RoundedTextBox}"/>
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Margin="40">
 
-        <Button Content="BẮT ĐẦU"
-                Margin="339,414,339,164"
-                BorderBrush="#FFF0F101"
-                FontSize="24"
-                Foreground="White"
-                Background="#FF0A8E18"
-                BorderThickness="0"
-                Style="{StaticResource RoundedButton}"
-                Click="Button_Click"/>
+                <TextBlock Text="ĐĂNG KÝ THAM GIA"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,30"
+                           Foreground="#FFFFFF"
+                           FontSize="36" FontWeight="ExtraBold"/>
+
+                <TextBlock Text="Vui lòng nhập tên người chơi của bạn"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,15"
+                           Foreground="#CCCCCC"
+                           FontSize="20"/>
+
+                <TextBox x:Name="txtPlayerName"
+                         Width="500" Height="65" Style="{StaticResource ModernTextBox}"
+                         TextAlignment="Center"
+                         Margin="0,0,0,50"
+                         />
+
+                <Button Content="CHƠI NGAY! 🚀"
+                        Width="320" Height="70" Style="{StaticResource PrimaryActionButton}"
+                        Click="Button_Click"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </UserControl>

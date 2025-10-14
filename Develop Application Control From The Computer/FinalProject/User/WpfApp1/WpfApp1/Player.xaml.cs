@@ -33,11 +33,11 @@ namespace WpfApp1
             if (currentQuestionIndex < prizeMilestones.Length)
             {
                 int currentPrize = prizeMilestones[currentQuestionIndex];
-                labelPrize.Content = $"Mốc thưởng: {currentPrize:N0} VND"; // N0 định dạng số với dấu phẩy
+                labelPrize.Text = $"Mốc thưởng: {currentPrize:N0} VND"; // N0 định dạng số với dấu phẩy*/
             }
             else
             {
-                labelPrize.Content = "Bạn đã thắng toàn bộ giải thưởng!";
+                labelPrize.Text = "Thắng toàn bộ giải thưởng!";
             }
         }
         private void CorrectAnswer()
@@ -56,20 +56,22 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+        private void Button_Click_5050(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Audience(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Button_Click_A(object sender, RoutedEventArgs e)
         {
             if (true)
             {
-                
+                CorrectAnswer();
             }
-            else
-            {
-                if (Application.Current.MainWindow is MainWindow main)
-                {
-                    main.MainContent.Children.Clear();
-                    main.MainContent.Children.Add(new Register_User());
-                }
-            }    
         }
 
         private void Button_Click_B(object sender, RoutedEventArgs e)
@@ -96,9 +98,9 @@ namespace WpfApp1
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Stop(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Chúc mừng bạn đã chiến thắng với số tiền là : {prizeMilestones[currentQuestionIndex]}");
+            MessageBox.Show($"Phần thưởng của bạn là {prizeMilestones[currentQuestionIndex]}");
             Application.Current.Shutdown();
         }
     }

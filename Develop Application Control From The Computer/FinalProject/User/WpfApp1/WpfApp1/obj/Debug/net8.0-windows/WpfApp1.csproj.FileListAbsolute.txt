@@ -33,3 +33,4 @@ C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From 
 C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\FinalProject\User\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.Properties.Resources.resources
 C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\FinalProject\User\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.GenerateResource.cache
 C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\FinalProject\User\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.Up2Date
+C:\Users\maith\Documents\Learning\learn_master\Develop Application Control From The Computer\FinalProject\User\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\Newtonsoft.Json.dll

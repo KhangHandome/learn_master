@@ -1,0 +1,922 @@
+[
+  {
+    "question": "Thủ đô của Việt Nam là gì?",
+    "options": {
+      "A": "Hà Nội",
+      "B": "Hồ Chí Minh",
+      "C": "Đà Nẵng",
+      "D": "Cần Thơ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Biển lớn nhất bao quanh Việt Nam là biển gì?",
+    "options": {
+      "A": "Biển Đông",
+      "B": "Biển Bắc",
+      "C": "Biển Đen",
+      "D": "Biển Caribe"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc kỳ Việt Nam có màu gì và biểu tượng gì ở giữa?",
+    "options": {
+      "A": "Đỏ có ngôi sao vàng",
+      "B": "Xanh có trăng lưỡi liềm",
+      "C": "Trắng có chữ V",
+      "D": "Đỏ có con rồng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là tác giả Truyện Kiều?",
+    "options": {
+      "A": "Nguyễn Du",
+      "B": "Nguyễn Trãi",
+      "C": "Tố Hữu",
+      "D": "Hồ Xuân Hương"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sông nào dài nhất ở Việt Nam?",
+    "options": {
+      "A": "Sông Hồng",
+      "B": "Sông Mã",
+      "C": "Sông Cửu Long (Mê Kông)",
+      "D": "Sông Đồng Nai"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ngọn núi cao nhất Việt Nam là gì?",
+    "options": {
+      "A": "Fansipan (Phanxipăng)",
+      "B": "Núi Bạch Mã",
+      "C": "Núi Lang Biang",
+      "D": "Núi Ba Vì"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người khai sinh ra chữ Quốc ngữ hiện đại?",
+    "options": {
+      "A": "Alexandre de Rhodes",
+      "B": "Nguyễn Trãi",
+      "C": "Petrus Ký",
+      "D": "Trịnh Hoài Đức"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tác phẩm 'Số đỏ' được viết bởi ai?",
+    "options": {
+      "A": "Vũ Trọng Phụng",
+      "B": "Nam Cao",
+      "C": "Nguyễn Công Hoan",
+      "D": "Tô Hoài"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị tiền tệ chính thức của Việt Nam là gì?",
+    "options": {
+      "A": "Đồng",
+      "B": "Yên",
+      "C": "USD",
+      "D": "Euro"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người lãnh đạo phong trào Cách mạng Tháng Tám 1945 ở Việt Nam?",
+    "options": {
+      "A": "Hồ Chí Minh",
+      "B": "Phạm Văn Đồng",
+      "C": "Trường Chinh",
+      "D": "Võ Nguyên Giáp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Môn thể thao được gọi là 'vua của các môn thể thao' là gì?",
+    "options": {
+      "A": "Bóng đá",
+      "B": "Cầu lông",
+      "C": "Bóng rổ",
+      "D": "Bóng chuyền"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào nổi tiếng với tháp Eiffel?",
+    "options": {
+      "A": "Pháp",
+      "B": "Anh",
+      "C": "Ý",
+      "D": "Tây Ban Nha"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hành tinh nào được gọi là 'Hành tinh đỏ'?",
+    "options": {
+      "A": "Sao Hỏa",
+      "B": "Sao Kim",
+      "C": "Sao Thủy",
+      "D": "Mộc tinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người đầu tiên đặt chân lên Mặt Trăng?",
+    "options": {
+      "A": "Neil Armstrong",
+      "B": "Buzz Aldrin",
+      "C": "Yuri Gagarin",
+      "D": "Michael Collins"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thời gian Trái Đất quay quanh Mặt Trời khoảng bao lâu?",
+    "options": {
+      "A": "365 ngày",
+      "B": "24 giờ",
+      "C": "30 ngày",
+      "D": "7 ngày"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị đo điện áp là gì?",
+    "options": {
+      "A": "Volt",
+      "B": "Ampere",
+      "C": "Ohm",
+      "D": "Watt"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chữ viết 'Tiếng Việt' sử dụng hệ chữ nào?",
+    "options": {
+      "A": "Chữ Latinh cải biên (quốc ngữ)",
+      "B": "Chữ Hán",
+      "C": "Chữ Kirin",
+      "D": "Chữ Cyril"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bài hát 'Nối vòng tay lớn' do ai sáng tác?",
+    "options": {
+      "A": "Trịnh Công Sơn",
+      "B": "Phạm Duy",
+      "C": "Phan Huỳnh Điểu",
+      "D": "Trần Tiến"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố nào được gọi là 'Thành phố đáng sống' ở Việt Nam (nổi tiếng về du lịch, khí hậu)?",
+    "options": {
+      "A": "Đà Lạt",
+      "B": "Hà Nội",
+      "C": "Hải Phòng",
+      "D": "Vinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Loài động vật nào là biểu tượng của Australia?",
+    "options": {
+      "A": "Chuột túi (Kangaroo)",
+      "B": "Sư tử",
+      "C": "Gấu Koala",
+      "D": "Đà điểu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai phát minh ra bóng đèn điện (thương mại hóa)?",
+    "options": {
+      "A": "Thomas Edison",
+      "B": "Nikola Tesla",
+      "C": "Alexander Bell",
+      "D": "Isaac Newton"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cơ quan nào ở Việt Nam chuyên về bảo vệ pháp luật và trật tự?",
+    "options": {
+      "A": "Công an nhân dân",
+      "B": "Bộ Y tế",
+      "C": "Bộ Giáo dục",
+      "D": "Bộ Lao động"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ngôn ngữ lập trình nào được dùng phổ biến để phát triển web phía client?",
+    "options": {
+      "A": "JavaScript",
+      "B": "Python",
+      "C": "C++",
+      "D": "Java"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là tác giả bài thơ 'Đoàn thuyền đánh cá'?",
+    "options": {
+      "A": "Huy Cận",
+      "B": "Tố Hữu",
+      "C": "Xuân Diệu",
+      "D": "Hàn Mặc Tử"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào có diện tích lớn nhất thế giới?",
+    "options": {
+      "A": "Nga",
+      "B": "Canada",
+      "C": "Trung Quốc",
+      "D": "Mỹ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món phở truyền thống Việt Nam thường được ăn vào bữa nào trong ngày?",
+    "options": {
+      "A": "Sáng",
+      "B": "Trưa",
+      "C": "Tối",
+      "D": "Đêm khuya"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người sáng lập Apple cùng Steve Jobs và Steve Wozniak?",
+    "options": {
+      "A": "Steve Jobs",
+      "B": "Bill Gates",
+      "C": "Mark Zuckerberg",
+      "D": "Larry Page"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị đo khối lượng trong hệ SI là gì?",
+    "options": {
+      "A": "Kilôgam (kg)",
+      "B": "Gram (g)",
+      "C": "Tấn (t)",
+      "D": "Pound (lb)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Dãy nhạc gồm 7 nốt cơ bản: Đô, Rê, Mi, Fa, Sol, La, Si. Nốt đầu là gì?",
+    "options": {
+      "A": "Đô",
+      "B": "Rê",
+      "C": "Mi",
+      "D": "Fa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào nổi tiếng với kim tự tháp Giza?",
+    "options": {
+      "A": "Ai Cập",
+      "B": "Mexico",
+      "C": "Peru",
+      "D": "Iraq"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố nào là thủ đô của Pháp?",
+    "options": {
+      "A": "Paris",
+      "B": "Lyon",
+      "C": "Marseille",
+      "D": "Nice"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Môn học nào nghiên cứu về số, hình và đại số?",
+    "options": {
+      "A": "Toán học",
+      "B": "Vật lý",
+      "C": "Hóa học",
+      "D": "Sinh học"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Người nước nào sáng tạo ra pizza hiện đại (Naples)?",
+    "options": {
+      "A": "Ý",
+      "B": "Pháp",
+      "C": "Tây Ban Nha",
+      "D": "Hy Lạp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sự kiện lịch sử 30/4/1975 ở Việt Nam đánh dấu điều gì?",
+    "options": {
+      "A": "Giải phóng miền Nam, thống nhất đất nước",
+      "B": "Cách mạng Tháng Tám",
+      "C": "Ngày Quốc khánh",
+      "D": "Ngày độc lập"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chất nào làm cho nước có vị chua?",
+    "options": {
+      "A": "Axit",
+      "B": "Bazơ",
+      "C": "Muối",
+      "D": "Đường"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vật liệu xây dựng truyền thống ở Việt Nam dùng lợp nhà: ngói màu thường làm từ gì?",
+    "options": {
+      "A": "Đất sét nung",
+      "B": "Kim loại",
+      "C": "Nhựa",
+      "D": "Thủy tinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người viết 'Chí Phèo'?",
+    "options": {
+      "A": "Nam Cao",
+      "B": "Ngô Tất Tố",
+      "C": "Vũ Trọng Phụng",
+      "D": "Tô Hoài"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bộ phim hoạt hình 'Toy Story' do hãng nào sản xuất?",
+    "options": {
+      "A": "Pixar",
+      "B": "Disney",
+      "C": "DreamWorks",
+      "D": "Studio Ghibli"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Môn thể thao Olympic gồm nhiều môn, một kì Olympic diễn ra mấy năm một lần?",
+    "options": {
+      "A": "4 năm",
+      "B": "2 năm",
+      "C": "1 năm",
+      "D": "6 năm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tên gọi quốc tế của Hà Nội bằng tiếng Anh là gì?",
+    "options": {
+      "A": "Hanoi",
+      "B": "Hanoï",
+      "C": "Hanoy",
+      "D": "Hani"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Biểu tượng mặt trăng lưỡi liềm thường liên quan đến tôn giáo nào?",
+    "options": {
+      "A": "Hồi giáo",
+      "B": "Phật giáo",
+      "C": "Thiên chúa giáo",
+      "D": "Hindu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thể loại sách 'Tiểu thuyết' thuộc phạm trù nào?",
+    "options": {
+      "A": "Văn học",
+      "B": "Khoa học",
+      "C": "Lịch sử",
+      "D": "Kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người viết 'Chiếc thuyền ngoài xa'?",
+    "options": {
+      "A": "Nguyễn Minh Châu",
+      "B": "Nguyễn Tuân",
+      "C": "Nam Cao",
+      "D": "Bảo Ninh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phương tiện giao thông phổ biến nhất trên đường phố Việt Nam là gì?",
+    "options": {
+      "A": "Xe máy (xe gắn máy)",
+      "B": "Xe ô tô cá nhân",
+      "C": "Xe buýt",
+      "D": "Xe đạp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trong tiếng Anh, 'Hello' nghĩa là gì?",
+    "options": {
+      "A": "Xin chào",
+      "B": "Tạm biệt",
+      "C": "Cảm ơn",
+      "D": "Xin lỗi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị đo thời gian 'phút' tương đương bao nhiêu giây?",
+    "options": {
+      "A": "60 giây",
+      "B": "100 giây",
+      "C": "30 giây",
+      "D": "120 giây"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Màu da cam thường được viết bằng từ nào trong tiếng Anh?",
+    "options": {
+      "A": "Orange",
+      "B": "Red",
+      "C": "Yellow",
+      "D": "Brown"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là tác giả 'Tắt đèn'?",
+    "options": {
+      "A": "Ngô Tất Tố",
+      "B": "Nam Cao",
+      "C": "Tô Hoài",
+      "D": "Nguyễn Công Hoan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào có lễ hội Carneval nổi tiếng ở thành phố Rio de Janeiro?",
+    "options": {
+      "A": "Brazil",
+      "B": "Argentina",
+      "C": "Colombia",
+      "D": "Chile"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Từ 'Wi-Fi' thường liên quan đến gì?",
+    "options": {
+      "A": "Mạng không dây",
+      "B": "Dịch vụ truyền hình",
+      "C": "Thiết bị lưu trữ",
+      "D": "Phần mềm đồ họa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chất dinh dưỡng nào chính trong trứng gà cung cấp protein?",
+    "options": {
+      "A": "Protein",
+      "B": "Tinh bột",
+      "C": "Chất béo bão hòa",
+      "D": "Cellulose"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị đo nhiệt độ phổ biến là gì?",
+    "options": {
+      "A": "Độ C (Celsius)",
+      "B": "Kelvin",
+      "C": "Rankine",
+      "D": "Fahrenheit"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là danh họa nổi tiếng vẽ bức tranh 'Mona Lisa'?",
+    "options": {
+      "A": "Leonardo da Vinci",
+      "B": "Vincent van Gogh",
+      "C": "Pablo Picasso",
+      "D": "Claude Monet"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món ăn truyền thống Nhật Bản làm từ cơm và cá sống được gọi là gì?",
+    "options": {
+      "A": "Sushi",
+      "B": "Ramen",
+      "C": "Tempura",
+      "D": "Udon"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nguyên tố hóa học có ký hiệu 'O' là gì?",
+    "options": {
+      "A": "Oxy",
+      "B": "Vàng",
+      "C": "Hydro",
+      "D": "Nitơ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị đo cường độ dòng điện là gì?",
+    "options": {
+      "A": "Ampere (A)",
+      "B": "Volt (V)",
+      "C": "Ohm (Ω)",
+      "D": "Watt (W)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai phát minh ra Internet (tổ chức/nhóm công trình)?",
+    "options": {
+      "A": "Không do một người duy nhất; ARPANET và nhiều nhà khoa học",
+      "B": "Bill Gates",
+      "C": "Steve Jobs",
+      "D": "Mark Zuckerberg"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc ca Việt Nam bắt đầu bằng câu nào?",
+    "options": {
+      "A": "Độc lập - Tự do - Hạnh phúc",
+      "B": "Tiến quân ca",
+      "C": "Giải phóng miền Nam",
+      "D": "Quốc tế ca"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Loài cây nào thường được trồng nhiều ở Đồng bằng Sông Cửu Long để làm ruộng?",
+    "options": {
+      "A": "Lúa",
+      "B": "Lạc",
+      "C": "Ngô",
+      "D": "Khoai lang"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là vận động viên nổi tiếng giành nhiều Quả bóng vàng: Lionel Messi hay Cristiano Ronaldo? (ai nhiều hơn tính đến 2021)",
+    "options": {
+      "A": "Lionel Messi",
+      "B": "Cristiano Ronaldo",
+      "C": "Maradona",
+      "D": "Pelé"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vật liệu chính để làm bánh mì truyền thống là gì?",
+    "options": {
+      "A": "Bột mì",
+      "B": "Gạo",
+      "C": "Ngô",
+      "D": "Khoai tây"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố biển nổi tiếng với phố cổ và bờ biển ở miền Trung Việt Nam là gì?",
+    "options": {
+      "A": "Đà Nẵng",
+      "B": "Vũng Tàu",
+      "C": "Nha Trang",
+      "D": "Quy Nhơn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người sáng lập hãng Microsoft?",
+    "options": {
+      "A": "Bill Gates",
+      "B": "Steve Jobs",
+      "C": "Jeff Bezos",
+      "D": "Elon Musk"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Từ viết tắt 'USB' trong công nghệ là gì?",
+    "options": {
+      "A": "Universal Serial Bus",
+      "B": "Universal System Backup",
+      "C": "United Storage Block",
+      "D": "User Serial Bus"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào có thủ đô là Canberra?",
+    "options": {
+      "A": "Australia",
+      "B": "New Zealand",
+      "C": "Canada",
+      "D": "Nam Phi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chất nào làm cho kim loại rỉ (oxy hóa) khi tiếp xúc với nước và không khí?",
+    "options": {
+      "A": "Oxy (kết hợp với nước tạo gỉ)",
+      "B": "Nitơ",
+      "C": "Hydro",
+      "D": "Carbon dioxide"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là nhà thơ nổi tiếng với bài 'Đây thôn Vĩ Dạ'?",
+    "options": {
+      "A": "Hàn Mặc Tử",
+      "B": "Hữu Thỉnh",
+      "C": "Hàn Thuyên",
+      "D": "Huy Cận"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tác phẩm 'Lão Hạc' do ai sáng tác?",
+    "options": {
+      "A": "Nam Cao",
+      "B": "Ngô Tất Tố",
+      "C": "Tô Hoài",
+      "D": "Thanh Tịnh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào nổi tiếng có rừng Amazon?",
+    "options": {
+      "A": "Brazil",
+      "B": "Mỹ",
+      "C": "Canada",
+      "D": "Mexico"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Năm nào Việt Nam tổ chức lần đầu tiên ngày Quốc khánh 2/9? (năm độc lập)",
+    "options": {
+      "A": "1945",
+      "B": "1954",
+      "C": "1975",
+      "D": "1930"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Loài chim nào biết bắt cá và thường sống ven sông, ven biển?",
+    "options": {
+      "A": "Cò",
+      "B": "Chim sẻ",
+      "C": "Vẹt",
+      "D": "Oanh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phần chính của pin điện thoại là loại kim loại nào trong nhiều pin lithium-ion?",
+    "options": {
+      "A": "Lithium",
+      "B": "Chì",
+      "C": "Magiê",
+      "D": "Kẽm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người viết 'Sống mòn'?",
+    "options": {
+      "A": "Nam Cao",
+      "B": "Nguyễn Tuân",
+      "C": "Bảo Ninh",
+      "D": "Nguyễn Minh Châu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào có Lễ hội Hanami ngắm hoa anh đào nổi tiếng?",
+    "options": {
+      "A": "Nhật Bản",
+      "B": "Hàn Quốc",
+      "C": "Trung Quốc",
+      "D": "Đài Loan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Biểu tượng trái tim thường biểu thị cho cảm xúc gì?",
+    "options": {
+      "A": "Tình yêu",
+      "B": "Sợ hãi",
+      "C": "Giận dữ",
+      "D": "Đau buồn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Từ 'Android' thường dùng để chỉ gì?",
+    "options": {
+      "A": "Hệ điều hành di động",
+      "B": "Một loại robot thực tế",
+      "C": "Phần mềm văn phòng",
+      "D": "Trình duyệt web"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món ăn Việt Nam 'bánh mì' truyền thống bắt nguồn từ ảnh hưởng của nước nào?",
+    "options": {
+      "A": "Pháp",
+      "B": "Trung Quốc",
+      "C": "Nhật Bản",
+      "D": "Thái Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trong toán, hình có 4 cạnh và 4 góc bằng nhau được gọi là gì?",
+    "options": {
+      "A": "Hình vuông",
+      "B": "Hình chữ nhật",
+      "C": "Hình thoi",
+      "D": "Hình bình hành"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là người lãnh đạo phong trào 'Tuyên ngôn độc lập' đọc ngày 2/9/1945?",
+    "options": {
+      "A": "Hồ Chí Minh",
+      "B": "Nguyễn Ái Quốc",
+      "C": "Phan Bội Châu",
+      "D": "Nguyễn Trãi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Loại đèn giao thông có màu xanh, vàng, đỏ; màu nào báo dừng?",
+    "options": {
+      "A": "Đỏ",
+      "B": "Vàng",
+      "C": "Xanh",
+      "D": "Trắng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là ca sĩ nổi tiếng với bài hát 'Bông hồng trao tay' (nhiều ca sĩ thể hiện)?",
+    "options": {
+      "A": "Nhiều ca sĩ; bài hát phổ biến trong văn hóa đại chúng",
+      "B": "Độc quyền bởi một ca sĩ",
+      "C": "Không ai biết",
+      "D": "Không phải bài hát"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nước uống có ga phổ biến trên thế giới có tên thương hiệu 'Coca-Cola'. Công ty gốc của nó ở quốc gia nào?",
+    "options": {
+      "A": "Mỹ",
+      "B": "Pháp",
+      "C": "Tây Ban Nha",
+      "D": "Anh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trong tiếng Anh, 'Thank you' nghĩa là gì?",
+    "options": {
+      "A": "Cảm ơn",
+      "B": "Xin lỗi",
+      "C": "Chào buổi sáng",
+      "D": "Tạm biệt"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai là vận động viên tennis nữ nổi tiếng người Mỹ từng có nhiều Grand Slam - Serena hay Venus Williams?",
+    "options": {
+      "A": "Serena Williams",
+      "B": "Venus Williams",
+      "C": "Maria Sharapova",
+      "D": "Naomi Osaka"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tên đầy đủ của 'CPU' trong máy tính là gì?",
+    "options": {
+      "A": "Central Processing Unit",
+      "B": "Computer Processing Unit",
+      "C": "Central Power Unit",
+      "D": "Core Processing Unit"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ai phát minh ra điện thoại (được cấp bằng sáng chế đầu tiên)?",
+    "options": {
+      "A": "Alexander Graham Bell",
+      "B": "Thomas Edison",
+      "C": "Guglielmo Marconi",
+      "D": "Nikola Tesla"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào tổ chức World Cup bóng đá năm 2018?",
+    "options": {
+      "A": "Nga",
+      "B": "Brazil",
+      "C": "Qatar",
+      "D": "Pháp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Màu của lá cây thường do chất gì quyết định?",
+    "options": {
+      "A": "Diệp lục (chlorophyll)",
+      "B": "Hemoglobin",
+      "C": "Melanin",
+      "D": "Caroten"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Dòng sông Mê Kông chảy qua bao nhiêu quốc gia (khoảng)?",
+    "options": {
+      "A": "6 quốc gia",
+      "B": "3 quốc gia",
+      "C": "1 quốc gia",
+      "D": "10 quốc gia"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố nào là thủ đô của Việt Nam trước năm 1945?",
+    "options": {
+      "A": "Hà Nội",
+      "B": "Huế (triều Nguyễn)",
+      "C": "Sài Gòn",
+      "D": "Đà Nẵng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món ăn Hàn Quốc làm từ cơm cuộn nhân gọi là gì?",
+    "options": {
+      "A": "Kimbap",
+      "B": "Sushi",
+      "C": "Bibimbap",
+      "D": "Tteokbokki"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trong chương trình Tiếng Việt, 'Danh từ' dùng để chỉ gì?",
+    "options": {
+      "A": "Người, vật, địa điểm, khái niệm",
+      "B": "Tính từ",
+      "C": "Động từ",
+      "D": "Trạng từ"
+    },
+    "answer": "A"
+  }
+]

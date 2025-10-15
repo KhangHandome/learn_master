@@ -1,0 +1,1092 @@
+[
+  {
+    "question": "CPU là viết tắt của gì?",
+    "options": {
+      "A": "Central Program Utility",
+      "B": "Control Part Unit",
+      "C": "Core Performance Unit",
+      "D": "Central Processing Unit"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thiết bị nào lưu trữ tạm thời khi máy tính đang hoạt động?",
+    "options": {
+      "A": "HDD",
+      "B": "ROM",
+      "C": "RAM",
+      "D": "SSD"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thiết bị lưu trữ dạng bán dẫn không có bộ phận quay?",
+    "options": {
+      "A": "ODD",
+      "B": "HDD",
+      "C": "Tape",
+      "D": "SSD"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hệ điều hành mã nguồn mở phổ biến cho máy chủ?",
+    "options": {
+      "A": "Linux",
+      "B": "macOS",
+      "C": "Windows 11",
+      "D": "ChromeOS"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Giao thức dùng để truyền trang web?",
+    "options": {
+      "A": "SMTP",
+      "B": "SNMP",
+      "C": "FTP",
+      "D": "HTTP"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "HTML chủ yếu dùng để?",
+    "options": {
+      "A": "Trang trí giao diện",
+      "B": "Truy vấn CSDL",
+      "C": "Biên dịch mã",
+      "D": "Định nghĩa cấu trúc nội dung"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "CSS chủ yếu dùng để?",
+    "options": {
+      "A": "Tương tác phía server",
+      "B": "Trình bày giao diện",
+      "C": "Cấu trúc nội dung",
+      "D": "Quản trị DB"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "JavaScript chạy mặc định ở đâu trong trình duyệt?",
+    "options": {
+      "A": "Server-side",
+      "B": "Client-side",
+      "C": "DB engine",
+      "D": "Gateway"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "SQL viết tắt của?",
+    "options": {
+      "A": "Standard Query Level",
+      "B": "Structured Query Language",
+      "C": "Simple Query Library",
+      "D": "Sequential Query Layer"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Câu lệnh SQL để lấy dữ liệu?",
+    "options": {
+      "A": "SELECT",
+      "B": "DELETE",
+      "C": "UPDATE",
+      "D": "INSERT"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình quan hệ dùng khái niệm nào làm đơn vị lưu trữ?",
+    "options": {
+      "A": "Khung nhìn",
+      "B": "Đồ thị",
+      "C": "Bảng (table)",
+      "D": "Tệp"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chỉ mục (index) giúp cải thiện chủ yếu điều gì?",
+    "options": {
+      "A": "Tốc độ ghi",
+      "B": "Kích thước bản ghi",
+      "C": "Tốc độ truy vấn đọc",
+      "D": "Tính toàn vẹn"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "HTTP status 200 nghĩa là?",
+    "options": {
+      "A": "Unauthorized",
+      "B": "Bad Request",
+      "C": "OK",
+      "D": "Not Found"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "HTTP status 404 nghĩa là?",
+    "options": {
+      "A": "Cần xác thực",
+      "B": "Không tìm thấy",
+      "C": "Thành công",
+      "D": "Lỗi máy chủ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phương thức HTTP thường dùng để lấy tài nguyên?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "DELETE",
+      "D": "PUT"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "JSON là gì?",
+    "options": {
+      "A": "Hệ quản trị DB",
+      "B": "Ngôn ngữ lập trình",
+      "C": "Định dạng trao đổi dữ liệu dạng văn bản",
+      "D": "Khung CSS"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "REST nhấn mạnh điều gì?",
+    "options": {
+      "A": "Truyền nhị phân độc quyền",
+      "B": "Tài nguyên định danh bằng URL",
+      "C": "Phiên làm việc trạng thái",
+      "D": "Yêu cầu duy nhất POST"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "GraphQL khác REST ở điểm nào?",
+    "options": {
+      "A": "Chỉ hỗ trợ POST",
+      "B": "Không có schema",
+      "C": "Cho phép client chỉ định trường cần lấy",
+      "D": "Chỉ dùng XML"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Docker gói ứng dụng theo đơn vị nào?",
+    "options": {
+      "A": "Container",
+      "B": "Snapshot",
+      "C": "Virtual Machine",
+      "D": "ISO"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Orchestrator phổ biến quản lý container?",
+    "options": {
+      "A": "Kubernetes",
+      "B": "Spark",
+      "C": "Hadoop",
+      "D": "Ansible"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Git lệnh tạo nhánh mới?",
+    "options": {
+      "A": "git new <name>",
+      "B": "git branch <name>",
+      "C": "git split <name>",
+      "D": "git fork <name>"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Git lệnh hợp nhất nhánh?",
+    "options": {
+      "A": "git merge",
+      "B": "git connect",
+      "C": "git attach",
+      "D": "git glue"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CI/CD viết tắt của?",
+    "options": {
+      "A": "Continuous Integration/Continuous Delivery",
+      "B": "Central Integration/Central Deploy",
+      "C": "Cloud Install/Cloud Dev",
+      "D": "Code Inspect/Code Debug"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "YAML thường dùng để?",
+    "options": {
+      "A": "Cấu hình có cấu trúc",
+      "B": "Ảnh raster",
+      "C": "Âm thanh",
+      "D": "Mã máy"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Unit test dùng để kiểm thử ở mức nào?",
+    "options": {
+      "A": "Mức hệ thống",
+      "B": "Mức UI",
+      "C": "Mức chấp nhận",
+      "D": "Mức hàm/đơn vị"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "TDD nhấn mạnh trình tự nào?",
+    "options": {
+      "A": "Plan–Do–Check",
+      "B": "Code–Ship–Fix",
+      "C": "Red–Green–Refactor",
+      "D": "Design–Build–Run"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Scrum có vai trò nào chịu trách nhiệm tối đa hóa giá trị?",
+    "options": {
+      "A": "Scrum Master",
+      "B": "Product Owner",
+      "C": "Developer",
+      "D": "Stakeholder"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kanban tập trung vào chỉ số nào để đo luồng?",
+    "options": {
+      "A": "LOC",
+      "B": "CPU",
+      "C": "WIP (Work in Progress)",
+      "D": "FPS"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "SOLID là tập nguyên tắc trong?",
+    "options": {
+      "A": "Thiết kế hướng đối tượng",
+      "B": "Mạng máy tính",
+      "C": "Mật mã học",
+      "D": "Kiến trúc CPU"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cấu trúc dữ liệu hoạt động LIFO?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Hash Map",
+      "D": "Graph"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cấu trúc dữ liệu hoạt động FIFO?",
+    "options": {
+      "A": "Queue",
+      "B": "Tree",
+      "C": "Set",
+      "D": "Stack"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Độ phức tạp O(n log n) thường gặp ở?",
+    "options": {
+      "A": "Counting sort",
+      "B": "Quicksort/Heapsort/Mergesort",
+      "C": "Linear search",
+      "D": "Bubble sort"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tìm kiếm nhị phân yêu cầu dữ liệu?",
+    "options": {
+      "A": "Đã sắp xếp",
+      "B": "Dạng đồ thị",
+      "C": "Ngẫu nhiên",
+      "D": "Dạng cây"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hash table đạt trung bình tra cứu?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(n log n)",
+      "D": "O(log n)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cây cân bằng chiều cao điển hình?",
+    "options": {
+      "A": "B-Tree",
+      "B": "AVL/Red-Black",
+      "C": "Heap",
+      "D": "Trie"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Dijkstra dùng để giải bài toán?",
+    "options": {
+      "A": "Sắp xếp topo",
+      "B": "Đường đi ngắn nhất",
+      "C": "Bao trùm nhỏ nhất",
+      "D": "Cực đại luồng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "BFS dùng cấu trúc dữ liệu nào?",
+    "options": {
+      "A": "Stack",
+      "B": "Set",
+      "C": "Priority Queue",
+      "D": "Queue"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "DFS thường dùng cấu trúc dữ liệu?",
+    "options": {
+      "A": "Deque",
+      "B": "Heap",
+      "C": "Queue",
+      "D": "Stack (hoặc đệ quy)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Topological sort áp dụng cho đồ thị?",
+    "options": {
+      "A": "Có hướng không chu trình (DAG)",
+      "B": "Có trọng số âm",
+      "C": "Vô hướng",
+      "D": "Đa đồ thị"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "TCP khác UDP ở điểm chính nào?",
+    "options": {
+      "A": "Kết nối, tin cậy, kiểm soát luồng",
+      "B": "Băng thông lớn hơn luôn",
+      "C": "Không kết nối, không tin cậy",
+      "D": "Mã hóa mặc định"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cổng mặc định HTTP và HTTPS?",
+    "options": {
+      "A": "21 và 22",
+      "B": "80 và 443",
+      "C": "25 và 110",
+      "D": "53 và 123"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "DNS dùng cổng nào qua UDP (thông thường)?",
+    "options": {
+      "A": "110",
+      "B": "143",
+      "C": "25",
+      "D": "53"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mô hình OSI có bao nhiêu lớp?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "SSL/TLS hoạt động ở lớp nào (xấp xỉ) theo mô hình OSI?",
+    "options": {
+      "A": "Phiên/Giao vận",
+      "B": "Vật lý",
+      "C": "Liên kết dữ liệu",
+      "D": "Mạng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "NAT chủ yếu dùng để?",
+    "options": {
+      "A": "Chuyển đổi địa chỉ mạng",
+      "B": "Định tuyến động",
+      "C": "Phân giải tên miền",
+      "D": "Mã hóa gói tin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CIDR cho phép?",
+    "options": {
+      "A": "Chỉ IPv6",
+      "B": "Chỉ dùng subnet cố định /24",
+      "C": "Gộp/Chia mạng linh hoạt",
+      "D": "Chỉ IPv4"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "ARP dùng để?",
+    "options": {
+      "A": "Phân giải tên",
+      "B": "Ánh xạ IP sang MAC",
+      "C": "Định tuyến",
+      "D": "Gán IP động"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "ICMP chủ yếu dùng để?",
+    "options": {
+      "A": "Đồng bộ thời gian",
+      "B": "Chẩn đoán, báo lỗi mạng",
+      "C": "Đăng nhập từ xa",
+      "D": "Truyền file"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "SSH dùng cổng mặc định nào?",
+    "options": {
+      "A": "25",
+      "B": "22",
+      "C": "23",
+      "D": "110"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Mật mã hóa đối xứng tiêu biểu?",
+    "options": {
+      "A": "AES",
+      "B": "DSA",
+      "C": "ECC",
+      "D": "RSA"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mật mã bất đối xứng tiêu biểu?",
+    "options": {
+      "A": "RSA",
+      "B": "AES",
+      "C": "Blowfish",
+      "D": "ChaCha20"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "SHA-256 là?",
+    "options": {
+      "A": "Giao thức bắt tay",
+      "B": "Hàm băm",
+      "C": "Mã hóa đối xứng",
+      "D": "Mã hóa công khai"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "HTTPS khác HTTP ở?",
+    "options": {
+      "A": "Mã hóa TLS",
+      "B": "Khác đường dẫn",
+      "C": "Nén mặc định",
+      "D": "Khác phương thức"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "SQL Injection là tấn công vào lớp?",
+    "options": {
+      "A": "Ứng dụng/DB",
+      "B": "Hệ điều hành",
+      "C": "Trình duyệt",
+      "D": "Mạng vật lý"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "XSS khai thác điểm yếu nào?",
+    "options": {
+      "A": "Chèn script phía client",
+      "B": "RACE condition",
+      "C": "TCP flood",
+      "D": "Quá tải CPU"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CSRF nhắm tới?",
+    "options": {
+      "A": "Giả mạo yêu cầu liên phiên",
+      "B": "Đánh cắp session storage",
+      "C": "Lừa đảo email",
+      "D": "Chiếm quyền DNS"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nguyên tắc tối thiểu quyền hạn gọi là?",
+    "options": {
+      "A": "Open Access",
+      "B": "Least Privilege",
+      "C": "Full Trust",
+      "D": "Zero Privilege"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "2FA/ MFA nhằm tăng?",
+    "options": {
+      "A": "Bảo mật xác thực",
+      "B": "Khả dụng CPU",
+      "C": "Khả năng nén",
+      "D": "Tốc độ băng thông"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Zero Trust coi mặc định mọi kết nối là?",
+    "options": {
+      "A": "Không tin cậy",
+      "B": "Tin cậy nội bộ",
+      "C": "Tin cậy theo IP",
+      "D": "Tin cậy bên ngoài"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ngôn ngữ lập trình bậc cao phổ biến cho khoa học dữ liệu?",
+    "options": {
+      "A": "C",
+      "B": "Python",
+      "C": "Bash",
+      "D": "Assembly"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Trình quản lý gói mặc định của Node.js?",
+    "options": {
+      "A": "gradle",
+      "B": "maven",
+      "C": "npm",
+      "D": "pip"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Java chạy trên kiến trúc nào để tính đa nền tảng?",
+    "options": {
+      "A": "WASM",
+      "B": "JVM",
+      "C": "CLR",
+      "D": "ELF"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "C# chạy trên nền tảng runtime nào của Microsoft?",
+    "options": {
+      "A": ".NET CLR",
+      "B": "V8",
+      "C": "CPython",
+      "D": "JVM"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Go (Golang) nổi bật với?",
+    "options": {
+      "A": "Goroutines & channel",
+      "B": "Multiple inheritance",
+      "C": "Chỉ hướng đối tượng",
+      "D": "Runtime không GC"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Rust nổi tiếng vì?",
+    "options": {
+      "A": "Quản lý bộ nhớ an toàn không GC",
+      "B": "JIT tối ưu",
+      "C": "Hỗ trợ UI mặc định",
+      "D": "Thông dịch nhanh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "TypeScript bổ sung gì cho JavaScript?",
+    "options": {
+      "A": "Trình duyệt riêng",
+      "B": "SQL native",
+      "C": "Hệ thống kiểu tĩnh",
+      "D": "GC mới"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Framework front-end nào theo mô hình component phổ biến?",
+    "options": {
+      "A": "Laravel",
+      "B": "React",
+      "C": "Flask",
+      "D": "Django"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "SPA là viết tắt của?",
+    "options": {
+      "A": "Single-Page Application",
+      "B": "Safe-Process Agent",
+      "C": "Server-Page Application",
+      "D": "Smart Port API"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "SSR trong web nghĩa là?",
+    "options": {
+      "A": "Service Registry",
+      "B": "Server-Side Rendering",
+      "C": "Session Replication",
+      "D": "Secure Socket Relay"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "NoSQL thường phù hợp với?",
+    "options": {
+      "A": "ACID mạnh mọi giao dịch",
+      "B": "Dữ liệu phi cấu trúc/linh hoạt",
+      "C": "Mối quan hệ chặt chẽ",
+      "D": "Khoá ngoại phức tạp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "MongoDB lưu tài liệu ở định dạng?",
+    "options": {
+      "A": "ORC",
+      "B": "Parquet",
+      "C": "CSV",
+      "D": "BSON"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Redis là hệ gì?",
+    "options": {
+      "A": "Graph DB",
+      "B": "Key-Value in-memory",
+      "C": "Column Store",
+      "D": "RDBMS"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kafka dùng để?",
+    "options": {
+      "A": "Full-text search",
+      "B": "OLAP",
+      "C": "Streaming/Message broker",
+      "D": "Batch ETL"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Elasticsearch mạnh về?",
+    "options": {
+      "A": "Tìm kiếm toàn văn",
+      "B": "Phân cụm TCP",
+      "C": "Giao dịch ACID",
+      "D": "Xử lý video"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "OLAP thường dùng cho?",
+    "options": {
+      "A": "Phân tích đa chiều",
+      "B": "Giao dịch thời gian thực",
+      "C": "Gọi API",
+      "D": "Cache DNS"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Data Lake lưu dữ liệu theo nguyên tắc?",
+    "options": {
+      "A": "Schema-on-write",
+      "B": "Lưu thô, schema-on-read",
+      "C": "Chỉ CSV",
+      "D": "Chỉ Parquet"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "ETL là quy trình?",
+    "options": {
+      "A": "Extend–Test–Launch",
+      "B": "Encrypt–Transfer–Log",
+      "C": "Extract–Transform–Load",
+      "D": "Evaluate–Tune–Link"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Lakehouse kết hợp ưu điểm của?",
+    "options": {
+      "A": "Data Lake và Data Warehouse",
+      "B": "Batch và Stream",
+      "C": "NoSQL và RDBMS",
+      "D": "OLTP và OLAP trên 1 engine"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Parquet là định dạng?",
+    "options": {
+      "A": "Cột, nén, tối ưu phân tích",
+      "B": "Văn bản thuần",
+      "C": "Hàng, không nén",
+      "D": "Nhị phân hình ảnh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cloud IaaS cung cấp?",
+    "options": {
+      "A": "Hạ tầng ảo hóa (VM, mạng, lưu trữ)",
+      "B": "Ứng dụng SaaS",
+      "C": "Thiết bị vật lý",
+      "D": "Middleware"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "PaaS tiêu biểu của AWS là?",
+    "options": {
+      "A": "Elastic Beanstalk",
+      "B": "S3",
+      "C": "EC2",
+      "D": "EBS"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "SaaS là mô hình cung cấp?",
+    "options": {
+      "A": "Phần mềm dạng dịch vụ",
+      "B": "Máy chủ ảo",
+      "C": "Mạng riêng",
+      "D": "Thiết bị bảo mật"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Serverless Function của AWS là?",
+    "options": {
+      "A": "EC2",
+      "B": "Lambda",
+      "C": "Fargate",
+      "D": "Lightsail"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "CDN dùng để?",
+    "options": {
+      "A": "Phân phối nội dung gần người dùng",
+      "B": "Mã hóa kênh truyền",
+      "C": "Lưu trữ giao dịch DB",
+      "D": "Tăng băng thông trung tâm dữ liệu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "IaC là viết tắt của?",
+    "options": {
+      "A": "Infrastructure as Code",
+      "B": "Integration at Cloud",
+      "C": "Interface as Code",
+      "D": "Infra as Config"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Công cụ IaC phổ biến?",
+    "options": {
+      "A": "Spark",
+      "B": "Kibana",
+      "C": "Hadoop",
+      "D": "Terraform"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Blue/Green deployment nhằm?",
+    "options": {
+      "A": "Triển khai không gián đoạn bằng 2 môi trường",
+      "B": "Cân bằng TCP",
+      "C": "Nén log",
+      "D": "Chia tách DB"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Canary release giúp?",
+    "options": {
+      "A": "Rollback tự động",
+      "B": "Thử phiên bản mới với nhóm nhỏ người dùng",
+      "C": "Bảo mật TLS",
+      "D": "Tăng CPU"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Observability gồm ba trụ cột chính?",
+    "options": {
+      "A": "Build, Test, Deploy",
+      "B": "Logs, Metrics, Traces",
+      "C": "CPU, RAM, Disk",
+      "D": "Users, Sessions, Hits"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Microservices ưu tiên điều gì?",
+    "options": {
+      "A": "Dịch vụ nhỏ, độc lập triển khai",
+      "B": "DB dùng chung duy nhất",
+      "C": "Triển khai thủ công",
+      "D": "Một khối đơn nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Service Mesh cung cấp?",
+    "options": {
+      "A": "Biên dịch code",
+      "B": "Kết nối, quan sát, bảo mật giữa dịch vụ",
+      "C": "Chuyển mã video",
+      "D": "Lưu trữ file tĩnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "API Gateway thường xử lý?",
+    "options": {
+      "A": "Routing, auth, rate limit",
+      "B": "Chỉ cache tĩnh",
+      "C": "Chỉ gửi email",
+      "D": "Chỉ DB query"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Circuit Breaker dùng để?",
+    "options": {
+      "A": "Nén ảnh",
+      "B": "Mã hóa RSA",
+      "C": "Tăng băng thông",
+      "D": "Ngăn lan lỗi chuỗi, tự mở/đóng mạch"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Idempotent trong API nghĩa là?",
+    "options": {
+      "A": "Gọi lặp lại cho kết quả như nhau",
+      "B": "Gọi nhanh hơn",
+      "C": "Gọi luôn thất bại",
+      "D": "Không cần xác thực"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Event-driven kiến trúc dựa trên?",
+    "options": {
+      "A": "Gọi đồng bộ",
+      "B": "Sự kiện và hàng đợi/stream",
+      "C": "DB liên kết chặt",
+      "D": "Cron duy nhất"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "CQRS tách?",
+    "options": {
+      "A": "Frontend và backend",
+      "B": "Dev và Ops",
+      "C": "Luồng đọc và ghi",
+      "D": "Cache và DB"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Saga pattern dùng để?",
+    "options": {
+      "A": "Quản lý giao dịch phân tán",
+      "B": "Sinh khóa công khai",
+      "C": "Theo dõi logs",
+      "D": "Nén dữ liệu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CAP theorem nói rằng khó có thể đồng thời đạt?",
+    "options": {
+      "A": "CPU, RAM, IOPS",
+      "B": "Consistency, Availability, Partition tolerance",
+      "C": "Cache, Auth, Proxy",
+      "D": "Compile, Analyze, Pack"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "BASE thường đi với hệ gì?",
+    "options": {
+      "A": "Realtime OS",
+      "B": "Hệ phân tán ưu tiên tính sẵn sàng",
+      "C": "RDBMS ACID mạnh",
+      "D": "GPU compute"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Machine Learning gồm ba nhóm chính?",
+    "options": {
+      "A": "Giám sát, không giám sát, tăng cường",
+      "B": "Sâu, nông, bán giám sát",
+      "C": "Hồi quy, phân loại, gom cụm",
+      "D": "CPU, GPU, TPU"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hàm mất mát phổ biến cho phân loại nhị phân?",
+    "options": {
+      "A": "MAE",
+      "B": "Huber",
+      "C": "Binary cross-entropy",
+      "D": "MSE"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Regularization giúp?",
+    "options": {
+      "A": "Giảm overfitting",
+      "B": "Tăng kích thước model",
+      "C": "Tăng tốc độ I/O",
+      "D": "Giảm số mẫu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gradient Descent cập nhật tham số theo?",
+    "options": {
+      "A": "Hướng dương của gradient",
+      "B": "Hướng âm của gradient",
+      "C": "Hướng bất kỳ",
+      "D": "Ngẫu nhiên tuyệt đối"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Batch Normalization chủ yếu giúp?",
+    "options": {
+      "A": "Ổn định/nhanh hội tụ",
+      "B": "Tăng độ phân giải ảnh",
+      "C": "Giảm kích thước dữ liệu",
+      "D": "Thay thế tối ưu hóa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CNN phù hợp nhất với?",
+    "options": {
+      "A": "Chuỗi thời gian",
+      "B": "Xử lý ảnh/không gian",
+      "C": "Đồ thị",
+      "D": "Văn bản thuần"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "RNN/LSTM phù hợp với?",
+    "options": {
+      "A": "Dữ liệu chuỗi",
+      "B": "Dữ liệu bảng",
+      "C": "Đồ thị tĩnh",
+      "D": "Ảnh tĩnh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Transformer dùng cơ chế nào làm cốt lõi?",
+    "options": {
+      "A": "Ridge Regression",
+      "B": "Self-Attention",
+      "C": "Max-Pooling",
+      "D": "Naive Bayes"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "TPU tối ưu cho?",
+    "options": {
+      "A": "Đồ họa 3D",
+      "B": "Mạng 5G",
+      "C": "Tính toán tensor/ML",
+      "D": "Xử lý tín hiệu số"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "MLOps tương tự DevOps nhưng cho?",
+    "options": {
+      "A": "Vòng đời mô hình ML",
+      "B": "Thiết kế UI/UX",
+      "C": "Thử nghiệm A/B web",
+      "D": "Quản trị mạng"
+    },
+    "answer": "A"
+  }
+]

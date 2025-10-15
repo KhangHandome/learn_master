@@ -118,7 +118,7 @@
         <Border Background="#1A2B5B"
                 CornerRadius="25"
                 Width="600"
-                Height="400" HorizontalAlignment="Center"
+                Height="450" HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Effect="{StaticResource CardShadowEffect}">
 
@@ -141,10 +141,30 @@
                 <TextBox x:Name="txtPlayerName"
                          Width="500" Height="65" Style="{StaticResource ModernTextBox}"
                          TextAlignment="Center"
-                         Margin="0,0,0,50"
-                         />
+                         Margin="0,0,0,30"
+                         MaxLength="30"/>
 
-                <Button Content="CHƠI NGAY! 🚀"
+                <!-- Hiển thị số người chơi -->
+                <Border Background="#0A2D91"
+                        CornerRadius="15"
+                        Padding="15,10"
+                        Margin="0,0,0,20">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="👥 Người chơi đang chờ: "
+                                   Foreground="#CCCCCC"
+                                   FontSize="18"
+                                   VerticalAlignment="Center"/>
+                        <TextBlock x:Name="txtPlayerCount"
+                                   Text="0/6"
+                                   Foreground="#FFD700"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Button x:Name="btnPlay"
+                        Content="CHƠI NGAY! 🚀"
                         Width="320" Height="70" Style="{StaticResource PrimaryActionButton}"
                         Click="Button_Click"/>
             </StackPanel>

@@ -1,0 +1,1314 @@
+[
+  {
+    "question": "Trái cây nào nổi tiếng nhiều vitamin C?",
+    "options": {
+      "A": "Cam",
+      "B": "Khoai tây",
+      "C": "Cà tím",
+      "D": "Bắp cải"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phở là món ăn nổi tiếng của quốc gia nào?",
+    "options": {
+      "A": "Thái Lan",
+      "B": "Việt Nam",
+      "C": "Lào",
+      "D": "Campuchia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sushi có nguồn gốc từ đâu?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Nhật Bản",
+      "C": "Hàn Quốc",
+      "D": "Đài Loan"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nguyên liệu chính của bánh mì là?",
+    "options": {
+      "A": "Bột mì",
+      "B": "Bột bắp",
+      "C": "Bột năng",
+      "D": "Bột gạo"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phần nào của trứng chứa nhiều protein nhất?",
+    "options": {
+      "A": "Lòng đỏ",
+      "B": "Vỏ",
+      "C": "Màng vỏ",
+      "D": "Lòng trắng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Nước mắm được làm chủ yếu từ?",
+    "options": {
+      "A": "Đậu nành",
+      "B": "Cá lên men",
+      "C": "Tôm tươi",
+      "D": "Thịt heo"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Món 'Kimchi' làm từ rau gì là chủ đạo?",
+    "options": {
+      "A": "Cải thảo",
+      "B": "Rau muống",
+      "C": "Cải xoăn",
+      "D": "Rau cần"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Loại thịt phổ biến làm bít tết?",
+    "options": {
+      "A": "Thịt bò",
+      "B": "Thịt gà",
+      "C": "Thịt heo",
+      "D": "Thịt vịt"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món 'Pad Thai' thuộc ẩm thực nước nào?",
+    "options": {
+      "A": "Singapore",
+      "B": "Thái Lan",
+      "C": "Malaysia",
+      "D": "Philippines"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Caprese salad truyền thống gồm cà chua, mozzarella và loại lá nào?",
+    "options": {
+      "A": "Húng quế (basil)",
+      "B": "Ngò rí",
+      "C": "Hương thảo",
+      "D": "Thì là"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Espresso là đồ uống từ?",
+    "options": {
+      "A": "Trà",
+      "B": "Cà phê",
+      "C": "Ca cao",
+      "D": "Soda"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tacos là món truyền thống của?",
+    "options": {
+      "A": "Mexico",
+      "B": "Tây Ban Nha",
+      "C": "Bồ Đào Nha",
+      "D": "Peru"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pho-mát Parmesan có xuất xứ từ quốc gia nào?",
+    "options": {
+      "A": "Ý",
+      "B": "Pháp",
+      "C": "Thụy Sĩ",
+      "D": "Áo"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món Hummus làm từ loại đậu nào?",
+    "options": {
+      "A": "Đậu trắng",
+      "B": "Đậu lăng",
+      "C": "Đậu gà (chickpea)",
+      "D": "Đậu đen"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Mì Udon thuộc ẩm thực?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Nhật Bản",
+      "C": "Hàn Quốc",
+      "D": "Việt Nam"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Món 'Bánh mì' Việt Nam thường kẹp loại sốt phủ phổ biến nào?",
+    "options": {
+      "A": "Mayonnaise",
+      "B": "Tương đen",
+      "C": "Mù tạt",
+      "D": "Tương ớt Sriracha"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Guacamole có thành phần chính là?",
+    "options": {
+      "A": "Bơ (avocado)",
+      "B": "Cà chua",
+      "C": "Dưa leo",
+      "D": "Ớt chuông"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ramen thường là món mì nước của?",
+    "options": {
+      "A": "Nhật Bản",
+      "B": "Trung Quốc",
+      "C": "Thái Lan",
+      "D": "Hàn Quốc"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Paella là món cơm nổi tiếng của vùng?",
+    "options": {
+      "A": "Toscana",
+      "B": "Catalonia",
+      "C": "Valencia",
+      "D": "Andalusia"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cà ri Ấn Độ thường dùng gia vị hỗn hợp gọi là?",
+    "options": {
+      "A": "Za'atar",
+      "B": "Masala",
+      "C": "Herbes de Provence",
+      "D": "Ras el hanout"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Món 'Bulgogi' là đặc sản nướng của?",
+    "options": {
+      "A": "Hàn Quốc",
+      "B": "Nhật Bản",
+      "C": "Trung Quốc",
+      "D": "Mông Cổ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tempura là kỹ thuật chiên gì?",
+    "options": {
+      "A": "Áp chảo ít dầu",
+      "B": "Chiên ngập dầu áo bột",
+      "C": "Chiên chân không",
+      "D": "Chiên không dầu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Loại gạo chuyên dùng cho sushi?",
+    "options": {
+      "A": "Gạo hạt trung ngắn dẻo",
+      "B": "Gạo basmati",
+      "C": "Gạo jasmine",
+      "D": "Gạo nếp than"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tương miso được lên men từ?",
+    "options": {
+      "A": "Lúa mạch và đậu nành",
+      "B": "Bắp và đậu phộng",
+      "C": "Đậu xanh và gạo",
+      "D": "Khoai mì"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bánh Tiramisu thường có hương vị của?",
+    "options": {
+      "A": "Trà xanh",
+      "B": "Cà phê",
+      "C": "Dâu tây",
+      "D": "Chanh dây"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pho-mát xanh (blue cheese) có đặc trưng do?",
+    "options": {
+      "A": "Muối hồng",
+      "B": "Vi khuẩn lactic",
+      "C": "Nấm mốc Penicillium",
+      "D": "Khói gỗ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bún bò Huế đặc trưng mùi thơm từ?",
+    "options": {
+      "A": "Sả",
+      "B": "Quế",
+      "C": "Thì là",
+      "D": "Nguyệt quế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cà phê 'Arabica' so với 'Robusta' thường có?",
+    "options": {
+      "A": "Caffeine cao hơn",
+      "B": "Hương thơm tinh tế hơn",
+      "C": "Hạt lớn hơn nhiều",
+      "D": "Không có acid"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Món Pesto Genovese dùng loại hạt nào?",
+    "options": {
+      "A": "Hạnh nhân",
+      "B": "Mắc ca",
+      "C": "Hạt thông (pine nut)",
+      "D": "Óc chó"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bánh croissant là dạng bột gì?",
+    "options": {
+      "A": "Bột nhào chua",
+      "B": "Bột ngàn lớp (laminated dough)",
+      "C": "Bột choux",
+      "D": "Bột bánh quy"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Phần thịt 'sirloin' nằm ở đâu trên bò?",
+    "options": {
+      "A": "Thăn lưng",
+      "B": "Bắp chân",
+      "C": "Nạc vai",
+      "D": "Sườn trước"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nhiệt 'simmer' trong nấu ăn thường ám chỉ?",
+    "options": {
+      "A": "Đun sôi mạnh",
+      "B": "Ngâm nước lạnh",
+      "C": "Sôi lăn tăn nhẹ",
+      "D": "Hấp cách thủy"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Nước dùng Dashi truyền thống chiết xuất từ?",
+    "options": {
+      "A": "Rong kombu & cá bào katsuobushi",
+      "B": "Xương gà",
+      "C": "Xương bò",
+      "D": "Nấm và đậu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món 'Ceviche' làm chín hải sản nhờ?",
+    "options": {
+      "A": "Muối khô",
+      "B": "Giấm gạo",
+      "C": "Nhiệt lò",
+      "D": "Axit chanh/quả có múi"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Gia vị 'saffron' lấy từ bộ phận nào của hoa nghệ tây?",
+    "options": {
+      "A": "Nhị",
+      "B": "Nhuỵ",
+      "C": "Cánh",
+      "D": "Đài"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bánh Macaron chuẩn có lớp giữa là?",
+    "options": {
+      "A": "Mứt trái cây",
+      "B": "Ganache/Buttercream",
+      "C": "Kem tươi",
+      "D": "Caramel cứng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Món 'Ratatouille' chủ yếu là?",
+    "options": {
+      "A": "Mì phô mai",
+      "B": "Hầm rau củ kiểu Pháp",
+      "C": "Soup sữa kem",
+      "D": "Bánh mặn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước chấm 'Tzatziki' dùng sữa chua và?",
+    "options": {
+      "A": "Cà chua",
+      "B": "Dưa leo",
+      "C": "Củ dền",
+      "D": "Cà rốt"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Miso trắng (shiro miso) so với miso đỏ thường?",
+    "options": {
+      "A": "Mặn hơn",
+      "B": "Ngọt nhẹ hơn và lên men ngắn",
+      "C": "Đắng hơn",
+      "D": "Không có đạm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phân loại gạo 'Arborio' dùng nhiều cho món?",
+    "options": {
+      "A": "Paella",
+      "B": "Risotto",
+      "C": "Pilaf",
+      "D": "Sushi"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Men nở (yeast) trong bánh mì tạo khí chủ yếu là?",
+    "options": {
+      "A": "Nitơ",
+      "B": "CO2",
+      "C": "O2",
+      "D": "H2"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'deglaze' là?",
+    "options": {
+      "A": "Khử mùi tỏi",
+      "B": "Thêm chất lỏng cạo phần cháy đáy chảo",
+      "C": "Làm đặc sốt bằng bột",
+      "D": "Lọc trong nước dùng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bechamel là sốt nền từ?",
+    "options": {
+      "A": "Bơ, bột & sữa",
+      "B": "Cà chua & dầu oliu",
+      "C": "Kem & nấm",
+      "D": "Nước dùng bò"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tiêu xanh, tiêu đen, tiêu trắng khác nhau chủ yếu do?",
+    "options": {
+      "A": "Giống cây khác",
+      "B": "Mức độ chín & xử lý",
+      "C": "Vùng trồng duy nhất",
+      "D": "Phơi trong bóng râm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cá hồi 'gravlax' được ướp với?",
+    "options": {
+      "A": "Muối, đường, thì là",
+      "B": "Xì dầu, tỏi, gừng",
+      "C": "Mật ong, quế",
+      "D": "Rượu vang đỏ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bánh mì chua (sourdough) dùng men gì?",
+    "options": {
+      "A": "Men khô tức thì",
+      "B": "Baking powder",
+      "C": "Men tự nhiên (starter)",
+      "D": "Không dùng men"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Nước tương Nhật 'tamari' khác shoyu ở chỗ?",
+    "options": {
+      "A": "Không lên men",
+      "B": "Ít/không dùng lúa mì",
+      "C": "Chỉ dùng gạo",
+      "D": "Chỉ dùng muối hồng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'julienne' nghĩa là?",
+    "options": {
+      "A": "Thái hạt lựu",
+      "B": "Thái lát mỏng tròn",
+      "C": "Thái sợi que nhỏ",
+      "D": "Băm nhuyễn"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bánh 'Crème brûlée' tạo lớp mặt cứng nhờ?",
+    "options": {
+      "A": "Đường đun caramel hóa trên bề mặt",
+      "B": "Gelatin phủ",
+      "C": "Bột đường sống",
+      "D": "Muối biển"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pho-mát ' Burrata' có lõi gì?",
+    "options": {
+      "A": "Ricotta",
+      "B": "Mascarpone",
+      "C": "Kem & sợi mozzarella (stracciatella)",
+      "D": "Quark"
+    },
+    "answer": "C"
+  },
+
+  {
+    "question": "Maillard reaction xảy ra mạnh khoảng từ nhiệt độ nào?",
+    "options": {
+      "A": "60–80°C",
+      "B": "100–120°C",
+      "C": "140–165°C",
+      "D": ">220°C mới có"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sous-vide ức gà an toàn thường ở khoảng?",
+    "options": {
+      "A": "46°C trong 1 phút",
+      "B": "55–60°C đủ thời gian pasteurize",
+      "C": "30°C trong 3 giờ",
+      "D": "75°C trong 5 giây"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Roux để làm sánh sốt có tỷ lệ cơ bản?",
+    "options": {
+      "A": "1 bơ : 1 bột (theo khối lượng)",
+      "B": "2 bơ : 1 bột",
+      "C": "1 bơ : 2 bột",
+      "D": "3 bơ : 1 bột"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gluten hình thành chủ yếu từ?",
+    "options": {
+      "A": "Amylase & lactase",
+      "B": "Gliadin & glutenin",
+      "C": "Casein & whey",
+      "D": "Pectin & agar"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cách nấu 'confît' truyền thống dùng?",
+    "options": {
+      "A": "Dầu ô liu lạnh",
+      "B": "Chất béo (mỡ vịt/ngỗng) nhiệt thấp lâu",
+      "C": "Nước chanh",
+      "D": "Hơi nước áp suất cao"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Gạo basmati đặc trưng bởi?",
+    "options": {
+      "A": "Hạt tròn dẻo",
+      "B": "Hạt dài thơm, tơi",
+      "C": "Nếp dính",
+      "D": "Hạt đỏ cứng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Trong làm bánh, 'creaming method' là?",
+    "options": {
+      "A": "Trộn khô trước",
+      "B": "Đánh bơ với đường đến bông nhẹ",
+      "C": "Ủ lạnh rồi nướng",
+      "D": "Trộn ướt vào khô nhanh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Dashi 'awase' là sự kết hợp của?",
+    "options": {
+      "A": "Kombu + shiitake",
+      "B": "Katsuobushi + niboshi",
+      "C": "Kombu + katsuobushi",
+      "D": "Shoyu + mirin"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đường 'invert' (đường nghịch đảo) là hỗn hợp của?",
+    "options": {
+      "A": "Glucose & fructose",
+      "B": "Sucrose & lactose",
+      "C": "Maltose & galactose",
+      "D": "Dextrose & sucrose"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pâte à choux nở chủ yếu nhờ?",
+    "options": {
+      "A": "Men nở",
+      "B": "Hơi nước từ ẩm bột",
+      "C": "Baking soda",
+      "D": "Gelatin"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Tiêu chuẩn 'al dente' của pasta nghĩa là?",
+    "options": {
+      "A": "Mềm rã",
+      "B": "Giòn tan",
+      "C": "Chín tới còn độ cắn",
+      "D": "Sống"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cách nấu 'risotto' yêu cầu?",
+    "options": {
+      "A": "Đổ nước dùng một lần",
+      "B": "Thêm nước dùng dần và khuấy",
+      "C": "Hấp khô",
+      "D": "Nướng lò kín"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước mắm/soy sauce 'umami' mạnh do hợp chất?",
+    "options": {
+      "A": "Glutamate",
+      "B": "Sucrose",
+      "C": "Citric acid",
+      "D": "Oleic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cá sống ăn an toàn thường yêu cầu?",
+    "options": {
+      "A": "Đông lạnh theo chuẩn diệt ký sinh",
+      "B": "Rửa nước nóng",
+      "C": "Ngâm rượu",
+      "D": "Phơi nắng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Baking powder khác baking soda ở?",
+    "options": {
+      "A": "Không cần acid bổ sung",
+      "B": "Mặn hơn",
+      "C": "Chỉ dành cho bánh mì",
+      "D": "Là men sinh học"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pho mát 'Parmigiano Reggiano' là PDO của vùng?",
+    "options": {
+      "A": "Lombardy",
+      "B": "Emilia-Romagna",
+      "C": "Piedmont",
+      "D": "Veneto"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước sốt hollandaise nhũ tương nhờ?",
+    "options": {
+      "A": "Lòng trắng",
+      "B": "Lòng đỏ và bơ nóng",
+      "C": "Gelatin",
+      "D": "Bột bắp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Trong làm bánh mì, 'autolyse' là?",
+    "options": {
+      "A": "Ủ men riêng",
+      "B": "Ngâm bột & nước nghỉ trước khi thêm muối/men",
+      "C": "Ủ lạnh 0°C",
+      "D": "Nướng hai lần"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Mì ramen tonkotsu dùng nước dùng ninh từ?",
+    "options": {
+      "A": "Xương gà",
+      "B": "Xương bò",
+      "C": "Xương heo",
+      "D": "Rau củ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Xúc xích chua Nem chua Việt Nam lên men nhờ?",
+    "options": {
+      "A": "Men nở",
+      "B": "Vi khuẩn lactic",
+      "C": "Nấm mốc xanh",
+      "D": "Giấm balsamic"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Matcha khác sencha ở điểm chính?",
+    "options": {
+      "A": "Matcha là bột trà nghiền",
+      "B": "Sencha là bột",
+      "C": "Matcha là hồng trà",
+      "D": "Sencha làm từ rễ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pho-mát 'camembert' chín mềm nhờ lớp mốc?",
+    "options": {
+      "A": "Penicillium camemberti",
+      "B": "Aspergillus oryzae",
+      "C": "Saccharomyces",
+      "D": "Rhizopus"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thịt 'wagyu' đặc trưng bởi?",
+    "options": {
+      "A": "Sọc đỏ đậm",
+      "B": "Mỡ vân cẩm thạch dày",
+      "C": "Không có mỡ",
+      "D": "Ướp ngọt"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Gellan gum/agar chủ yếu dùng để?",
+    "options": {
+      "A": "Tạo đông/gel",
+      "B": "Tạo bọt khí",
+      "C": "Tạo màu",
+      "D": "Khử mùi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nhiệt 'sear' bít tết nhằm?",
+    "options": {
+      "A": "Làm chín đều lõi",
+      "B": "Tạo vỏ nâu thơm (Maillard)",
+      "C": "Làm mềm tức thì",
+      "D": "Tăng ẩm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tỷ lệ nước/bột (hydration) bánh mì artisan thường khoảng?",
+    "options": {
+      "A": "40–50%",
+      "B": "55–65%",
+      "C": "65–80%",
+      "D": "85–100%"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dầu nào có điểm bốc khói cao thích hợp chiên ngập?",
+    "options": {
+      "A": "Dầu bơ (clarified butter)",
+      "B": "Dầu mè",
+      "C": "Dầu ô liu extra virgin",
+      "D": "Dầu hạt cải/đậu nành tinh luyện"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tôm 'ceviche' bị 'nấu quá' trong acid sẽ có cảm giác?",
+    "options": {
+      "A": "Bở nhũn",
+      "B": "Cứng bã",
+      "C": "Đắng gắt",
+      "D": "Không đổi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Rượu vang trắng 'Sauvignon Blanc' thường hợp cặp với?",
+    "options": {
+      "A": "Hàu/shellfish",
+      "B": "Bò hầm",
+      "C": "Cừu nướng",
+      "D": "Sô cô la đen"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gia vị 'five-spice' Trung Hoa gồm thường có hồi, quế, đinh hương, tiêu và?",
+    "options": {
+      "A": "Thì là Ai Cập",
+      "B": "Tiểu hồi (fennel)",
+      "C": "Thyme",
+      "D": "Oregano"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Thịt cá ngừ sống loại 'sashimi grade' đề cập chủ yếu đến?",
+    "options": {
+      "A": "Màu đỏ đậm",
+      "B": "Quy trình xử lý/đông lạnh an toàn ký sinh",
+      "C": "Kích thước con cá",
+      "D": "Hàm lượng béo cao"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bột '00' của Ý nổi bật ở?",
+    "options": {
+      "A": "Độ mịn rất cao",
+      "B": "Nhiều cám",
+      "C": "Không có gluten",
+      "D": "Có men sẵn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phá lấu (offal) là món từ?",
+    "options": {
+      "A": "Thịt thăn",
+      "B": "Nội tạng",
+      "C": "Xương tủy",
+      "D": "Da"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước dùng 'pho' trong nên có vị?",
+    "options": {
+      "A": "Mặn gắt",
+      "B": "Cân bằng ngọt xương, thơm quế hồi",
+      "C": "Chua gắt",
+      "D": "Đắng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Fermentation 'koji' dùng vi sinh nào chủ chốt?",
+    "options": {
+      "A": "Aspergillus oryzae",
+      "B": "Penicillium roqueforti",
+      "C": "Brettanomyces",
+      "D": "Lactobacillus"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thịt 'dry-aged' nhằm mục đích?",
+    "options": {
+      "A": "Tăng ẩm",
+      "B": "Tập trung vị & làm mềm enzyme",
+      "C": "Khử hết mỡ",
+      "D": "Làm mặn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Xì dầu 'light' (đậu nành) trong ẩm thực Hoa nghĩa là?",
+    "options": {
+      "A": "Ít muối",
+      "B": "Màu nhạt dùng nêm, mặn hơn dark",
+      "C": "Dạng bột",
+      "D": "Không lên men"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'tempering' sô cô la nhằm?",
+    "options": {
+      "A": "Tăng độ ẩm",
+      "B": "Ổn định tinh thể bơ ca cao để bóng & snap tốt",
+      "C": "Làm mềm vĩnh viễn",
+      "D": "Khử vị cacao"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bánh mỳ 'biga' là?",
+    "options": {
+      "A": "Mỡ heo nấu chảy",
+      "B": "Tiền bột (preferment) kiểu Ý",
+      "C": "Pho-mát tươi",
+      "D": "Men tươi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Món 'tagine' Bắc Phi nấu trong?",
+    "options": {
+      "A": "Nồi đá",
+      "B": "Nồi gang kín",
+      "C": "Nồi đất hình nón",
+      "D": "Nồi áp suất"
+    },
+    "answer": "C"
+  },
+
+  {
+    "question": "Tôm hùm 'thermidor' là món nướng với?",
+    "options": {
+      "A": "Sốt kem mù tạt & phô mai",
+      "B": "Nước mắm gừng",
+      "C": "Xốt cà cay",
+      "D": "Sốt pesto"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khẩu vị 'numami' là cách nói sai của?",
+    "options": {
+      "A": "Umami",
+      "B": "Nigami",
+      "C": "Umaco",
+      "D": "Unagi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Rượu vang 'tanin' tạo cảm giác?",
+    "options": {
+      "A": "Ngọt",
+      "B": "Chát se",
+      "C": "Chua gắt",
+      "D": "Mặn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bánh 'babka' có nguồn gốc văn hóa?",
+    "options": {
+      "A": "Trung Đông",
+      "B": "Do Thái/Đông Âu",
+      "C": "Nam Mỹ",
+      "D": "Đông Nam Á"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pho 'pho mai' sữa dê 'chèvre' là tiếng nào?",
+    "options": {
+      "A": "Ý",
+      "B": "Pháp",
+      "C": "Bồ Đào Nha",
+      "D": "Tây Ban Nha"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Rau mùi tây 'flat-leaf' còn gọi là?",
+    "options": {
+      "A": "Cilantro",
+      "B": "Italian parsley",
+      "C": "Basil",
+      "D": "Chives"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'ceviche' không nên dùng với cá nào dưới đây?",
+    "options": {
+      "A": "Cá rất béo dễ ôi",
+      "B": "Cá trắng chắc",
+      "C": "Mực tươi",
+      "D": "Tôm tươi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bánh 'kouign-amann' đặc trưng bởi?",
+    "options": {
+      "A": "Ít bơ, ít đường",
+      "B": "Nhiều bơ và caramel đường",
+      "C": "Không dùng men",
+      "D": "Nhân kem lạnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tỷ lệ 'baker's percentage' tính bột là 100% nghĩa là?",
+    "options": {
+      "A": "Mọi thành phần tính theo trọng lượng bột",
+      "B": "Theo tổng khối lượng",
+      "C": "Theo thể tích",
+      "D": "Theo lượng nước"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gia vị 'sumac' cho vị gì?",
+    "options": {
+      "A": "Ngọt",
+      "B": "Chua nhẹ trái cây",
+      "C": "Đắng",
+      "D": "Cay nồng kéo dài"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Dao Nhật 'yanagiba' dùng chủ yếu để?",
+    "options": {
+      "A": "Chặt xương",
+      "B": "Phi lê/sashimi lát dài",
+      "C": "Gọt khoai",
+      "D": "Cắt bánh mì"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Muối 'fleur de sel' thu hoạch như thế nào?",
+    "options": {
+      "A": "Đào mỏ",
+      "B": "Bay hơi nước biển, hớt lớp tinh thể mỏng",
+      "C": "Chưng cất",
+      "D": "Ép lạnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước mắm nhỉ 'first press' nghĩa là?",
+    "options": {
+      "A": "Pha loãng lần đầu",
+      "B": "Dòng rút đầu nguyên chất",
+      "C": "Đun cô",
+      "D": "Lên men nhanh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'agar clarification' dùng để?",
+    "options": {
+      "A": "Làm trong nước quả",
+      "B": "Tạo bọt",
+      "C": "Tạo màu",
+      "D": "Khử chua"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món 'Okonomiyaki' là?",
+    "options": {
+      "A": "Bánh kếp mặn kiểu Nhật",
+      "B": "Mì lạnh Hàn",
+      "C": "Bánh nướng Rio",
+      "D": "Bánh kem Ý"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sốt 'Nam prik' thuộc ẩm thực?",
+    "options": {
+      "A": "Malaysia",
+      "B": "Thái Lan",
+      "C": "Lào",
+      "D": "Campuchia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pho-mát sợi kéo 'stretched curd' tiêu biểu là?",
+    "options": {
+      "A": "Brie",
+      "B": "Mozzarella",
+      "C": "Roquefort",
+      "D": "Gruyère"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ướp 'dry brine' khác 'wet brine' ở?",
+    "options": {
+      "A": "Chỉ dùng đường",
+      "B": "Dùng muối khô, không ngâm nước",
+      "C": "Không dùng muối",
+      "D": "Dùng giấm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cà phê 'pour-over' kiểm soát chiết xuất chủ yếu bằng?",
+    "options": {
+      "A": "Áp suất cao",
+      "B": "Lưu lượng–nhiệt độ nước–độ xay",
+      "C": "Nhiệt sữa",
+      "D": "Ủ lạnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỹ thuật 'spatchcock' gia cầm là?",
+    "options": {
+      "A": "Ướp mặn",
+      "B": "Mở phẳng bằng cách cắt xương sống",
+      "C": "Hút chân không",
+      "D": "Xiên nguyên con"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Sốt 'chimichurri' gốc nước nào?",
+    "options": {
+      "A": "Mexico",
+      "B": "Argentina",
+      "C": "Chile",
+      "D": "Peru"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thịt 'picanha' là phần nào của bò?",
+    "options": {
+      "A": "Mông trên (top sirloin cap)",
+      "B": "Ức",
+      "C": "Vai",
+      "D": "Bắp trước"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bột 'semolina' làm từ?",
+    "options": {
+      "A": "Lúa mì durum",
+      "B": "Lúa mạch đen",
+      "C": "Kiều mạch",
+      "D": "Yến mạch"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Món 'Xôi xéo' đặc trưng nhờ?",
+    "options": {
+      "A": "Đậu xanh đánh & mỡ hành",
+      "B": "Đậu đỏ ngọt",
+      "C": "Đậu đen",
+      "D": "Đậu nành"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gia vị 'garam masala' thêm lúc nào?",
+    "options": {
+      "A": "Đầu nấu",
+      "B": "Giữa nấu",
+      "C": "Cuối nấu để dậy hương",
+      "D": "Sau khi nguội"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Rượu 'mirin' dùng trong ẩm thực Nhật là?",
+    "options": {
+      "A": "Giấm gạo",
+      "B": "Rượu gạo ngọt",
+      "C": "Nước tương",
+      "D": "Rượu sake mạnh 40%"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bánh 'banh xeo' giòn nhờ?",
+    "options": {
+      "A": "Bột mì + sữa",
+      "B": "Bột gạo + bột nghệ + chiên nóng dầu",
+      "C": "Bột bắp + trứng",
+      "D": "Bột năng hấp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nước chấm 'nuoc cham' Việt Nam cân bằng vị bằng?",
+    "options": {
+      "A": "Muối & dầu",
+      "B": "Nước mắm, chua, ngọt, tỏi ớt",
+      "C": "Sữa & kem",
+      "D": "Tương đen & mè"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pho 'pho bo' tái chín phân biệt bằng?",
+    "options": {
+      "A": "Loại bún",
+      "B": "Mức độ thịt chín",
+      "C": "Nước dùng đỏ",
+      "D": "Không hành"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bột 'gelatin' phải làm gì trước khi đun chảy?",
+    "options": {
+      "A": "Nướng khô",
+      "B": "Ngâm nở (bloom) trong nước lạnh",
+      "C": "Đánh bông",
+      "D": "Ủ ấm"
+    },
+    "answer": "B"
+  },
+
+  {
+    "question": "Rượu vang 'Barolo' làm từ giống nho?",
+    "options": {
+      "A": "Nebbiolo",
+      "B": "Sangiovese",
+      "C": "Tempranillo",
+      "D": "Pinot Noir"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tiêu 'kampot' nổi tiếng thuộc quốc gia?",
+    "options": {
+      "A": "Việt Nam",
+      "B": "Thái Lan",
+      "C": "Campuchia",
+      "D": "Lào"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Kỹ thuật 'reverse sear' là?",
+    "options": {
+      "A": "Áp chảo rồi nướng",
+      "B": "Nướng chậm trước, sear sau",
+      "C": "Hấp rồi áp chảo",
+      "D": "Chiên rồi ủ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sốt 'Beurre blanc' nền tảng từ?",
+    "options": {
+      "A": "Bơ nhũ tương với rượu vang trắng & dấm",
+      "B": "Bơ nâu & chanh",
+      "C": "Bơ & kem",
+      "D": "Bơ & nước dùng bò"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cà phê 'natural process' khác 'washed' ở?",
+    "options": {
+      "A": "Phơi cả quả trên giàn",
+      "B": "Rửa sạch nhớt ngay",
+      "C": "Rang trước phơi",
+      "D": "Ủ nước muối"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thịt 'prosciutto di Parma' là loại?",
+    "options": {
+      "A": "Thịt bò xông khói",
+      "B": "Giăm bông heo muối khô",
+      "C": "Thịt cừu muối",
+      "D": "Gà quay"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đường 'caramel' đạt màu hổ phách khoảng nhiệt?",
+    "options": {
+      "A": "110°C",
+      "B": "121°C",
+      "C": "165–175°C",
+      "D": "95°C"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Nước dùng 'court-bouillon' dùng để?",
+    "options": {
+      "A": "Ngâm bánh mì",
+      "B": "Luộc nhanh hải sản/cá thơm nhẹ",
+      "C": "Nấu cà ri",
+      "D": "Nấu phở"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Gia vị 'baharat' thuộc vùng?",
+    "options": {
+      "A": "Bắc Phi",
+      "B": "Trung Đông",
+      "C": "Nam Á",
+      "D": "Đông Âu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bánh 'canelé' có vỏ nâu sẫm nhờ?",
+    "options": {
+      "A": "Nướng khuôn đồng, nhiệt cao, đường caramel hóa",
+      "B": "Chiên ngập dầu",
+      "C": "Hấp",
+      "D": "Sấy gió"
+    },
+    "answer": "A"
+  }
+]

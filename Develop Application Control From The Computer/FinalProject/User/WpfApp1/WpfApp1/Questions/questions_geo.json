@@ -1,0 +1,1092 @@
+[
+  {
+    "question": "Thủ đô của Pháp là gì?",
+    "options": {
+      "A": "Lyon",
+      "B": "Nice",
+      "C": "Paris",
+      "D": "Marseille"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thủ đô của Nhật Bản là gì?",
+    "options": {
+      "A": "Osaka",
+      "B": "Nagoya",
+      "C": "Kyoto",
+      "D": "Tokyo"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sông dài nhất thế giới theo số liệu truyền thống là sông nào?",
+    "options": {
+      "A": "Sông Mississippi",
+      "B": "Sông Amazon",
+      "C": "Sông Nile",
+      "D": "Sông Dương Tử"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sa mạc lớn nhất thế giới (không tính vùng băng cực) là gì?",
+    "options": {
+      "A": "Arabian",
+      "B": "Kalahari",
+      "C": "Gobi",
+      "D": "Sahara"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Lục địa nào có diện tích lớn nhất?",
+    "options": {
+      "A": "Châu Phi",
+      "B": "Châu Á",
+      "C": "Nam Mỹ",
+      "D": "Bắc Mỹ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đỉnh núi cao nhất thế giới là?",
+    "options": {
+      "A": "K2",
+      "B": "Everest",
+      "C": "Lhotse",
+      "D": "Kangchenjunga"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Biển nội địa lớn nhất thế giới là?",
+    "options": {
+      "A": "Hồ Victoria",
+      "B": "Biển Aral",
+      "C": "Biển Caspi",
+      "D": "Hồ Superior"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vùng rừng mưa nhiệt đới lớn nhất hành tinh nằm ở đâu?",
+    "options": {
+      "A": "New Guinea",
+      "B": "Lưu vực Amazon",
+      "C": "Borneo",
+      "D": "Congo"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đường vĩ tuyến 0° được gọi là gì?",
+    "options": {
+      "A": "Kinh tuyến gốc",
+      "B": "Xích đạo",
+      "C": "Chí tuyến",
+      "D": "Vòng cực"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đường kinh tuyến gốc đi qua đài thiên văn nào?",
+    "options": {
+      "A": "Berlin",
+      "B": "Greenwich",
+      "C": "Rome",
+      "D": "Paris"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của Úc là?",
+    "options": {
+      "A": "Perth",
+      "B": "Melbourne",
+      "C": "Sydney",
+      "D": "Canberra"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Quốc gia nào có nhiều múi giờ nhất?",
+    "options": {
+      "A": "Nga",
+      "B": "Mỹ",
+      "C": "Anh",
+      "D": "Pháp (bao gồm lãnh thổ hải ngoại)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thác nước Victoria nằm giữa hai quốc gia nào ở châu Phi?",
+    "options": {
+      "A": "Kenya và Tanzania",
+      "B": "Zambia và Zimbabwe",
+      "C": "Congo và Angola",
+      "D": "Nam Phi và Botswana"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vịnh Hạ Long thuộc tỉnh/thành phố nào của Việt Nam?",
+    "options": {
+      "A": "Hải Phòng",
+      "B": "Nghệ An",
+      "C": "Quảng Ninh",
+      "D": "Thanh Hóa"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hồ nước ngọt lớn nhất thế giới theo diện tích mặt nước là?",
+    "options": {
+      "A": "Hồ Huron",
+      "B": "Hồ Superior",
+      "C": "Hồ Baikal",
+      "D": "Hồ Victoria"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sơn nguyên rộng lớn ở Tây Tạng còn gọi là gì?",
+    "options": {
+      "A": "Thảo nguyên xanh",
+      "B": "Nóc nhà thế giới",
+      "C": "Bờ cao Á – Âu",
+      "D": "Bình nguyên vàng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vành đai núi lửa Thái Bình Dương còn gọi là?",
+    "options": {
+      "A": "Vành đai gió",
+      "B": "Vành đai băng",
+      "C": "Vành đai lửa",
+      "D": "Vành đai xanh"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Quốc gia có dân số đông nhất thế giới (2023–2025) là?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Ấn Độ",
+      "C": "Indonesia",
+      "D": "Mỹ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kênh đào nào nối Địa Trung Hải với Biển Đỏ?",
+    "options": {
+      "A": "Kênh Kiel",
+      "B": "Kênh Suez",
+      "C": "Kênh Corinth",
+      "D": "Kênh Panama"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kênh đào Panama nối hai đại dương nào?",
+    "options": {
+      "A": "Ấn Độ Dương và Thái Bình Dương",
+      "B": "Đại Tây Dương và Ấn Độ Dương",
+      "C": "Đại Tây Dương và Thái Bình Dương",
+      "D": "Bắc Băng Dương và Đại Tây Dương"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đỉnh Phanxipăng thuộc dãy núi nào?",
+    "options": {
+      "A": "Himalaya",
+      "B": "Trường Sơn",
+      "C": "Hoàng Liên Sơn",
+      "D": "Anpơ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sông Mekong chảy qua Việt Nam với tên gọi phần hạ lưu là?",
+    "options": {
+      "A": "Tiền – Hậu",
+      "B": "Cửu Long",
+      "C": "Bảy Hạ",
+      "D": "Đồng Nai"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia nào không giáp biển?",
+    "options": {
+      "A": "Thái Lan",
+      "B": "Campuchia",
+      "C": "Lào",
+      "D": "Việt Nam"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đồng bằng châu thổ lớn nhất Việt Nam là?",
+    "options": {
+      "A": "Đồng bằng sông Hồng",
+      "B": "Đồng bằng sông Cửu Long",
+      "C": "Đồng bằng ven biển Trung Bộ",
+      "D": "Đồng bằng Quảng Nam"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đới khí hậu nào có đặc trưng nóng ẩm, mưa theo mùa ở Việt Nam?",
+    "options": {
+      "A": "Ôn đới hải dương",
+      "B": "Nhiệt đới gió mùa",
+      "C": "Hoang mạc cận chí tuyến",
+      "D": "Cận nhiệt lục địa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sông nào chảy qua nhiều quốc gia nhất thế giới?",
+    "options": {
+      "A": "Sông Rhine",
+      "B": "Sông Mekong",
+      "C": "Sông Danube",
+      "D": "Sông Nile"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Quốc gia có diện tích lớn nhất thế giới là?",
+    "options": {
+      "A": "Canada",
+      "B": "Nga",
+      "C": "Mỹ",
+      "D": "Trung Quốc"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cape of Good Hope nằm ở quốc gia nào?",
+    "options": {
+      "A": "Morocco",
+      "B": "Nigeria",
+      "C": "Kenya",
+      "D": "Nam Phi"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Dãy núi dài nhất thế giới là?",
+    "options": {
+      "A": "Himalaya",
+      "B": "Andes",
+      "C": "Rocky",
+      "D": "Anpơ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Biển nào có độ mặn cao nổi tiếng khiến người bơi dễ nổi?",
+    "options": {
+      "A": "Biển Đỏ",
+      "B": "Biển Chết",
+      "C": "Biển Baltic",
+      "D": "Biển Đen"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của Canada là?",
+    "options": {
+      "A": "Montreal",
+      "B": "Toronto",
+      "C": "Ottawa",
+      "D": "Vancouver"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thủ đô của Brazil là?",
+    "options": {
+      "A": "São Paulo",
+      "B": "Brasília",
+      "C": "Salvador",
+      "D": "Rio de Janeiro"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sông Amazon đổ ra đại dương nào?",
+    "options": {
+      "A": "Ấn Độ Dương",
+      "B": "Đại Tây Dương",
+      "C": "Thái Bình Dương",
+      "D": "Bắc Băng Dương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vùng đồng bằng lớn nhất thế giới theo diện tích là?",
+    "options": {
+      "A": "Đồng bằng Amazon",
+      "B": "Đồng bằng Hoa Bắc",
+      "C": "Đồng bằng Tây Siberia",
+      "D": "Đồng bằng Ấn Hằng"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Quốc gia có nhiều hồ tự nhiên nhất thế giới là?",
+    "options": {
+      "A": "Nga",
+      "B": "Mỹ",
+      "C": "Phần Lan",
+      "D": "Canada"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Dòng biển nóng Gulf Stream ảnh hưởng chính tới khu vực nào?",
+    "options": {
+      "A": "Nam Mỹ",
+      "B": "Tây Âu",
+      "C": "Đông Canada",
+      "D": "Tây Phi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đới khí hậu nào có mùa đông lạnh khắc nghiệt và mùa hè ngắn?",
+    "options": {
+      "A": "Cận xích đạo",
+      "B": "Ôn đới lục địa (cực cận)",
+      "C": "Địa Trung Hải",
+      "D": "Nhiệt đới ẩm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vịnh nào lớn nhất thế giới theo diện tích?",
+    "options": {
+      "A": "Vịnh Hudson",
+      "B": "Vịnh Bengal",
+      "C": "Vịnh Ba Tư",
+      "D": "Vịnh Mexico"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia nào có đường bờ biển dài nhất thế giới?",
+    "options": {
+      "A": "Indonesia",
+      "B": "Canada",
+      "C": "Nga",
+      "D": "Australia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Biển Caribe thuộc đại dương nào?",
+    "options": {
+      "A": "Thái Bình Dương",
+      "B": "Đại Tây Dương",
+      "C": "Ấn Độ Dương",
+      "D": "Bắc Băng Dương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thung lũng Rift Lớn trải dài qua châu lục nào?",
+    "options": {
+      "A": "Châu Á",
+      "B": "Châu Phi",
+      "C": "Châu Âu",
+      "D": "Châu Đại Dương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sa mạc Atacama khô hạn nhất thế giới nằm ở nước nào là chủ yếu?",
+    "options": {
+      "A": "Peru",
+      "B": "Chile",
+      "C": "Argentina",
+      "D": "Bolivia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của Thụy Sĩ là?",
+    "options": {
+      "A": "Zurich",
+      "B": "Bern",
+      "C": "Geneva",
+      "D": "Basel"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của New Zealand là?",
+    "options": {
+      "A": "Christchurch",
+      "B": "Dunedin",
+      "C": "Auckland",
+      "D": "Wellington"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Quốc gia duy nhất nằm trên cả hai châu lục châu Âu và châu Á (phần lớn lãnh thổ) là?",
+    "options": {
+      "A": "Thổ Nhĩ Kỳ",
+      "B": "Kazakhstan",
+      "C": "Nga",
+      "D": "Azerbaijan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sông Thames chảy qua thủ đô nào?",
+    "options": {
+      "A": "Paris",
+      "B": "London",
+      "C": "Roma",
+      "D": "Berlin"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Dãy núi Ural là ranh giới tự nhiên giữa hai châu lục nào?",
+    "options": {
+      "A": "Châu Á và châu Phi",
+      "B": "Châu Âu và châu Á",
+      "C": "Châu Âu và châu Phi",
+      "D": "Châu Mỹ và châu Âu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia có nhiều đảo nhất thế giới (tính theo số lượng đảo) là?",
+    "options": {
+      "A": "Indonesia",
+      "B": "Na Uy",
+      "C": "Thụy Điển",
+      "D": "Philippines"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thủ đô của Ả Rập Xê Út là?",
+    "options": {
+      "A": "Jeddah",
+      "B": "Medina",
+      "C": "Riyadh",
+      "D": "Mecca"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vùng đồng bằng sông Hồng có khí hậu gì đặc trưng?",
+    "options": {
+      "A": "Ôn đới hải dương",
+      "B": "Bán khô hạn",
+      "C": "Cận nhiệt đới ẩm gió mùa",
+      "D": "Địa Trung Hải"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dòng biển lạnh Humboldt ảnh hưởng đến bờ biển nước nào chủ yếu?",
+    "options": {
+      "A": "Ecuador phía bắc",
+      "B": "Chile phía nam",
+      "C": "Brazil",
+      "D": "Peru"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hồ sâu nhất thế giới là?",
+    "options": {
+      "A": "Hồ Tanganyika",
+      "B": "Hồ Titicaca",
+      "C": "Hồ Baikal",
+      "D": "Hồ Superior"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bồn địa Amazon nằm chủ yếu ở quốc gia nào?",
+    "options": {
+      "A": "Peru",
+      "B": "Brazil",
+      "C": "Colombia",
+      "D": "Venezuela"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đồng bằng sông Nin chủ yếu nằm ở quốc gia nào?",
+    "options": {
+      "A": "Sudan",
+      "B": "Ai Cập",
+      "C": "Ethiopia",
+      "D": "Eritrea"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia nào có địa hình phần lớn là cao nguyên Deccan?",
+    "options": {
+      "A": "Bangladesh",
+      "B": "Pakistan",
+      "C": "Ấn Độ",
+      "D": "Sri Lanka"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dãy Andes chạy dọc theo bờ biển phía tây của lục địa nào?",
+    "options": {
+      "A": "Bắc Mỹ",
+      "B": "Châu Á",
+      "C": "Nam Mỹ",
+      "D": "Châu Phi"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hoang mạc Sahara trải dài chủ yếu ở khu vực nào của châu Phi?",
+    "options": {
+      "A": "Đông Phi",
+      "B": "Bắc Phi",
+      "C": "Tây Phi",
+      "D": "Nam Phi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của Thái Lan là?",
+    "options": {
+      "A": "Phuket",
+      "B": "Pattaya",
+      "C": "Bangkok",
+      "D": "Chiang Mai"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thủ đô của Malaysia là?",
+    "options": {
+      "A": "Putrajaya",
+      "B": "Kuala Lumpur",
+      "C": "Johor Bahru",
+      "D": "George Town"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vịnh Ba Tư nằm giữa Bán đảo Ả Rập và khu vực nào?",
+    "options": {
+      "A": "Pakistan",
+      "B": "Iran",
+      "C": "Iraq",
+      "D": "Kuwait"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đảo lớn nhất thế giới (không tính lục địa) là?",
+    "options": {
+      "A": "New Guinea",
+      "B": "Greenland",
+      "C": "Madagascar",
+      "D": "Borneo"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ tọa độ địa lý sử dụng hai đại lượng nào?",
+    "options": {
+      "A": "Khoảng cách và hướng",
+      "B": "Độ cao và độ sâu",
+      "C": "Vĩ độ và kinh độ",
+      "D": "Tốc độ và thời gian"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Phép chiếu bản đồ giữ đúng góc (conformal) kinh điển là?",
+    "options": {
+      "A": "Gall–Peters",
+      "B": "Goode",
+      "C": "Mercator",
+      "D": "Mollweide"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đường Quốc lộ 1A ở Việt Nam nối hai điểm cực nào chủ yếu?",
+    "options": {
+      "A": "Hà Nội – TP.HCM",
+      "B": "Lạng Sơn – Cà Mau",
+      "C": "Đà Nẵng – Cần Thơ",
+      "D": "Lào Cai – Móng Cái"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cảng biển tự nhiên lớn của Việt Nam nằm ở thành phố nào sau đây?",
+    "options": {
+      "A": "Nha Trang",
+      "B": "Hải Phòng",
+      "C": "Quy Nhơn",
+      "D": "Đà Nẵng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đới khí hậu Địa Trung Hải có đặc điểm mưa vào mùa nào?",
+    "options": {
+      "A": "Ít mưa quanh năm",
+      "B": "Mùa đông",
+      "C": "Mùa hè",
+      "D": "Quanh năm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khu vực đồng bằng châu thổ sông Hồng có đất phù sa chủ yếu từ sông nào?",
+    "options": {
+      "A": "Sông Đà",
+      "B": "Sông Hồng và sông Thái Bình",
+      "C": "Sông Lô",
+      "D": "Sông Cầu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Dải hội tụ nhiệt đới (ITCZ) ảnh hưởng mạnh đến hiện tượng nào ở Việt Nam?",
+    "options": {
+      "A": "Mưa mùa hạ",
+      "B": "Sương muối",
+      "C": "Bão cát",
+      "D": "Băng giá quanh năm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thủ đô của Ai Cập là?",
+    "options": {
+      "A": "Luxor",
+      "B": "Alexandria",
+      "C": "Cairo",
+      "D": "Giza"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thành phố nào của Trung Quốc nằm gần châu thổ Châu Giang và là trung tâm tài chính lớn?",
+    "options": {
+      "A": "Quảng Châu",
+      "B": "Hồng Kông",
+      "C": "Phật Sơn",
+      "D": "Thâm Quyến"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bờ biển nào của Nam Mỹ có hiện tượng El Niño rõ rệt?",
+    "options": {
+      "A": "Bờ biển Peru–Ecuador",
+      "B": "Bờ biển Brazil",
+      "C": "Bờ biển Argentina",
+      "D": "Bờ biển Chile phía nam"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Núi lửa Mauna Loa nằm ở đâu?",
+    "options": {
+      "A": "Indonesia",
+      "B": "Hawaii (Mỹ)",
+      "C": "Iceland",
+      "D": "Philippines"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bang có diện tích lớn nhất Hoa Kỳ là?",
+    "options": {
+      "A": "Texas",
+      "B": "Montana",
+      "C": "Alaska",
+      "D": "California"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Biển nội địa lớn và có độ mặn cao nằm giữa châu Âu và châu Á là?",
+    "options": {
+      "A": "Biển Azov",
+      "B": "Biển Baltic",
+      "C": "Biển Caspi",
+      "D": "Biển Đen"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thủ đô của Ethiopia là?",
+    "options": {
+      "A": "Kampala",
+      "B": "Addis Ababa",
+      "C": "Asmara",
+      "D": "Nairobi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia nào là quần đảo ở Nam Thái Bình Dương và có thủ đô Suva?",
+    "options": {
+      "A": "Vanuatu",
+      "B": "Tonga",
+      "C": "Fiji",
+      "D": "Samoa"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bán đảo Scandinavia gồm những quốc gia nào chủ yếu?",
+    "options": {
+      "A": "Na Uy và Thụy Điển",
+      "B": "Thụy Điển và Phần Lan",
+      "C": "Đan Mạch và Phần Lan",
+      "D": "Na Uy và Đan Mạch"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sông Hằng (Ganges) có ý nghĩa tôn giáo lớn ở quốc gia nào?",
+    "options": {
+      "A": "Ấn Độ",
+      "B": "Bangladesh",
+      "C": "Nepal",
+      "D": "Bhutan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thủ đô của Argentina là?",
+    "options": {
+      "A": "Mendoza",
+      "B": "Córdoba",
+      "C": "Buenos Aires",
+      "D": "Rosario"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dãy núi Alps trải qua quốc gia nào có đỉnh Mont Blanc?",
+    "options": {
+      "A": "Áo",
+      "B": "Pháp (giáp Ý)",
+      "C": "Thụy Sĩ",
+      "D": "Đức"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô của Na Uy là?",
+    "options": {
+      "A": "Oslo",
+      "B": "Trondheim",
+      "C": "Stavanger",
+      "D": "Bergen"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sông Dương Tử (Yangtze) đổ ra biển nào?",
+    "options": {
+      "A": "Biển Hoàng Hải",
+      "B": "Biển Hoa Đông",
+      "C": "Biển Đông",
+      "D": "Thái Bình Dương trực tiếp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Biển nào là biển kín, thông ra Đại Tây Dương qua eo Gibraltar?",
+    "options": {
+      "A": "Biển Bắc",
+      "B": "Địa Trung Hải",
+      "C": "Biển Đen",
+      "D": "Biển Baltic"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khu vực đồng bằng châu thổ lớn của Bangladesh và Ấn Độ là?",
+    "options": {
+      "A": "Đồng bằng sông Hằng – Brahmaputra",
+      "B": "Đồng bằng Deccan",
+      "C": "Đồng bằng Ấn Hằng",
+      "D": "Đồng bằng Gujarat"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nước nào có thủ đô tên là Ulaanbaatar?",
+    "options": {
+      "A": "Kazakhstan",
+      "B": "Mông Cổ",
+      "C": "Kyrgyzstan",
+      "D": "Uzbekistan"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quốc gia duy nhất ở Nam Á không giáp đất liền với Ấn Độ là?",
+    "options": {
+      "A": "Bhutan",
+      "B": "Nepal",
+      "C": "Bangladesh",
+      "D": "Pakistan (giáp), Nepal (giáp), Bhutan (giáp), Bangladesh (giáp), Sri Lanka (không giáp)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vịnh Carpentaria nằm ở bờ nào của Australia?",
+    "options": {
+      "A": "Bờ tây",
+      "B": "Bờ bắc",
+      "C": "Bờ đông",
+      "D": "Bờ nam"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đảo Java thuộc quốc gia nào?",
+    "options": {
+      "A": "Brunei",
+      "B": "Malaysia",
+      "C": "Indonesia",
+      "D": "Philippines"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sông Rhine chảy qua quốc gia nào có thành phố Cologne?",
+    "options": {
+      "A": "Đức",
+      "B": "Thụy Sĩ",
+      "C": "Pháp",
+      "D": "Hà Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Núi Kilimanjaro nằm ở nước nào?",
+    "options": {
+      "A": "Ethiopia",
+      "B": "Tanzania",
+      "C": "Uganda",
+      "D": "Kenya"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đảo Madagascar nằm ở đại dương nào?",
+    "options": {
+      "A": "Ấn Độ Dương",
+      "B": "Đại Tây Dương",
+      "C": "Bắc Băng Dương",
+      "D": "Thái Bình Dương"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quốc gia nào có thủ đô là Ankara?",
+    "options": {
+      "A": "Romania",
+      "B": "Hy Lạp",
+      "C": "Thổ Nhĩ Kỳ",
+      "D": "Bulgaria"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đồng bằng sông Châu Giang thuộc quốc gia nào?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Việt Nam",
+      "C": "Myanmar",
+      "D": "Thái Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Biển Andaman thuộc khu vực nào?",
+    "options": {
+      "A": "Nam Đại Tây Dương",
+      "B": "Đông Bắc Ấn Độ Dương",
+      "C": "Tây Thái Bình Dương",
+      "D": "Bắc Ấn Độ Dương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chí tuyến Bắc có vĩ độ xấp xỉ là bao nhiêu?",
+    "options": {
+      "A": "0°",
+      "B": "66,5°B",
+      "C": "23,5°B",
+      "D": "23,5°N"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vòng Cực Bắc có vĩ độ xấp xỉ là?",
+    "options": {
+      "A": "23,5°B",
+      "B": "66,5°N",
+      "C": "66,5°B",
+      "D": "90°B"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hệ thống sông ngòi dày đặc nhất Việt Nam tập trung ở vùng nào?",
+    "options": {
+      "A": "Duyên hải Nam Trung Bộ",
+      "B": "Bắc Bộ và Nam Bộ",
+      "C": "Tây Nguyên",
+      "D": "Đông Nam Bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bắc Băng Dương là đại dương nhỏ nhất nhưng đặc điểm nổi bật là?",
+    "options": {
+      "A": "Sâu nhất",
+      "B": "Độ mặn cao nhất",
+      "C": "Nhiệt độ ấm quanh năm",
+      "D": "Diện tích nhỏ, băng phủ rộng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vịnh San Francisco mở ra đại dương nào?",
+    "options": {
+      "A": "Thái Bình Dương",
+      "B": "Đại Tây Dương",
+      "C": "Bắc Băng Dương",
+      "D": "Ấn Độ Dương"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Biên giới tự nhiên giữa Pháp và Tây Ban Nha là dãy núi nào?",
+    "options": {
+      "A": "Pyrenees",
+      "B": "Alps",
+      "C": "Carpathians",
+      "D": "Apennines"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sông Danube chảy ra biển nào?",
+    "options": {
+      "A": "Biển Baltic",
+      "B": "Biển Bắc",
+      "C": "Biển Đen",
+      "D": "Địa Trung Hải"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đảo Borneo thuộc ba quốc gia nào?",
+    "options": {
+      "A": "Indonesia, Malaysia, Brunei",
+      "B": "Indonesia, Philippines, Brunei",
+      "C": "Malaysia, Brunei, Singapore",
+      "D": "Indonesia, Singapore, Malaysia"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Núi lửa nổi tiếng Krakatoa nằm giữa hai đảo nào?",
+    "options": {
+      "A": "Java và Sumatra",
+      "B": "Bali và Lombok",
+      "C": "Sulawesi và Borneo",
+      "D": "Timor và Flores"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố nào nằm trên hai lục địa châu Âu – châu Á?",
+    "options": {
+      "A": "Istanbul",
+      "B": "Moscow",
+      "C": "Athens",
+      "D": "Tbilisi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bồn địa Congo nằm ở châu lục nào?",
+    "options": {
+      "A": "Châu Á",
+      "B": "Châu Âu",
+      "C": "Châu Phi",
+      "D": "Châu Mỹ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hồ Titicaca nằm giữa hai quốc gia nào?",
+    "options": {
+      "A": "Peru và Bolivia",
+      "B": "Chile và Argentina",
+      "C": "Colombia và Venezuela",
+      "D": "Ecuador và Peru"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bờ biển 'Ngà Vàng' (Golden Coast) lịch sử thuộc khu vực nào hiện nay?",
+    "options": {
+      "A": "Ghana",
+      "B": "Nigeria",
+      "C": "Bờ Biển Ngà",
+      "D": "Benin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố Cape Town nằm ở quốc gia nào?",
+    "options": {
+      "A": "Nam Phi",
+      "B": "Namibia",
+      "C": "Botswana",
+      "D": "Zimbabwe"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khu vực Tây Nguyên Việt Nam có nền địa hình chủ yếu là?",
+    "options": {
+      "A": "Cao nguyên bazan",
+      "B": "Đồng bằng phù sa",
+      "C": "Đồi bát úp",
+      "D": "Địa hình cồn cát"
+    },
+    "answer": "A"
+  }
+]

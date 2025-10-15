@@ -14,6 +14,7 @@ namespace WpfApp1
     // ===== CLASS MÔ TẢ LỰA CHỌN =====
     public class LuaChon
     {
+        /*Use this to matching with json file on firebase */
         [JsonProperty("A")]
         public string A { get; set; } = string.Empty;
 
@@ -154,14 +155,10 @@ namespace WpfApp1
             timeLeft = 30;
             txtTimer.Text = timeLeft.ToString();
 
-            // Enable các nút
+            // Enable tất cả các nút (bao gồm cả nút bị disable từ 50:50)
             EnableAllButtons();
 
-            // Khôi phục các đáp án đã bị ẩn (nếu có)
-            foreach (var answer in removedAnswers)
-            {
-                GetButtonByAnswer(answer).Visibility = Visibility.Visible;
-            }
+            // Xóa danh sách đáp án đã loại
             removedAnswers.Clear();
         }
 
@@ -272,14 +269,17 @@ namespace WpfApp1
             List<string> wrongAnswers = new List<string> { "A", "B", "C", "D" };
             wrongAnswers.Remove(correctAnswer);
 
-            // Chọn ngẫu nhiên 2 đáp án sai để ẩn
+            // Chọn ngẫu nhiên 2 đáp án sai để đổi màu đỏ
             Random random = new Random();
             for (int i = 0; i < 2; i++)
             {
                 int index = random.Next(wrongAnswers.Count);
                 string answerToRemove = wrongAnswers[index];
 
-                GetButtonByAnswer(answerToRemove).Visibility = Visibility.Collapsed;
+                // Đổi màu đỏ và disable nút
+                Button btn = GetButtonByAnswer(answerToRemove);
+                btn.Background = new SolidColorBrush(Colors.Red);
+                btn.IsEnabled = false;
                 removedAnswers.Add(answerToRemove);
 
                 wrongAnswers.RemoveAt(index);

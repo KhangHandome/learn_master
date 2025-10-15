@@ -1,0 +1,1092 @@
+[
+  {
+    "question": "Lực lượng nào thường đảm nhiệm tác chiến trên bộ?",
+    "options": {
+      "A": "Cảnh sát biển",
+      "B": "Không quân",
+      "C": "Hải quân",
+      "D": "Lục quân"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Lực lượng nào chịu trách nhiệm tác chiến trên không?",
+    "options": {
+      "A": "Lục quân",
+      "B": "Không quân",
+      "C": "Biên phòng",
+      "D": "Hải quân"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tác chiến trên biển thuộc nhiệm vụ chính của lực lượng nào?",
+    "options": {
+      "A": "Phòng không",
+      "B": "Không quân",
+      "C": "Lục quân",
+      "D": "Hải quân"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Viết tắt 'UAV' thường chỉ phương tiện gì?",
+    "options": {
+      "A": "Tàu ngầm",
+      "B": "Hỏa tiễn tầm xa",
+      "C": "Máy bay không người lái",
+      "D": "Xe bọc thép"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thuật ngữ 'ROE' trong quân sự là viết tắt của?",
+    "options": {
+      "A": "Rate of Effect",
+      "B": "Rules of Engagement",
+      "C": "Range of Enemy",
+      "D": "Route of Escape"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thiết bị phát hiện mục tiêu bằng sóng vô tuyến gọi là?",
+    "options": {
+      "A": "Sonar",
+      "B": "Lidar",
+      "C": "Radar",
+      "D": "Infrared sensor"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thiết bị phát hiện dưới nước bằng sóng âm gọi là?",
+    "options": {
+      "A": "Lidar",
+      "B": "Sonar",
+      "C": "Radar",
+      "D": "Laser rangefinder"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Mục đích chính của ngụy trang (camouflage) là?",
+    "options": {
+      "A": "Tăng tốc độ di chuyển",
+      "B": "Tăng hỏa lực",
+      "C": "Giảm trọng lượng trang bị",
+      "D": "Giảm khả năng bị phát hiện"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Cỡ đơn vị nhỏ thường gồm 9–13 quân nhân gọi là?",
+    "options": {
+      "A": "Trung đội",
+      "B": "Tiểu đội",
+      "C": "Tiểu đoàn",
+      "D": "Đại đội"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đơn vị gồm nhiều đại đội hợp thành là?",
+    "options": {
+      "A": "Trung đội",
+      "B": "Sư đoàn",
+      "C": "Lữ đoàn",
+      "D": "Tiểu đoàn"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đơn vị cấp chiến dịch thường gồm nhiều trung đoàn/lữ đoàn là?",
+    "options": {
+      "A": "Trung đội",
+      "B": "Đại đội",
+      "C": "Sư đoàn",
+      "D": "Tiểu đoàn"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Từ viết tắt 'AO' trong quân sự thường chỉ?",
+    "options": {
+      "A": "Armor Organization",
+      "B": "Area of Operations (khu vực tác chiến)",
+      "C": "Airborne Operation",
+      "D": "Aviation Office"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vai trò chính của công binh trong tác chiến là?",
+    "options": {
+      "A": "Điều khiển máy bay",
+      "B": "Chỉ huy bắn pháo",
+      "C": "Bảo đảm vượt chướng ngại, xây dựng – phá dỡ",
+      "D": "Tìm kiếm cứu nạn trên biển"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Phòng không – không quân có nhiệm vụ chủ đạo là?",
+    "options": {
+      "A": "Tác chiến du kích",
+      "B": "Đổ bộ đường biển",
+      "C": "Bảo đảm hậu cần",
+      "D": "Bảo vệ bầu trời, chế áp trên không"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tổ chức quân sự liên minh Bắc Đại Tây Dương viết tắt là?",
+    "options": {
+      "A": "NATO",
+      "B": "ASEAN",
+      "C": "AU",
+      "D": "EU"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Điều khoản phòng thủ tập thể nổi tiếng của NATO là?",
+    "options": {
+      "A": "Điều 5",
+      "B": "Điều 10",
+      "C": "Điều 3",
+      "D": "Điều 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiệp ước quy định đối xử tù binh, thương binh thuộc hệ thống?",
+    "options": {
+      "A": "Hiệp ước Versailles",
+      "B": "Công ước Geneva",
+      "C": "Hiệp định Paris",
+      "D": "Hiến chương Liên Hợp Quốc"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khái niệm 'logistics quân sự' chủ yếu liên quan đến?",
+    "options": {
+      "A": "Tổ chức nghi lễ",
+      "B": "Huấn luyện chiến thuật",
+      "C": "Tuyển quân",
+      "D": "Bảo đảm tiếp tế, vận tải, bảo dưỡng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hệ vũ khí 'phòng thủ chủ động' trên xe tăng nhằm?",
+    "options": {
+      "A": "Tăng tốc độ tối đa",
+      "B": "Ngụy trang tàng hình hoàn toàn",
+      "C": "Phát hiện – đánh chặn đạn đến gần",
+      "D": "Giảm tiêu hao nhiên liệu"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tàu ngầm diesel-điện khác tàu ngầm hạt nhân chủ yếu ở?",
+    "options": {
+      "A": "Cỡ ngư lôi",
+      "B": "Nguồn năng lượng và thời gian hoạt động dưới nước",
+      "C": "Màu sơn",
+      "D": "Số lượng thủy thủ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pháo binh đảm nhiệm nhiệm vụ hỏa lực gì?",
+    "options": {
+      "A": "Không chiến tầm gần",
+      "B": "Hỏa lực gián tiếp tầm xa",
+      "C": "Tác chiến điện tử",
+      "D": "Đổ bộ đường không"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tên lửa đất đối không (SAM) dùng để?",
+    "options": {
+      "A": "Tấn công tàu ngầm",
+      "B": "Đánh pháo binh đối phương",
+      "C": "Đổ bộ bờ biển",
+      "D": "Tiêu diệt mục tiêu trên không"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'C4ISR' bao gồm chỉ huy, kiểm soát, truyền thông, máy tính và?",
+    "options": {
+      "A": "Công binh, hậu cần",
+      "B": "Cứu hộ, cứu nạn",
+      "C": "Hóa học, sinh học",
+      "D": "Tình báo, giám sát, trinh sát"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tác chiến điện tử (EW) KHÔNG bao gồm hoạt động nào sau đây?",
+    "options": {
+      "A": "Bảo vệ điện tử",
+      "B": "Huấn luyện thể lực",
+      "C": "Chế áp điện tử",
+      "D": "Hỗ trợ điện tử"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thiết bị nhìn đêm (NVG) hỗ trợ quan sát bằng cách khuếch đại?",
+    "options": {
+      "A": "Ánh sáng yếu",
+      "B": "Sóng vô tuyến",
+      "C": "Âm thanh",
+      "D": "Từ trường"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trực thăng tấn công khác trực thăng vận tải chủ yếu ở?",
+    "options": {
+      "A": "Vũ trang hỏa lực và vai trò tác chiến",
+      "B": "Số cửa sổ",
+      "C": "Kiểu càng đáp",
+      "D": "Màu sơn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khẩu hiệu 'Không để ai bị bỏ lại phía sau' phản ánh nguyên tắc gì?",
+    "options": {
+      "A": "Giữ bí mật",
+      "B": "Tiết kiệm đạn dược",
+      "C": "Tăng tốc tiến công",
+      "D": "Cứu hộ – thu hồi thương binh, tử sĩ"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chiến thuật 'đánh – nhanh – rút – gọn' gần với hình thức nào?",
+    "options": {
+      "A": "Bao vây lâu dài",
+      "B": "Phòng ngự chiều sâu",
+      "C": "Tiến công chính quy",
+      "D": "Tập kích/Đột kích"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chiến tranh nhân dân của Việt Nam nhấn mạnh điều gì?",
+    "options": {
+      "A": "Chỉ không quân quyết định",
+      "B": "Chỉ tác chiến hải quân",
+      "C": "Chỉ dựa vào viện trợ",
+      "D": "Toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'phi đối xứng' trong chiến tranh nói về?",
+    "options": {
+      "A": "Chỉ dùng hải chiến",
+      "B": "Số lượng binh sĩ bằng nhau",
+      "C": "Khác biệt lớn về năng lực/chiến thuật giữa hai bên",
+      "D": "Đối đầu một – một"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vũ khí 'phi sát thương' ưu tiên mục tiêu nào?",
+    "options": {
+      "A": "Tăng sát thương nặng",
+      "B": "Phá hủy hạ tầng",
+      "C": "Đánh chìm tàu",
+      "D": "Vô hiệu hóa tạm thời thay vì gây tử vong"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tổ hợp phòng không tầm thấp thường dùng để chống?",
+    "options": {
+      "A": "Tàu ngầm",
+      "B": "Xe tăng nặng",
+      "C": "Vệ tinh",
+      "D": "Máy bay bay thấp/UAV"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'tối ưu hóa chuỗi cung ứng' trong hậu cần nhằm?",
+    "options": {
+      "A": "Tăng số lần vận chuyển",
+      "B": "Cắt toàn bộ dự trữ",
+      "C": "Đảm bảo đúng – đủ – kịp thời – hiệu quả",
+      "D": "Giảm quân số chiến đấu"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cấp cứu chiến thuật TCCC ưu tiên trước tiên là?",
+    "options": {
+      "A": "Bù dịch đường uống",
+      "B": "Chạy bộ về trạm",
+      "C": "Chụp X-quang",
+      "D": "Cầm máu đe dọa tính mạng (MARCH-C)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'chỉ huy – kiểm soát nhiệm vụ' (mission command) nhấn mạnh?",
+    "options": {
+      "A": "Tập trung hóa tối đa",
+      "B": "Trao quyền, ý định chỉ huy, chủ động cấp dưới",
+      "C": "Loại bỏ thông tin phản hồi",
+      "D": "Mệnh lệnh chi tiết ràng buộc"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nguyên tắc cơ bản của tác chiến hợp đồng quân binh chủng là?",
+    "options": {
+      "A": "Chỉ dùng một lực lượng chủ công",
+      "B": "Tách rời các mũi tiến công",
+      "C": "Tránh dùng thông tin liên lạc",
+      "D": "Phối hợp nhịp nhàng nhiều lực lượng theo mục tiêu chung"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mục tiêu của trinh sát là?",
+    "options": {
+      "A": "Huấn luyện võ thuật",
+      "B": "Bảo dưỡng khí tài",
+      "C": "Thu thập thông tin địch – địa hình – thời tiết",
+      "D": "Tổ chức y tế"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Giải pháp 'hỏa lực – cơ động – bảo vệ' là bộ ba năng lực của?",
+    "options": {
+      "A": "Pháo binh",
+      "B": "Đặc công nước",
+      "C": "Lực lượng thiết giáp",
+      "D": "Phòng không"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Nhiệm vụ chủ yếu của lực lượng đặc nhiệm/đặc công là?",
+    "options": {
+      "A": "Tuần tra giao thông",
+      "B": "Đào tạo phi công",
+      "C": "Nhiệm vụ khó, bí mật, mục tiêu giá trị cao",
+      "D": "Duy trì hậu cần"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khái niệm 'chỉ thị mục tiêu' (targeting) bao gồm?",
+    "options": {
+      "A": "Huấn luyện thể lực",
+      "B": "Xác định, ưu tiên, phân bổ hỏa lực lên mục tiêu",
+      "C": "Tổ chức nghỉ ngơi",
+      "D": "Bảo hộ công nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tác chiến đô thị đòi hỏi điều gì nổi bật?",
+    "options": {
+      "A": "Kỹ năng cận chiến, phân đội nhỏ, phối hợp hỏa lực",
+      "B": "Lặn nước sâu",
+      "C": "Bay tiêm kích siêu âm",
+      "D": "Hải trình dài ngày"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vũ khí dẫn đường GPS/INS có ưu điểm là?",
+    "options": {
+      "A": "Không cần dữ liệu mục tiêu",
+      "B": "Chỉ hoạt động ban ngày",
+      "C": "Chỉ tầm nhìn thẳng",
+      "D": "Độ chính xác cao trong mọi thời tiết (khi tín hiệu bảo toàn)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tàu sân bay có vai trò gì trong hải quân hiện đại?",
+    "options": {
+      "A": "Nền tảng không quân cơ động trên biển",
+      "B": "Trạm thời tiết",
+      "C": "Kho nhiên liệu nổi",
+      "D": "Tàu chở hàng dân sự"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Lực lượng 'thủy quân lục chiến' có nhiệm vụ chính là?",
+    "options": {
+      "A": "Phòng thủ tên lửa đạn đạo",
+      "B": "Trực chiến pháo binh tầm xa",
+      "C": "Bảo vệ không phận",
+      "D": "Đổ bộ đường biển và tác chiến bờ biển"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tên lửa chống hạm (ASM) được thiết kế chủ yếu để đánh trúng?",
+    "options": {
+      "A": "Tàu chiến/mục tiêu trên biển",
+      "B": "Vệ tinh quỹ đạo thấp",
+      "C": "Mục tiêu ngầm",
+      "D": "Mục tiêu hầm ngầm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hệ thống phòng thủ tên lửa tầm trung làm nhiệm vụ?",
+    "options": {
+      "A": "Phát hiện – đánh chặn tên lửa đang bay",
+      "B": "Tìm lặn tàu ngầm",
+      "C": "Chống máy bay ném bom chiến lược duy nhất",
+      "D": "Đổ bộ đường không"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mục tiêu của 'tác chiến thông tin' là?",
+    "options": {
+      "A": "Ảnh hưởng, bảo vệ và khai thác môi trường thông tin",
+      "B": "Giảm tiêu hao đạn pháo",
+      "C": "Nâng cấp động cơ phản lực",
+      "D": "Tăng tốc cơ động cơ giới"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chiến thuật 'phòng ngự chiều sâu' đặc trưng bởi?",
+    "options": {
+      "A": "Một tuyến mỏng kéo dài",
+      "B": "Nhiều tuyến, chướng ngại – hỏa lực lớp lớp",
+      "C": "Chỉ dựa vào hỏa lực không quân",
+      "D": "Chỉ tác chiến ban đêm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tiêm kích chiếm ưu thế trên không có nhiệm vụ chính là?",
+    "options": {
+      "A": "Tác chiến chống ngầm",
+      "B": "Giành/quản lý quyền kiểm soát bầu trời",
+      "C": "Vận tải hàng nặng",
+      "D": "Cứu hộ đường biển"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "OODA loop (Boyd) gồm các bước: Observe – Orient – Decide – Act nhằm?",
+    "options": {
+      "A": "Giảm tiêu hao nhiên liệu",
+      "B": "Ra quyết định nhanh, vượt vòng lặp đối phương",
+      "C": "Tăng tầm radar",
+      "D": "Tối ưu hậu cần"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khái niệm 'sức mạnh răn đe' (deterrence) dựa trên?",
+    "options": {
+      "A": "Khả năng gây thiệt hại không chấp nhận được nếu bị tấn công",
+      "B": "Tắt mọi hệ thống vũ khí",
+      "C": "Ẩn mình hoàn toàn",
+      "D": "Không tuyên bố năng lực"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pháo phản lực đa nòng (MLRS) nổi bật ở điểm nào?",
+    "options": {
+      "A": "Hỏa lực diện rộng, áp chế nhanh",
+      "B": "Độ chính xác tuyệt đối trên mục tiêu điểm",
+      "C": "Chỉ dùng phòng không",
+      "D": "Tàng hình tối đa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kíp chiến đấu xe tăng tối thiểu thường gồm?",
+    "options": {
+      "A": "Hai người: lái + chỉ huy",
+      "B": "Sáu người",
+      "C": "Chỉ huy, lái xe, pháo thủ (và nạp đạn nếu không tự động)",
+      "D": "Một người"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vũ khí 'tấn công chính xác' ưu tiên tiêu diệt?",
+    "options": {
+      "A": "Vùng rộng không xác định",
+      "B": "Đám đông binh lực phân tán",
+      "C": "Mục tiêu dưới lòng đất sâu mọi độ sâu",
+      "D": "Mục tiêu điểm giá trị cao"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khả năng 'tàng hình' (stealth) nhằm giảm?",
+    "options": {
+      "A": "Tải trọng vũ khí",
+      "B": "Tốc độ hành trình",
+      "C": "Diện tích phản xạ radar và tín hiệu bộc lộ",
+      "D": "Tầm bay"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khái niệm 'blue water navy' chỉ hải quân có khả năng?",
+    "options": {
+      "A": "Chỉ vận tải hậu cần",
+      "B": "Tác chiến viễn dương quy mô lớn",
+      "C": "Tuần tra ven bờ ngắn ngày",
+      "D": "Chỉ chống ngư lôi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tác chiến chống ngầm (ASW) sử dụng cảm biến chủ lực nào?",
+    "options": {
+      "A": "Radar thời tiết",
+      "B": "Sonar chủ động/thụ động, phao âm",
+      "C": "Máy đo từ trường đất liền",
+      "D": "Lidar hàng không"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tên lửa đạn đạo bay theo quỹ đạo chủ yếu dựa vào?",
+    "options": {
+      "A": "Cánh nâng liên tục",
+      "B": "Động cơ phản lực hút khí",
+      "C": "Động lực ban đầu và quán tính",
+      "D": "Động cơ xung áp liên tục"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chiến thuật 'đánh chặn ngoài tầm' của tiêm kích dựa vào?",
+    "options": {
+      "A": "Pháo 20mm ở cự ly cực gần",
+      "B": "Bay cực thấp",
+      "C": "Thả pháo sáng",
+      "D": "Tên lửa không đối không tầm xa và cảm biến hợp nhất"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Nguyên tắc 'tập trung ưu thế hỏa lực vào điểm quyết định' là tinh thần của?",
+    "options": {
+      "A": "Tác chiến tập trung – phân tán linh hoạt",
+      "B": "Tách rời các mũi tiến công",
+      "C": "Chia nhỏ hỏa lực tối đa",
+      "D": "Chỉ phòng thủ tĩnh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bảo dưỡng khí tài theo chế độ 'theo điều kiện' (condition-based) nhằm?",
+    "options": {
+      "A": "Thay mới toàn bộ",
+      "B": "Chỉ sửa khi hỏng nặng",
+      "C": "Dự báo hỏng hóc bằng cảm biến/đo đếm để sửa chữa kịp thời",
+      "D": "Không kiểm tra định kỳ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khả năng 'tác chiến liên quân – liên binh chủng' đòi hỏi nền tảng gì?",
+    "options": {
+      "A": "Chỉ dựa vào mệnh lệnh miệng",
+      "B": "Kết nối – liên thông dữ liệu, chuẩn hóa quy trình",
+      "C": "Hủy liên lạc vô tuyến",
+      "D": "Không cần chia sẻ tình huống"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nguyên tắc 'an toàn đạn dược' yêu cầu gì?",
+    "options": {
+      "A": "Tự sửa ngòi nổ",
+      "B": "Quản lý, bảo quản, vận chuyển đúng chuẩn và phân cấp",
+      "C": "Xếp chung với nhiên liệu",
+      "D": "Phơi nắng cho khô"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khái niệm 'tỷ lệ thực binh – thực khí' (readiness) phản ánh?",
+    "options": {
+      "A": "Mức tiêu hao xăng dầu",
+      "B": "Mức sẵn sàng chiến đấu của quân số và trang bị",
+      "C": "Mức độ huấn luyện thể thao",
+      "D": "Mức nghỉ phép"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bản đồ quân sự tỷ lệ lớn (ví dụ 1:25.000) hữu ích nhất cho?",
+    "options": {
+      "A": "Ngoại giao quốc phòng",
+      "B": "Lập kế hoạch chi tiết cấp phân đội/đơn vị nhỏ",
+      "C": "Hậu cần chiến lược",
+      "D": "Chiến lược liên khu vực"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tổ hợp vũ khí 'bù nhìn/trò bịp' dùng để?",
+    "options": {
+      "A": "Tăng tốc thật sự",
+      "B": "Giảm tín hiệu nhiệt thật",
+      "C": "Tăng giáp",
+      "D": "Đánh lừa trinh sát đối phương (decoy)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chỉ số CEP của vũ khí dẫn đường cho biết?",
+    "options": {
+      "A": "Tầm bắn",
+      "B": "Khối lượng nổ",
+      "C": "Tốc độ tối đa",
+      "D": "Bán kính sai số vòng tròn (độ chính xác)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Nguyên tắc 'an ninh tác chiến' (OPSEC) nhằm?",
+    "options": {
+      "A": "Tăng cường bắn thẳng",
+      "B": "Cắt khẩu phần",
+      "C": "Giảm thao trường",
+      "D": "Bảo vệ thông tin nhạy cảm khỏi bị lộ lọt"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Bài học 'hiệp đồng hỏa lực – cơ động – thông tin' rút ra chủ yếu để?",
+    "options": {
+      "A": "Rút ngắn vòng phản ứng và tăng hiệu quả tác chiến",
+      "B": "Chỉ dựa vào pháo binh",
+      "C": "Giảm huấn luyện bắn đạn thật",
+      "D": "Loại bỏ kế hoạch"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tổ đội bắn tỉa thường gồm ít nhất?",
+    "options": {
+      "A": "Xạ thủ và trinh sát/quan sát viên",
+      "B": "Bốn người",
+      "C": "Một người",
+      "D": "Ba người"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kính ngắm với thước đo khoảng cách kiểu MIL dùng đơn vị?",
+    "options": {
+      "A": "Radian duy nhất",
+      "B": "Độ (degree)",
+      "C": "Phút cung (MOA) duy nhất",
+      "D": "Mil (mrad) để ước lượng khoảng cách/độ lệch"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Nhiên liệu phản lực Jet-A/JP có đặc trưng chính là?",
+    "options": {
+      "A": "Là LNG hóa lỏng",
+      "B": "Chưng cất từ dầu mỏ, điểm chớp cháy cao hơn xăng",
+      "C": "Là than bột",
+      "D": "Là cồn tuyệt đối"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đạn đạo ngoài (external ballistics) nghiên cứu gì?",
+    "options": {
+      "A": "Hiệu ứng nổ mục tiêu",
+      "B": "Quỹ đạo đạn trong không khí sau nòng",
+      "C": "Chuyển động đạn trong nòng",
+      "D": "Cấu tạo thuốc phóng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thiết bị 'IRST' trên máy bay tiêm kích dùng để?",
+    "options": {
+      "A": "Điều khiển cánh tà",
+      "B": "Liên lạc vệ tinh",
+      "C": "Tăng lực đẩy",
+      "D": "Phát hiện mục tiêu bằng hồng ngoại thụ động"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tên lửa hành trình khác tên lửa đạn đạo ở?",
+    "options": {
+      "A": "Bay bằng lực nâng/động cơ liên tục ở độ cao thấp–trung",
+      "B": "Bay theo quỹ đạo đạn đạo",
+      "C": "Không có dẫn đường",
+      "D": "Chỉ bắn từ tàu ngầm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khái niệm 'kill chain' mô tả?",
+    "options": {
+      "A": "Chuỗi phục hồi sau chiến tranh",
+      "B": "Chuỗi phát hiện–định vị–theo dõi–đánh giá–tấn công–xác nhận",
+      "C": "Chuỗi tiếp tế",
+      "D": "Chuỗi sản xuất"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Mạng chiến thuật MANET giữa đơn vị nhỏ có ưu điểm gì?",
+    "options": {
+      "A": "Chỉ hoạt động có trạm gốc",
+      "B": "Không chống nhiễu",
+      "C": "Tự tổ chức, không phụ thuộc hạ tầng cố định",
+      "D": "Cần cáp quang"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chuẩn 'NATO STANAG' là gì?",
+    "options": {
+      "A": "Tên một kiểu súng",
+      "B": "Thỏa thuận chuẩn hóa kỹ thuật/liên lạc giữa các thành viên",
+      "C": "Tên một loại tàu",
+      "D": "Chức danh chỉ huy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nguyên tắc 'phân tán – tập trung hỏa lực' trong phòng không nhằm?",
+    "options": {
+      "A": "Tắt toàn bộ radar",
+      "B": "Giảm tổn thất khi bị tập kích, vẫn bảo đảm lưới hỏa lực",
+      "C": "Tập trung toàn bộ vào một điểm",
+      "D": "Chỉ dùng súng bộ binh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tác chiến phi truyền thống (non-traditional) thường bao gồm?",
+    "options": {
+      "A": "Chống khủng bố, cướp biển, cứu trợ thảm họa",
+      "B": "Không chiến siêu âm",
+      "C": "Đấu tăng trận địa",
+      "D": "Đổ bộ quy mô sư đoàn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hệ thống 'BMS' (Battlefield Management System) giúp?",
+    "options": {
+      "A": "Sửa chữa vũ khí cá nhân",
+      "B": "Hàn giáp xe",
+      "C": "Nấu ăn dã chiến",
+      "D": "Chia sẻ tình huống tác chiến thời gian gần thực"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chế độ bay 'fly-by-wire' có nghĩa là?",
+    "options": {
+      "A": "Điều khiển bằng dây thừng",
+      "B": "Bay tự do không điều khiển",
+      "C": "Điều khiển điện tử thay dây cáp cơ khí",
+      "D": "Bay bằng gió tự nhiên"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chiến thuật 'swarming' của UAV là?",
+    "options": {
+      "A": "Một UAV bay đơn lẻ",
+      "B": "Nhiều UAV phối hợp như bầy để áp đảo",
+      "C": "UAV bay vòng tròn chờ lệnh",
+      "D": "UAV chỉ trinh sát tĩnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vũ khí 'smart munition' có khả năng?",
+    "options": {
+      "A": "Tự nhân bản",
+      "B": "Tự biến mất",
+      "C": "Tự dẫn/hiệu chỉnh quỹ đạo đến mục tiêu",
+      "D": "Tự sạc vô hạn"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tên gọi 'AEW&C' mô tả máy bay gì?",
+    "options": {
+      "A": "Chống ngầm",
+      "B": "Tiếp dầu trên không",
+      "C": "Vận tải chiến lược",
+      "D": "Cảnh báo sớm và chỉ huy kiểm soát"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đổ bộ đường không (airborne) đòi hỏi nền tảng gì?",
+    "options": {
+      "A": "Xe tăng hạng nặng",
+      "B": "Tàu ngầm",
+      "C": "Pháo bờ biển",
+      "D": "Máy bay vận tải, trực thăng, dù, huấn luyện chuyên biệt"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'counter-battery fire' của pháo binh là?",
+    "options": {
+      "A": "Bắn phủ đầu hải quân",
+      "B": "Phản pháo vào trận địa pháo đối phương",
+      "C": "Bắn chế áp phòng không",
+      "D": "Bắn chiếu sáng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tàu hộ vệ (frigate) thường đảm nhiệm?",
+    "options": {
+      "A": "Hộ tống, chống ngầm, phòng không tầm ngắn–trung",
+      "B": "Chở hàng hóa dân sự",
+      "C": "Làm tàu bệnh viện",
+      "D": "Chở dầu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chỉ số 'toàn bãi – toàn tuyến – toàn hướng' trong phòng thủ nghĩa là?",
+    "options": {
+      "A": "Bố trí hỏa lực và lực lượng trên toàn không gian có thể bị tấn công",
+      "B": "Chỉ phòng ngự ban đêm",
+      "C": "Chỉ giữ hướng chính",
+      "D": "Chỉ giữ một cửa mở"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tác chiến 'anti-access/area denial' (A2/AD) nhằm?",
+    "options": {
+      "A": "Chỉ đàm phán",
+      "B": "Ngăn đối phương tiếp cận/khi đã vào thì khó hoạt động",
+      "C": "Chỉ phòng không tầm gần",
+      "D": "Mời đối phương tiến vào"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khí tài 'CIWS' trên tàu chiến dùng để?",
+    "options": {
+      "A": "Thông tin vệ tinh",
+      "B": "Phòng thủ tầm gần chống tên lửa/đạn bay vào",
+      "C": "Đánh ngầm sâu",
+      "D": "Tiếp dầu trên biển"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ 'IFF' trên máy bay/tàu chiến dùng để?",
+    "options": {
+      "A": "Nhận dạng ta–địch (Identify Friend or Foe)",
+      "B": "Giảm tín hiệu hồng ngoại",
+      "C": "Cấp điện dự phòng",
+      "D": "Tăng lực đẩy"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khái niệm 'combined arms' tương đương tiếng Việt gần nhất là?",
+    "options": {
+      "A": "Tổ chức quần chúng",
+      "B": "Hợp đồng binh chủng",
+      "C": "Hợp tác ngoại giao",
+      "D": "Liên minh kinh tế"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vai trò của 'sĩ quan tham mưu' trong sở chỉ huy là?",
+    "options": {
+      "A": "Lái xe tăng",
+      "B": "Lập kế hoạch, hiệp đồng, theo dõi – đánh giá tình hình",
+      "C": "Trực tiếp điều khiển pháo",
+      "D": "Cứu hộ đường biển"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ thống 'Link-16' là gì trong tác chiến hiện đại?",
+    "options": {
+      "A": "Liên kết dữ liệu chiến thuật giữa khí tài",
+      "B": "Tên một tên lửa",
+      "C": "Loại giáp",
+      "D": "Kiểu động cơ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phương châm 'đánh giá sau hành động' (AAR) nhằm?",
+    "options": {
+      "A": "Rút kinh nghiệm, cải tiến quy trình tác chiến/huấn luyện",
+      "B": "Giảm huấn luyện",
+      "C": "Khen thưởng ngay",
+      "D": "Thay chỉ huy"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khả năng 'độ bền tác chiến' (endurance) của tàu/phi cơ nói đến?",
+    "options": {
+      "A": "Độ bền giáp",
+      "B": "Tốc độ cực đại",
+      "C": "Khả năng tàng hình",
+      "D": "Thời gian hoạt động liên tục tối đa"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Bệ phóng 'VLS' trên tàu chiến là?",
+    "options": {
+      "A": "Cột radar",
+      "B": "Ống phóng ngư lôi",
+      "C": "Hệ phóng thẳng đứng cho tên lửa",
+      "D": "Pháo hạm 127mm"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khái niệm 'hỏa lực chi viện gần' (CAS) là?",
+    "options": {
+      "A": "Pháo binh tầm siêu xa",
+      "B": "Phòng không tầm xa",
+      "C": "Hỏa lực hải đối hải",
+      "D": "Không kích/hỏa lực yểm trợ gần cho lực lượng mặt đất"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tổ chức – biên chế 'task force' thường dùng để?",
+    "options": {
+      "A": "Cố định như sư đoàn",
+      "B": "Lập lực lượng nhiệm vụ linh hoạt theo mục tiêu",
+      "C": "Chỉ cho hậu cần",
+      "D": "Chỉ cho hải quân"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chế độ 'EMCON' trong hải quân nhằm?",
+    "options": {
+      "A": "Tăng phát xạ tối đa",
+      "B": "Tắt mọi hệ thống",
+      "C": "Kiểm soát phát xạ điện tử để giảm bị phát hiện",
+      "D": "Phát nhạc radio"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ký hiệu 'JTAC' dùng để chỉ?",
+    "options": {
+      "A": "Lái máy bay ném bom",
+      "B": "Thợ máy tàu chiến",
+      "C": "Điều phối không kích trực tiếp cho bộ binh",
+      "D": "Chỉ huy tiểu đoàn"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hệ thống 'AWACS' là biến thể của AEW&C với đặc trưng?",
+    "options": {
+      "A": "Radar đĩa lớn trên lưng máy bay",
+      "B": "Hai thân song song",
+      "C": "Khoang chở hàng lớn",
+      "D": "Cánh quét sau"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tác chiến 'đa miền' (multi-domain operations) nhấn mạnh?",
+    "options": {
+      "A": "Chỉ mạng",
+      "B": "Phối hợp đất – biển – không – không gian – mạng",
+      "C": "Chỉ biển – không",
+      "D": "Chỉ đất – không"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ thống 'GBAD' đề cập đến?",
+    "options": {
+      "A": "Phòng thủ tên lửa chiến lược",
+      "B": "Phòng chống ngầm",
+      "C": "Phòng thủ bờ biển",
+      "D": "Phòng không mặt đất"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khái niệm 'attrition' trong chiến tranh là?",
+    "options": {
+      "A": "Tiêu hao dần lực lượng đối phương",
+      "B": "Tác chiến phi bạo lực",
+      "C": "Tấn công chớp nhoáng",
+      "D": "Đàm phán cuối cùng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kiểu 'maneuver warfare' (cơ động) tập trung vào?",
+    "options": {
+      "A": "Đấu hỏa lực trực diện kéo dài",
+      "B": "Cơ động nhanh đánh vào trọng điểm – điểm yếu",
+      "C": "Cầm cự cố định",
+      "D": "Bào mòn tuyến sau"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tác chiến 'SEAD/DEAD' nhằm mục tiêu gì?",
+    "options": {
+      "A": "Chống hạm",
+      "B": "Chế áp/tiêu diệt phòng không đối phương",
+      "C": "Chống ngầm",
+      "D": "Chống vệ tinh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khái niệm 'force protection' bao gồm?",
+    "options": {
+      "A": "Chỉ bảo vệ hậu cần",
+      "B": "Chỉ bảo vệ thông tin",
+      "C": "Chỉ bảo vệ phương tiện",
+      "D": "Bảo vệ lực lượng trước mối đe dọa (an ninh – phòng hộ – y tế…)"
+    },
+    "answer": "D"
+  }
+]

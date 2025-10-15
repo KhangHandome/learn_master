@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Ngành khoa học nghiên cứu các thiên thể và vũ trụ gọi là gì?",
+    "options": {
+      "A": "Khí tượng",
+      "B": "Sinh học",
+      "C": "Địa chất học",
+      "D": "Thiên văn học"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Trái Đất quay quanh ngôi sao nào?",
+    "options": {
+      "A": "Sao Bắc Cực",
+      "B": "Mặt Trời",
+      "C": "Vega",
+      "D": "Sirius"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thiên thể nào là vệ tinh tự nhiên của Trái Đất?",
+    "options": {
+      "A": "Sao Diêm Vương",
+      "B": "Sao Kim",
+      "C": "Sao Hỏa",
+      "D": "Mặt Trăng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hệ Mặt Trời có trung tâm là gì theo mô hình hiện đại?",
+    "options": {
+      "A": "Ngân Hà",
+      "B": "Sao Mộc",
+      "C": "Mặt Trời",
+      "D": "Trái Đất"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hành tinh nào gần Mặt Trời nhất?",
+    "options": {
+      "A": "Sao Kim",
+      "B": "Sao Thủy",
+      "C": "Trái Đất",
+      "D": "Sao Hỏa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hành tinh nào còn gọi là 'sao Mai' hoặc 'sao Hôm' khi nhìn từ Trái Đất?",
+    "options": {
+      "A": "Sao Hỏa",
+      "B": "Sao Thủy",
+      "C": "Sao Kim",
+      "D": "Sao Mộc"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hành tinh đỏ trong Hệ Mặt Trời là hành tinh nào?",
+    "options": {
+      "A": "Sao Thổ",
+      "B": "Sao Hỏa",
+      "C": "Sao Mộc",
+      "D": "Sao Hải Vương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hành tinh lớn nhất trong Hệ Mặt Trời là?",
+    "options": {
+      "A": "Sao Thổ",
+      "B": "Sao Thiên Vương",
+      "C": "Sao Hải Vương",
+      "D": "Sao Mộc"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hành tinh có vành đai nổi bật nhất là?",
+    "options": {
+      "A": "Sao Mộc",
+      "B": "Sao Thổ",
+      "C": "Sao Hải Vương",
+      "D": "Sao Thiên Vương"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chòm sao Đại Hùng còn được gọi với tên quen thuộc nào?",
+    "options": {
+      "A": "Thợ săn",
+      "B": "Thiên nga",
+      "C": "Thiên cầm",
+      "D": "Gầu múc lớn (Big Dipper)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Dải sáng mờ như dải sữa trên bầu trời đêm là gì?",
+    "options": {
+      "A": "Đám Mây Magellan",
+      "B": "Thiên hà Andromeda",
+      "C": "Ngân Hà",
+      "D": "Tinh vân Orion"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đơn vị nào dùng để đo khoảng cách gần trong Hệ Mặt Trời?",
+    "options": {
+      "A": "Kiloparsec",
+      "B": "Đơn vị thiên văn (AU)",
+      "C": "Năm ánh sáng",
+      "D": "Parsec"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Một năm ánh sáng là khoảng cách ánh sáng đi được trong?",
+    "options": {
+      "A": "Một ngày",
+      "B": "Một tháng",
+      "C": "Một năm",
+      "D": "Một giờ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ngôi sao sáng nhất bầu trời đêm (theo độ sáng biểu kiến) là?",
+    "options": {
+      "A": "Arcturus",
+      "B": "Canopus",
+      "C": "Vega",
+      "D": "Sirius"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hiện tượng Mặt Trăng che khuất Mặt Trời gọi là?",
+    "options": {
+      "A": "Nhật thực",
+      "B": "Nguyệt thực",
+      "C": "Cực quang",
+      "D": "Mưa sao băng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiện tượng Trái Đất che bóng lên Mặt Trăng gọi là?",
+    "options": {
+      "A": "Nguyệt thực",
+      "B": "Cầu vồng",
+      "C": "Hào quang",
+      "D": "Nhật thực"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiết bị dùng để thu ánh sáng thiên thể và phóng đại ảnh gọi là?",
+    "options": {
+      "A": "Kính hiển vi",
+      "B": "Kính thiên văn",
+      "C": "Đồng hồ nguyên tử",
+      "D": "Quang phổ kế"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thiên thạch khi rơi vào khí quyển phát sáng gọi là?",
+    "options": {
+      "A": "Sao chổi",
+      "B": "Sao siêu khổng lồ",
+      "C": "Sao lùn",
+      "D": "Sao băng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đuôi của sao chổi luôn hướng về phía nào so với Mặt Trời?",
+    "options": {
+      "A": "Hướng về Mặt Trời",
+      "B": "Hướng xuống Trái Đất",
+      "C": "Hướng xa Mặt Trời",
+      "D": "Song song quỹ đạo"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hai điểm ngày và đêm dài ngang nhau trong năm gọi là?",
+    "options": {
+      "A": "Góc phương vị",
+      "B": "Xuân phân và Thu phân",
+      "C": "Cực điểm",
+      "D": "Hạ chí và Đông chí"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nguyên nhân mùa trên Trái Đất là do?",
+    "options": {
+      "A": "Khoảng cách đến Mặt Trời thay đổi lớn",
+      "B": "Trục Trái Đất nghiêng so với mặt phẳng quỹ đạo",
+      "C": "Mặt Trăng kéo lệch quỹ đạo",
+      "D": "Mặt Trời thay đổi độ sáng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sao nào có hệ hành tinh gần chúng ta nhất và nổi tiếng trong văn học?",
+    "options": {
+      "A": "Betelgeuse",
+      "B": "Rigel",
+      "C": "Deneb",
+      "D": "Alpha Centauri/Proxima Centauri"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Ngân Hà thuộc loại thiên hà nào theo Hubble?",
+    "options": {
+      "A": "Thiên hà bất quy tắc",
+      "B": "Thiên hà elip",
+      "C": "Tinh vân hành tinh",
+      "D": "Thiên hà xoắn ốc (thanh xoắn)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thiên hà gần Ngân Hà nhất là?",
+    "options": {
+      "A": "Sombrero (M104)",
+      "B": "Andromeda (M31)",
+      "C": "Triangulum (M33)",
+      "D": "Whirlpool (M51)"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sao nào là ngôi sao siêu khổng lồ đỏ nổi bật trong chòm Lạp Hộ?",
+    "options": {
+      "A": "Betelgeuse",
+      "B": "Antares",
+      "C": "Rigel",
+      "D": "Aldebaran"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiết bị đo phổ ánh sáng để xác định thành phần hóa học của sao là?",
+    "options": {
+      "A": "Quang phổ kế",
+      "B": "Nhiệt kế hồng ngoại",
+      "C": "Photometer",
+      "D": "Nhiễu xạ kế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tia vũ trụ chủ yếu là gì?",
+    "options": {
+      "A": "Gió Mặt Trời chậm",
+      "B": "Photon hồng ngoại",
+      "C": "Sóng âm",
+      "D": "Hạt năng lượng cao từ không gian"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đơn vị độ sáng biểu kiến của sao gọi là?",
+    "options": {
+      "A": "Candela",
+      "B": "Lux",
+      "C": "Lumen",
+      "D": "Cấp sao (magnitude)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sao lùn trắng hình thành sau giai đoạn nào của sao giống Mặt Trời?",
+    "options": {
+      "A": "Sao neutron",
+      "B": "Hố đen",
+      "C": "Siêu tân tinh",
+      "D": "Khổng lồ đỏ rồi phồng ra, thải vỏ"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sao neutron có mật độ vật chất như thế nào?",
+    "options": {
+      "A": "Như không khí",
+      "B": "Rất loãng",
+      "C": "Rất lớn, hạt nhân nén chặt",
+      "D": "Như nước"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hố đen không phát ra ánh sáng vì?",
+    "options": {
+      "A": "Không có vật chất xung quanh",
+      "B": "Nhiệt độ bằng 0 tuyệt đối",
+      "C": "Bị che bởi bụi",
+      "D": "Trường hấp dẫn mạnh khiến ánh sáng không thoát ra"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Rìa hố đen nơi không gì thoát ra được gọi là?",
+    "options": {
+      "A": "Vành photon",
+      "B": "Tia tương đối tính",
+      "C": "Đĩa bồi tụ",
+      "D": "Chân trời sự kiện"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vì sao bầu trời ban đêm tối dù vũ trụ có vô số sao (nghịch lý Olbers)?",
+    "options": {
+      "A": "Do sao rất nhỏ",
+      "B": "Do bụi hấp thụ vĩnh viễn",
+      "C": "Vũ trụ hữu hạn tuổi và giãn nở",
+      "D": "Do mây che"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Mưa sao băng Quadrantids, Perseids, Geminids là do?",
+    "options": {
+      "A": "Núi lửa phun trên Mặt Trăng",
+      "B": "Sét ngoài khí quyển",
+      "C": "Sao rơi từ thiên hà khác",
+      "D": "Trái Đất đi qua dòng mảnh vụn sao chổi/tiểu hành tinh"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tại sao chúng ta thấy các pha của Mặt Trăng?",
+    "options": {
+      "A": "Do mây che từng phần",
+      "B": "Do góc chiếu sáng từ Mặt Trời và vị trí tương đối",
+      "C": "Do quay nhanh bất thường",
+      "D": "Do Mặt Trăng tự phát sáng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vì sao nhật triều (thủy triều) xảy ra hàng ngày?",
+    "options": {
+      "A": "Do gió mùa",
+      "B": "Do dòng biển nóng lạnh",
+      "C": "Do mưa bão",
+      "D": "Do lực hấp dẫn của Mặt Trăng và Mặt Trời"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Quỹ đạo Trái Đất quanh Mặt Trời có dạng gần như?",
+    "options": {
+      "A": "Parabol",
+      "B": "Tròn hoàn hảo",
+      "C": "Elip lệch tâm nhỏ",
+      "D": "Hypebol"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ba định luật chuyển động hành tinh do ai đề xuất?",
+    "options": {
+      "A": "Galileo Galilei",
+      "B": "Tycho Brahe",
+      "C": "Johannes Kepler",
+      "D": "Isaac Newton"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Lực khiến hành tinh quay quanh Mặt Trời là?",
+    "options": {
+      "A": "Ma sát",
+      "B": "Tĩnh điện",
+      "C": "Hấp dẫn",
+      "D": "Từ trường"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Phần tối của Mặt Trăng hiện lên mờ mờ do ánh sáng phản xạ từ Trái Đất gọi là?",
+    "options": {
+      "A": "Sương thiên hà",
+      "B": "Ánh đất (earthshine)",
+      "C": "Vầng quang",
+      "D": "Hào quang"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vệ tinh tự nhiên lớn nhất Hệ Mặt Trời là?",
+    "options": {
+      "A": "Ganymede (của Sao Mộc)",
+      "B": "Io",
+      "C": "Callisto",
+      "D": "Titan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Io nổi tiếng vì hoạt động địa chất nào?",
+    "options": {
+      "A": "Đại dương hydrocarbon",
+      "B": "Băng phủ hoàn toàn",
+      "C": "Sa mạc bụi",
+      "D": "Núi lửa cực kỳ mạnh"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Titan (vệ tinh Sao Thổ) có đặc điểm khí quyển nào hiếm gặp?",
+    "options": {
+      "A": "Khí quyển dày và hồ hydrocarbon",
+      "B": "Chỉ CO2 tinh khiết",
+      "C": "Không có khí quyển",
+      "D": "Khí Heli tinh khiết"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Europa được quan tâm vì khả năng?",
+    "options": {
+      "A": "Có rừng cây",
+      "B": "Có khí oxy tự do nhiều",
+      "C": "Có núi lửa silic",
+      "D": "Có đại dương nước lỏng dưới lớp băng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đĩa bồi tụ quanh hố đen phát sáng mạnh do?",
+    "options": {
+      "A": "Ma sát và gia tốc làm nóng vật chất rơi vào",
+      "B": "Phát quang sinh học",
+      "C": "Phản ứng hạt nhân",
+      "D": "Đóng băng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiên hà hoạt động (AGN) có độ sáng lớn nhờ?",
+    "options": {
+      "A": "Hố đen siêu nặng nuốt vật chất",
+      "B": "Siêu tân tinh hàng loạt",
+      "C": "Tập trung sao xanh trẻ",
+      "D": "Bụi phản xạ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Siêu tân tinh (supernova) là gì?",
+    "options": {
+      "A": "Vụ nổ cuối đời của sao khối lượng lớn hoặc do trắng lùn nổ",
+      "B": "Sao lùn nâu nguội dần",
+      "C": "Hành tinh bốc cháy",
+      "D": "Sao mới sinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tàn dư siêu tân tinh nổi tiếng trong chòm Bò Vàng là?",
+    "options": {
+      "A": "Tinh vân Con Ngựa",
+      "B": "Tinh vân Con Cua (Crab Nebula)",
+      "C": "Tinh vân Đại Bàng",
+      "D": "Tinh vân Hélix"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phương pháp dò ngoại hành tinh bằng 'transit' dựa trên?",
+    "options": {
+      "A": "Bức xạ vô tuyến",
+      "B": "Giảm độ sáng sao khi hành tinh đi qua trước mặt",
+      "C": "Tăng đột ngột tia X",
+      "D": "Sóng hấp dẫn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phương pháp 'vận tốc xuyên tâm' phát hiện ngoại hành tinh nhờ?",
+    "options": {
+      "A": "Trắc địa laser",
+      "B": "Dịch chuyển Doppler vạch quang phổ của sao",
+      "C": "Siêu âm không gian",
+      "D": "Ảnh trực tiếp rõ nét"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kính thiên văn Hubble hoạt động ở quỹ đạo nào?",
+    "options": {
+      "A": "Quỹ đạo Trái Đất thấp",
+      "B": "Quỹ đạo Mặt Trời",
+      "C": "Quỹ đạo Mặt Trăng",
+      "D": "L2 xa Trái Đất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kính James Webb tối ưu quan sát ở vùng phổ nào?",
+    "options": {
+      "A": "Hồng ngoại",
+      "B": "Tử ngoại",
+      "C": "Tia gamma",
+      "D": "Sóng vô tuyến"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nền bức xạ nào là bằng chứng mạnh về Vụ Nổ Lớn?",
+    "options": {
+      "A": "Bức xạ mặt trời",
+      "B": "Tia gamma nền",
+      "C": "Bức xạ phông vi sóng vũ trụ (CMB)",
+      "D": "Bức xạ hồng ngoại thiên hà"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vũ trụ đang giãn nở được phát hiện nhờ hiện tượng gì ở thiên hà xa?",
+    "options": {
+      "A": "Nhấp nháy",
+      "B": "Dịch xanh",
+      "C": "Tắt sáng",
+      "D": "Dịch đỏ (redshift)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hằng số Hubble liên hệ tốc độ lùi thiên hà với?",
+    "options": {
+      "A": "Khối lượng thiên hà",
+      "B": "Độ sáng",
+      "C": "Khoảng cách tới thiên hà",
+      "D": "Kích thước góc"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vật chất tối được suy ra chủ yếu từ?",
+    "options": {
+      "A": "Mùi vị",
+      "B": "Tác dụng hấp dẫn lên sao/thiên hà",
+      "C": "Phát sáng mạnh",
+      "D": "Tương tác điện từ mạnh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Năng lượng tối liên quan đến hiện tượng vũ trụ?",
+    "options": {
+      "A": "Co lại",
+      "B": "Gia tốc giãn nở",
+      "C": "Dao động định kỳ",
+      "D": "Ngừng giãn nở"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đổi màu sao: sao xanh thường có nhiệt độ bề mặt so với sao đỏ là?",
+    "options": {
+      "A": "Lạnh hơn",
+      "B": "Không liên quan",
+      "C": "Nóng hơn",
+      "D": "Bằng nhau"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Biểu đồ H-R (Hertzsprung–Russell) thể hiện quan hệ giữa độ sáng và?",
+    "options": {
+      "A": "Khối lượng hành tinh",
+      "B": "Kích thước thiên hà",
+      "C": "Khoảng cách",
+      "D": "Nhiệt độ/màu sắc"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đa phần sao trong giai đoạn chính trên H-R là do quá trình hạt nhân nào?",
+    "options": {
+      "A": "Nhiệt hạch hydro thành helium",
+      "B": "Phản ứng hóa học",
+      "C": "Phân hạch uranium",
+      "D": "Cháy carbon"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sóng hấp dẫn là gợn sóng của?",
+    "options": {
+      "A": "Plasma Mặt Trời",
+      "B": "Không khí",
+      "C": "Không-thời gian",
+      "D": "Từ trường Trái Đất"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Các đài interferometer vô tuyến như ALMA có ưu điểm gì?",
+    "options": {
+      "A": "Nhỏ gọn rẻ tiền",
+      "B": "Độ phân giải góc rất cao nhờ giao thoa",
+      "C": "Chỉ thấy trong khí quyển dày",
+      "D": "Chỉ hoạt động ban ngày"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tại sao kính thiên văn đặt trên đỉnh núi cao/khí hậu khô?",
+    "options": {
+      "A": "An toàn bão tuyết",
+      "B": "Giảm nhiễu khí quyển và hơi nước",
+      "C": "Gần sao hơn",
+      "D": "Rẻ hơn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cực quang (aurores) chủ yếu do?",
+    "options": {
+      "A": "Núi lửa phun tro",
+      "B": "Hạt từ gió Mặt Trời tương tác từ quyển/khí quyển",
+      "C": "Sét thường",
+      "D": "Mây phát quang"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vết Đỏ Lớn trên Sao Mộc là gì?",
+    "options": {
+      "A": "Hố va chạm",
+      "B": "Bão khí khổng lồ lâu đời",
+      "C": "Vùng băng",
+      "D": "Núi lửa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vành đai tiểu hành tinh chính nằm giữa quỹ đạo của?",
+    "options": {
+      "A": "Sao Kim và Trái Đất",
+      "B": "Sao Thổ và Sao Thiên Vương",
+      "C": "Sao Mộc và Sao Thổ",
+      "D": "Sao Hỏa và Sao Mộc"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đám mây Oort là gì?",
+    "options": {
+      "A": "Dải khí giữa Sao Kim và Trái Đất",
+      "B": "Vệ tinh băng của Sao Thổ",
+      "C": "Tinh vân phát xạ gần Mặt Trời",
+      "D": "Vùng xa chứa nhân sao chổi tiềm năng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khu Kuiper (Kuiper Belt) nằm ngoài quỹ đạo hành tinh nào?",
+    "options": {
+      "A": "Sao Thổ",
+      "B": "Sao Mộc",
+      "C": "Sao Hỏa",
+      "D": "Sao Hải Vương"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sao Diêm Vương hiện được xếp loại là?",
+    "options": {
+      "A": "Hành tinh lùn",
+      "B": "Sao chổi",
+      "C": "Hành tinh chính",
+      "D": "Vệ tinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Một hành tinh được xem là 'vùng ở được' khi?",
+    "options": {
+      "A": "Ở khoảng cách cho phép nước lỏng tồn tại trên bề mặt",
+      "B": "Có hai mặt trời",
+      "C": "Có từ trường mạnh",
+      "D": "Có khối lượng bằng Trái Đất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phương pháp 'ảnh chụp trực tiếp' ngoại hành tinh khó vì?",
+    "options": {
+      "A": "Do thiếu kính nhỏ",
+      "B": "Hành tinh quá lớn",
+      "C": "Do khí quyển hành tinh chói",
+      "D": "Sao mẹ quá sáng so với hành tinh"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Các pulsar là sao neutron phát xạ theo chùm do?",
+    "options": {
+      "A": "Va chạm khí bụi",
+      "B": "Từ trường mạnh và quay nhanh",
+      "C": "Phát quang sinh học",
+      "D": "Phản ứng hóa học"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tia gamma bùng phát (GRB) thường liên quan tới?",
+    "options": {
+      "A": "Mưa sao băng",
+      "B": "Sao siêu khối lượng sụp đổ hoặc hợp nhất sao neutron",
+      "C": "Sao lùn nâu nguội đi",
+      "D": "Phun trào Mặt Trời nhỏ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hiệu ứng Doppler làm vạch phổ dịch về đỏ khi vật thể?",
+    "options": {
+      "A": "Đứng yên",
+      "B": "Quay tròn",
+      "C": "Tiến lại gần",
+      "D": "Rời xa người quan sát"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sự che nhau của các thiên thể theo đường thẳng gọi là?",
+    "options": {
+      "A": "Hiệp tuyến (syzygy)",
+      "B": "Tiếp điểm",
+      "C": "Lệch tâm",
+      "D": "Nút quỹ đạo"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mặt phẳng quỹ đạo Trái Đất quanh Mặt Trời gọi là?",
+    "options": {
+      "A": "Cực đạo",
+      "B": "Hoàng đạo",
+      "C": "Xích đạo thiên cầu",
+      "D": "Kinh tuyến địa lý"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Góc giữa trục quay Trái Đất và pháp tuyến mặt phẳng quỹ đạo gọi là?",
+    "options": {
+      "A": "Góc thị sai",
+      "B": "Góc phương vị",
+      "C": "Độ nghiêng trục (≈23,5°)",
+      "D": "Độ lệch tâm"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thị sai sao dùng để đo?",
+    "options": {
+      "A": "Khối lượng sao",
+      "B": "Khoảng cách tới các sao gần",
+      "C": "Bán kính sao",
+      "D": "Tốc độ quay"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chu kỳ hoạt động vệt đen Mặt Trời khoảng bao lâu?",
+    "options": {
+      "A": "28 ngày",
+      "B": "Khoảng 11 năm",
+      "C": "1 năm",
+      "D": "100 năm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Mặt Trời sản sinh năng lượng chủ yếu nhờ chu trình?",
+    "options": {
+      "A": "Chuỗi p–p (proton–proton)",
+      "B": "Phân hạch U-235",
+      "C": "Hóa học oxy hóa",
+      "D": "CNO duy nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vì sao bầu trời ban ngày có màu xanh?",
+    "options": {
+      "A": "Do bụi đỏ hấp thụ đỏ",
+      "B": "Do ozone phát sáng",
+      "C": "Mây phản chiếu biển",
+      "D": "Tán xạ Rayleigh ưu tiên ánh sáng xanh"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tại sao Mặt Trời lặn có màu đỏ cam?",
+    "options": {
+      "A": "Mặt Trời nguội đi",
+      "B": "Do mây che toàn bộ",
+      "C": "Đường đi dài hơn, tán xạ mất xanh còn đỏ",
+      "D": "Do phản xạ từ Mặt Trăng"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Độ sáng tuyệt đối của sao là độ sáng ở khoảng cách chuẩn là?",
+    "options": {
+      "A": "1 AU",
+      "B": "10 parsec",
+      "C": "100 parsec",
+      "D": "1 năm ánh sáng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sao lùn nâu là gì?",
+    "options": {
+      "A": "Hành tinh đá nhỏ",
+      "B": "Sao siêu nặng",
+      "C": "Vật thể giữa hành tinh khổng lồ và sao, không đủ khối để cháy H lâu dài",
+      "D": "Hố đen nhỏ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Quang phổ sao cho biết thông tin nào sau đây?",
+    "options": {
+      "A": "Tên chòm sao",
+      "B": "Chu vi quỹ đạo Trái Đất",
+      "C": "Tuổi của Hệ Mặt Trời duy nhất",
+      "D": "Thành phần hóa học và nhiệt độ"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hằng tinh và hành tinh khác nhau ở điểm chính nào khi quan sát bằng mắt?",
+    "options": {
+      "A": "Sao luôn xanh",
+      "B": "Hành tinh luôn đỏ",
+      "C": "Không khác",
+      "D": "Sao lấp lánh mạnh, hành tinh sáng đều hơn"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tại sao kính thiên văn vô tuyến cần ăng-ten rất lớn?",
+    "options": {
+      "A": "Để chống gió",
+      "B": "Bước sóng dài → cần khẩu độ lớn để tăng độ phân giải/độ nhạy",
+      "C": "Để thu tiếng",
+      "D": "Để phản chiếu ánh sáng xanh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Các 'đường hấp thụ Fraunhofer' trong phổ Mặt Trời là do?",
+    "options": {
+      "A": "Nguyên tố trong khí quyển Mặt Trời hấp thụ ánh sáng",
+      "B": "Băng trên gương",
+      "C": "Mây Trái Đất",
+      "D": "Lỗ hổng máy ảnh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nền tảng nào giúp xác định khối lượng sao đôi?",
+    "options": {
+      "A": "Quan sát quỹ đạo theo định luật Kepler–Newton",
+      "B": "Độ sáng biểu kiến",
+      "C": "Độ cao trên chân trời",
+      "D": "Màu sắc"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chu kỳ quay đồng bộ của Mặt Trăng khiến ta thấy?",
+    "options": {
+      "A": "Mặt tối vĩnh viễn",
+      "B": "Luôn cùng một mặt hướng về Trái Đất",
+      "C": "Không bao giờ nhật thực",
+      "D": "Hai mặt luân phiên"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hiện tượng 'lệch tâm quỹ đạo' cao gây ra điều gì cho hành tinh?",
+    "options": {
+      "A": "Mất vệ tinh",
+      "B": "Biến thiên khoảng cách tới sao lớn",
+      "C": "Tốc độ quay thay đổi mạnh",
+      "D": "Ngừng tự quay"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Các 'trục tiền hành' (precession) của Trái Đất gây hệ quả gì lâu dài?",
+    "options": {
+      "A": "Thay đổi vị trí sao Bắc Cực qua thiên niên kỷ",
+      "B": "Mất mùa vĩnh viễn",
+      "C": "Tắt cực quang",
+      "D": "Tạo nhật thực mỗi ngày"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Lỗ đen siêu nặng thường nằm ở đâu?",
+    "options": {
+      "A": "Giữa dải Kuiper",
+      "B": "Tâm các thiên hà",
+      "C": "Ngoại vi thiên hà",
+      "D": "Giữa cụm sao cầu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sao biến quang Cepheid hữu ích vì?",
+    "options": {
+      "A": "Phát vô tuyến đều",
+      "B": "Chu kỳ–độ sáng chuẩn hóa dùng đo khoảng cách vũ trụ gần",
+      "C": "Phát tia X mạnh",
+      "D": "Không biến thiên"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Siêu tân tinh loại Ia được dùng làm 'nến chuẩn' do?",
+    "options": {
+      "A": "Độ sáng đỉnh khá đồng nhất sau hiệu chỉnh",
+      "B": "Xảy ra rất thường xuyên mỗi năm",
+      "C": "Không cần đo quang phổ",
+      "D": "Chỉ ở Ngân Hà"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bụi vũ trụ làm sao ảnh hưởng đến ánh sáng sao?",
+    "options": {
+      "A": "Hấp thụ/đỏ hóa ánh sáng",
+      "B": "Làm sao xanh hơn",
+      "C": "Tăng nhiệt độ sao",
+      "D": "Không ảnh hưởng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gió sao là gì?",
+    "options": {
+      "A": "Dòng plasma từ hành tinh",
+      "B": "Gió trong khí quyển Trái Đất",
+      "C": "Dòng nước biển",
+      "D": "Dòng hạt mang năng lượng thổi ra từ sao"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khi một thiên hà va chạm/nhập với thiên hà khác, sao bên trong thường?",
+    "options": {
+      "A": "Biến thành hố đen",
+      "B": "Bốc cháy",
+      "C": "Hiếm khi va chạm trực tiếp do khoảng cách lớn",
+      "D": "Va chạm liên tục"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Độ kim loại (metallicity) của sao trong thiên văn chỉ?",
+    "options": {
+      "A": "Từ tính của sao",
+      "B": "Lượng sắt trong hành tinh",
+      "C": "Độ cứng quặng",
+      "D": "Tỷ phần nguyên tố nặng hơn helium"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chu kỳ tự quay của Mặt Trời tại xích đạo so với vĩ độ cao là?",
+    "options": {
+      "A": "Dài hơn",
+      "B": "Ngắn hơn (quay vi phân)",
+      "C": "Bằng nhau",
+      "D": "Không xác định"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sao lùn đỏ (M-dwarf) có tuổi thọ so với sao như Mặt Trời là?",
+    "options": {
+      "A": "Ngắn hơn nhiều",
+      "B": "Tương đương",
+      "C": "Dài hơn rất nhiều",
+      "D": "Không ổn định"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Quầng thiên hà (galactic halo) chứa nhiều?",
+    "options": {
+      "A": "Khí dày đặc nóng",
+      "B": "Đĩa bụi mỏng sáng",
+      "C": "Cụm sao cầu và vật chất tối",
+      "D": "Sao trẻ xanh tập trung"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dòng sao tia (stellar stream) hình thành do?",
+    "options": {
+      "A": "Thiên hà lớn xé rách thiên hà nhỏ/cụm sao",
+      "B": "Sóng âm liên sao",
+      "C": "Gió Mặt Trời",
+      "D": "Động đất sao"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thang đo cấp sao nhỏ hơn nghĩa là?",
+    "options": {
+      "A": "Nhiệt độ thấp hơn",
+      "B": "Vật thể sáng hơn",
+      "C": "Khoảng cách xa hơn",
+      "D": "Vật thể mờ hơn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hiệu chỉnh k-correction dùng trong thiên văn để?",
+    "options": {
+      "A": "Sửa tiêu cự",
+      "B": "Sửa nhiễu khí quyển",
+      "C": "Sửa lỗi camera",
+      "D": "Hiệu chỉnh dịch đỏ ảnh hưởng đến độ sáng/màu quan sát"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Bức xạ synchrotron phát ra khi?",
+    "options": {
+      "A": "Điện tử relativistic chuyển động trong từ trường",
+      "B": "Va chạm bụi",
+      "C": "Phân rã nguyên tử",
+      "D": "Đóng băng nước"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thấu kính hấp dẫn (gravitational lensing) là hiện tượng?",
+    "options": {
+      "A": "Thấu kính thủy tinh khổng lồ",
+      "B": "Khối lượng bẻ cong đường đi ánh sáng",
+      "C": "Không khí bẻ cong ánh sáng sao",
+      "D": "Ống kính máy ảnh vũ trụ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chu kỳ tiền hành của điểm cận nhật Trái Đất là một phần của?",
+    "options": {
+      "A": "Chu kỳ thủy triều",
+      "B": "Chu kỳ Milankovitch",
+      "C": "Chu kỳ Mặt Trời 11 năm",
+      "D": "Chu kỳ khí hậu ENSO"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Nhiệt độ hiệu dụng của sao suy ra từ?",
+    "options": {
+      "A": "Định luật Coulomb",
+      "B": "Định luật Boyle",
+      "C": "Định luật Hooke",
+      "D": "Định luật Stefan–Boltzmann/độ sáng và bán kính"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thước đo khoảng cách vũ trụ (cosmic distance ladder) bao gồm bậc nào sau đây?",
+    "options": {
+      "A": "Lux → Candela → Lumen",
+      "B": "Gamma → X → UV",
+      "C": "Thị sai → Cepheid → Siêu tân tinh Ia",
+      "D": "AU → Watt → Kelvin"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Sao T Tauri là giai đoạn nào của sao?",
+    "options": {
+      "A": "Siêu tân tinh",
+      "B": "Tiền dãy chính (sao trẻ)",
+      "C": "Sao neutron",
+      "D": "Lùn trắng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đĩa tiền hành tinh (protoplanetary disk) là nơi gì hình thành?",
+    "options": {
+      "A": "Lỗ đen",
+      "B": "Hành tinh và tiểu hành tinh",
+      "C": "Sao khổng lồ đỏ",
+      "D": "Thiên hà lùn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Độ nghiêng trục nhỏ thường làm khí hậu hành tinh như thế nào?",
+    "options": {
+      "A": "Ít mùa hơn, biến thiên theo vĩ độ nhỏ",
+      "B": "Không có ngày đêm",
+      "C": "Luôn đóng băng",
+      "D": "Mùa rất cực đoan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sao khổng lồ xanh (O/B-type) có tuổi thọ so với sao nhỏ là?",
+    "options": {
+      "A": "Dài hơn",
+      "B": "Bằng nhau",
+      "C": "Không xác định",
+      "D": "Ngắn hơn"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đường đẳng sắc (isochrone) trên H-R dùng để ước lượng?",
+    "options": {
+      "A": "Tuổi cụm sao",
+      "B": "Bán kính thiên hà",
+      "C": "Chu kỳ sao đôi",
+      "D": "Khối lượng hành tinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Các 'vạch Balmer' là vạch phổ của nguyên tố nào?",
+    "options": {
+      "A": "Heli",
+      "B": "Oxy",
+      "C": "Sắt",
+      "D": "Hydro"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tính kim loại cao ở sao mẹ có xu hướng liên quan tới?",
+    "options": {
+      "A": "Chỉ có sao đôi",
+      "B": "Không thể có hành tinh",
+      "C": "Chỉ có sao neutron",
+      "D": "Xác suất có hành tinh đá/khí cao hơn"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vì sao các kính thiên văn hồng ngoại cần làm lạnh sâu?",
+    "options": {
+      "A": "Giảm bức xạ nhiệt của chính thiết bị",
+      "B": "Tránh đóng băng cảm biến",
+      "C": "Nghe tốt hơn",
+      "D": "Chống mưa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bản đồ bầu trời toàn phần ở nhiều bước sóng cho phép?",
+    "options": {
+      "A": "Chỉ xem ảnh đẹp",
+      "B": "Nghiên cứu các quá trình vật lý khác nhau",
+      "C": "Dự báo thời tiết",
+      "D": "Xác định múi giờ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thời gian vũ trụ ước chừng hiện nay khoảng?",
+    "options": {
+      "A": "100 tỷ năm",
+      "B": "4,5 tỷ năm",
+      "C": "13,8 tỷ năm",
+      "D": "1 tỷ năm"
+    },
+    "answer": "C"
+  }
+]

@@ -1,0 +1,1203 @@
+[
+  {
+    "question": "GDP là viết tắt của cụm từ nào?",
+    "options": {
+      "A": "Gross Domestic Product",
+      "B": "General Demand Price",
+      "C": "Global Development Plan",
+      "D": "Gross Domestic Price"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Lạm phát (inflation) là sự tăng lên của?",
+    "options": {
+      "A": "Mức giá chung",
+      "B": "Tốc độ tăng dân số",
+      "C": "Năng suất lao động",
+      "D": "Tỷ giá hối đoái"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CPI dùng để đo lường chủ yếu điều gì?",
+    "options": {
+      "A": "Chỉ số giá tiêu dùng",
+      "B": "Tăng trưởng tín dụng",
+      "C": "Sản xuất công nghiệp",
+      "D": "Lợi nhuận doanh nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Luật cầu (law of demand) nói rằng khi giá tăng, lượng cầu sẽ?",
+    "options": {
+      "A": "Giảm",
+      "B": "Tăng",
+      "C": "Không đổi",
+      "D": "Tăng rồi giảm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "WTO là viết tắt của?",
+    "options": {
+      "A": "World Trade Organization",
+      "B": "World Tax Office",
+      "C": "Wide Trade Operation",
+      "D": "World Tariff Organization"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thuế quan (tariff) là?",
+    "options": {
+      "A": "Thuế đánh vào hàng nhập khẩu",
+      "B": "Thuế thu nhập cá nhân",
+      "C": "Thuế tài sản",
+      "D": "Thuế tiêu thụ nội địa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kinh tế vi mô (microeconomics) tập trung vào?",
+    "options": {
+      "A": "Hành vi của từng hộ gia đình/doanh nghiệp",
+      "B": "Toàn bộ nền kinh tế",
+      "C": "Tài chính công",
+      "D": "Địa kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kinh tế vĩ mô (macroeconomics) nghiên cứu?",
+    "options": {
+      "A": "Các biến tổng hợp như GDP, lạm phát, thất nghiệp",
+      "B": "Chi phí cận biên của doanh nghiệp",
+      "C": "Sở thích cá nhân",
+      "D": "Cấu trúc thị trường địa phương"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thị trường cạnh tranh hoàn hảo có đặc trưng?",
+    "options": {
+      "A": "Nhiều người bán, giá là tham số",
+      "B": "Một người bán duy nhất",
+      "C": "Rào cản gia nhập cao",
+      "D": "Giá do người bán đặt tùy ý"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Doanh thu (revenue) bằng?",
+    "options": {
+      "A": "Giá × Số lượng bán",
+      "B": "Lợi nhuận + Chi phí",
+      "C": "Tài sản − Nợ phải trả",
+      "D": "Dòng tiền ròng"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Chi phí cận biên (MC) là?",
+    "options": {
+      "A": "Chi phí tăng thêm khi sản xuất một đơn vị",
+      "B": "Tổng chi phí cố định",
+      "C": "Giá bán trung bình",
+      "D": "Lợi nhuận biên"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đường cung dốc lên vì?",
+    "options": {
+      "A": "Giá cao khuyến khích sản xuất nhiều hơn",
+      "B": "Giá cao làm cầu tăng",
+      "C": "Lợi ích cận biên tăng",
+      "D": "Chi phí cố định giảm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cân bằng thị trường đạt được khi?",
+    "options": {
+      "A": "Cung bằng cầu",
+      "B": "Giá bằng 0",
+      "C": "Cầu bằng 0",
+      "D": "Cung vô hạn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thặng dư tiêu dùng (consumer surplus) là?",
+    "options": {
+      "A": "Phần chênh lệch sẵn lòng trả trừ đi giá thực trả",
+      "B": "Doanh thu − Chi phí",
+      "C": "Giá × Số lượng",
+      "D": "Lợi ích cận biên"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Độc quyền (monopoly) là thị trường có?",
+    "options": {
+      "A": "Một người bán duy nhất",
+      "B": "Nhiều người bán nhỏ",
+      "C": "Một người mua duy nhất",
+      "D": "Hai người bán lớn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Độ co giãn cầu theo giá (PED) bằng?",
+    "options": {
+      "A": "%ΔQd / %ΔP",
+      "B": "%ΔP / %ΔQd",
+      "C": "%ΔQd × %ΔP",
+      "D": "%ΔP − %ΔQd"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Giá trần (price ceiling) áp dưới mức cân bằng thường gây?",
+    "options": {
+      "A": "Thiếu hụt",
+      "B": "Dư thừa",
+      "C": "Không đổi",
+      "D": "Tăng thu ngân sách"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ngoại ứng (externality) tiêu cực ví dụ như?",
+    "options": {
+      "A": "Ô nhiễm",
+      "B": "Đầu tư R&D",
+      "C": "Tiêm chủng",
+      "D": "Giá thấp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hàng hóa công (public good) có tính chất?",
+    "options": {
+      "A": "Không cạnh tranh, không loại trừ",
+      "B": "Cạnh tranh, không loại trừ",
+      "C": "Không cạnh tranh, có loại trừ",
+      "D": "Cạnh tranh, có loại trừ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Lợi thế so sánh (comparative advantage) dựa trên?",
+    "options": {
+      "A": "Chi phí cơ hội thấp hơn",
+      "B": "Chi phí tuyệt đối thấp hơn",
+      "C": "Giá bán cao hơn",
+      "D": "Lao động rẻ hơn"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Chính sách tài khóa (fiscal policy) chủ yếu sử dụng?",
+    "options": {
+      "A": "Thuế và chi tiêu công",
+      "B": "Dự trữ bắt buộc",
+      "C": "Tỷ giá",
+      "D": "Hạn ngạch nhập khẩu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chính sách tiền tệ (monetary policy) do ai thực thi?",
+    "options": {
+      "A": "Ngân hàng trung ương",
+      "B": "Bộ Công Thương",
+      "C": "Bộ Tài chính",
+      "D": "Quốc hội"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "M1 thường bao gồm?",
+    "options": {
+      "A": "Tiền mặt và tiền gửi không kỳ hạn",
+      "B": "Trái phiếu chính phủ",
+      "C": "Cổ phiếu",
+      "D": "Vàng dự trữ tư nhân"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tỷ lệ thất nghiệp (unemployment rate) là?",
+    "options": {
+      "A": "Người thất nghiệp / Lực lượng lao động",
+      "B": "Dân số / Người có việc làm",
+      "C": "GDP / Dân số",
+      "D": "Lạm phát / Tăng trưởng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cán cân vãng lai (current account) không bao gồm?",
+    "options": {
+      "A": "Dòng vốn đầu tư trực tiếp (FDI) vào",
+      "B": "Cán cân hàng hóa",
+      "C": "Dịch vụ",
+      "D": "Thu nhập & chuyển giao"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "PPP (Purchasing Power Parity) so sánh?",
+    "options": {
+      "A": "Sức mua giữa các quốc gia",
+      "B": "Năng suất lao động",
+      "C": "Lương tối thiểu",
+      "D": "Thuế gián thu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chỉ số Gini đo lường?",
+    "options": {
+      "A": "Bất bình đẳng thu nhập",
+      "B": "Tăng trưởng GDP",
+      "C": "Lạm phát lõi",
+      "D": "Tốc độ đô thị hóa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "FTA là viết tắt của?",
+    "options": {
+      "A": "Free Trade Agreement",
+      "B": "Fiscal Transfer Act",
+      "C": "Financial Trade Arrangement",
+      "D": "Foreign Tariff Accord"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hạn ngạch (quota) là?",
+    "options": {
+      "A": "Giới hạn số lượng nhập khẩu",
+      "B": "Giới hạn giá tối đa",
+      "C": "Thuế suất cố định",
+      "D": "Phí dịch vụ hải quan"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Tỷ giá hối đoái là?",
+    "options": {
+      "A": "Giá của một đồng tiền tính bằng đồng khác",
+      "B": "Giá vàng",
+      "C": "Giá hàng hóa",
+      "D": "Giá lao động"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phá giá tiền tệ (devaluation) thường gắn với?",
+    "options": {
+      "A": "Chế độ tỷ giá cố định",
+      "B": "Thả nổi hoàn toàn",
+      "C": "Cấm chuyển đổi",
+      "D": "Hệ thống bản vị vàng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "QE (Quantitative Easing) là việc NHTW?",
+    "options": {
+      "A": "Mua tài sản quy mô lớn",
+      "B": "Tăng thuế suất",
+      "C": "Giảm chi tiêu công",
+      "D": "Tăng tỷ giá chính thức"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiệu ứng 'crowding out' liên quan đến?",
+    "options": {
+      "A": "Chi tiêu công làm giảm đầu tư tư nhân",
+      "B": "Xuất khẩu lấn át nhập khẩu",
+      "C": "Lạm phát đẩy thất nghiệp giảm",
+      "D": "Tăng thuế làm tăng cầu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đường Phillips mô tả mối quan hệ giữa?",
+    "options": {
+      "A": "Lạm phát và thất nghiệp",
+      "B": "Lãi suất và tỷ giá",
+      "C": "Đầu tư và tiết kiệm",
+      "D": "Xuất khẩu và nhập khẩu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "IS-LM mô tả cân bằng trên hai thị trường?",
+    "options": {
+      "A": "Hàng hóa và tiền tệ",
+      "B": "Lao động và vốn",
+      "C": "Ngoại hối và vàng",
+      "D": "Bất động sản và trái phiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Okun's law liên hệ thay đổi thất nghiệp với?",
+    "options": {
+      "A": "Tăng trưởng sản lượng",
+      "B": "Lãi suất thực",
+      "C": "Thâm hụt ngân sách",
+      "D": "Cung tiền M2"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "NAIRU là tỷ lệ thất nghiệp mà tại đó?",
+    "options": {
+      "A": "Lạm phát không tăng tốc",
+      "B": "Lạm phát bằng 0",
+      "C": "GDP tiềm năng bằng GDP thực",
+      "D": "Thâm hụt bằng 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Taylor rule liên hệ lãi suất chính sách với?",
+    "options": {
+      "A": "Lạm phát và khoảng sản lượng",
+      "B": "Tỷ giá và dự trữ",
+      "C": "Nợ công và chi tiêu",
+      "D": "Cán cân thương mại"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Solow model nhấn mạnh vai trò của?",
+    "options": {
+      "A": "Vốn, lao động, tiến bộ công nghệ",
+      "B": "Thuế tiêu dùng",
+      "C": "Bảo hộ thương mại",
+      "D": "Tiết kiệm bằng 0"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Nợ công bền vững phụ thuộc nhiều vào?",
+    "options": {
+      "A": "Chênh lệch (lãi suất − tăng trưởng)",
+      "B": "Dân số",
+      "C": "Dự trữ ngoại hối",
+      "D": "Số ngày làm việc"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cấu trúc thị trường 'độc quyền nhóm' (oligopoly) đặc trưng bởi?",
+    "options": {
+      "A": "Ít doanh nghiệp lớn có tương tác chiến lược",
+      "B": "Một doanh nghiệp",
+      "C": "Vô số doanh nghiệp nhỏ",
+      "D": "Một người mua duy nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình Hotelling (đường phố) nói về?",
+    "options": {
+      "A": "Định vị sản phẩm/không gian",
+      "B": "Định giá độc quyền",
+      "C": "Tối ưu hóa tồn kho",
+      "D": "Rủi ro tín dụng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Nash equilibrium là trạng thái?",
+    "options": {
+      "A": "Không ai đơn phương cải thiện được kết quả",
+      "B": "Tối đa hóa phúc lợi xã hội",
+      "C": "Giá bằng chi phí biên",
+      "D": "Cân bằng cung cầu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trò 'Prisoner's Dilemma' minh họa vấn đề?",
+    "options": {
+      "A": "Chiến lược chi phối và kết cục kém tối ưu",
+      "B": "Thông tin hoàn hảo",
+      "C": "Độc quyền tự nhiên",
+      "D": "Trung lập an sinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thông tin bất cân xứng gây ra hiện tượng nào?",
+    "options": {
+      "A": "Lựa chọn đối nghịch (adverse selection)",
+      "B": "Hiệu ứng mạng",
+      "C": "Độc quyền",
+      "D": "Lạm phát mục tiêu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cơ chế 'moral hazard' xuất hiện khi?",
+    "options": {
+      "A": "Được bảo hiểm làm thay đổi hành vi rủi ro",
+      "B": "Thuế tăng làm cầu giảm",
+      "C": "Giá giảm làm cung giảm",
+      "D": "Tiết kiệm tăng làm đầu tư tăng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đấu giá Vickrey (second-price) khuyến khích người tham gia?",
+    "options": {
+      "A": "Đấu giá theo giá trị thật",
+      "B": "Đấu giá thấp hơn giá trị",
+      "C": "Đấu giá cao hơn nhiều",
+      "D": "Không đấu giá"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chỉ số HHI đo mức độ?",
+    "options": {
+      "A": "Tập trung thị trường",
+      "B": "Bất bình đẳng thu nhập",
+      "C": "Rủi ro tín dụng",
+      "D": "Hiệu quả kỹ thuật"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Giá phân biệt bậc ba (third-degree) dựa vào?",
+    "options": {
+      "A": "Nhóm khách hàng có co giãn khác nhau",
+      "B": "Mua theo gói",
+      "C": "Bán kèm bắt buộc",
+      "D": "Bốc thăm giá"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "BEP (điểm hòa vốn) theo đơn vị =?",
+    "options": {
+      "A": "Định phí / (Giá − Biến phí đơn vị)",
+      "B": "Doanh thu / Chi phí",
+      "C": "Biến phí / Định phí",
+      "D": "Tổng tài sản / Vốn chủ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "NPV là?",
+    "options": {
+      "A": "Giá trị hiện tại ròng",
+      "B": "Doanh thu thuần",
+      "C": "Lợi nhuận gộp",
+      "D": "Dòng tiền hoạt động"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "IRR là suất sinh lời mà tại đó?",
+    "options": {
+      "A": "NPV = 0",
+      "B": "Doanh thu = Chi phí",
+      "C": "Lợi nhuận gộp tối đa",
+      "D": "Dòng tiền âm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CAPM: E(Ri) =?",
+    "options": {
+      "A": "Rf + βi (Rm − Rf)",
+      "B": "Rm + βi (Rf − Rm)",
+      "C": "Rf − βi (Rm − Rf)",
+      "D": "βi × Rm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiệu ứng 'diversification' làm?",
+    "options": {
+      "A": "Giảm rủi ro không hệ thống",
+      "B": "Tăng rủi ro hệ thống",
+      "C": "Tăng beta",
+      "D": "Giảm lợi suất kỳ vọng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiệu quả thị trường dạng yếu (weak-form) ngụ ý?",
+    "options": {
+      "A": "Giá phản ánh hết thông tin quá khứ",
+      "B": "Phản ánh mọi thông tin công khai",
+      "C": "Phản ánh cả thông tin nội gián",
+      "D": "Không phản ánh gì"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "P/E là tỷ số giữa?",
+    "options": {
+      "A": "Giá cổ phiếu và lợi nhuận mỗi cổ phần",
+      "B": "Giá và doanh thu",
+      "C": "Giá và dòng tiền",
+      "D": "Giá và giá trị sổ sách"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "ROE =?",
+    "options": {
+      "A": "Lợi nhuận ròng / Vốn chủ",
+      "B": "Doanh thu / Tổng tài sản",
+      "C": "Lợi nhuận gộp / Doanh thu",
+      "D": "Dòng tiền / Doanh thu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Định lý Modigliani–Miller (không thuế) nói rằng?",
+    "options": {
+      "A": "Giá trị DN độc lập cấu trúc vốn",
+      "B": "Nợ càng nhiều càng tăng giá trị",
+      "C": "Cổ tức càng cao càng tăng giá trị",
+      "D": "Không cần chi phí vốn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "WACC là?",
+    "options": {
+      "A": "Chi phí sử dụng vốn bình quân gia quyền",
+      "B": "Chi phí biến đổi đơn vị",
+      "C": "Chi phí quản lý",
+      "D": "Chi phí cơ hội vốn chủ"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Phương pháp khấu hao đường thẳng chia đều theo?",
+    "options": {
+      "A": "Nguyên giá − Giá trị thu hồi / Thời gian sử dụng",
+      "B": "Nguyên giá / Sản lượng",
+      "C": "Giá trị sổ sách × Tỷ lệ giảm dần",
+      "D": "Dòng tiền / Năm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phương trình kế toán cơ bản là?",
+    "options": {
+      "A": "Tài sản = Nợ phải trả + Vốn chủ",
+      "B": "Tài sản = Doanh thu − Chi phí",
+      "C": "Lợi nhuận = Doanh thu − Thuế",
+      "D": "Tiền = Thu − Chi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "FIFO so với LIFO trong lạm phát thường làm?",
+    "options": {
+      "A": "Lợi nhuận cao hơn, tồn kho cuối kỳ cao hơn",
+      "B": "Lợi nhuận thấp hơn",
+      "C": "Tồn kho thấp hơn",
+      "D": "Không khác biệt"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "4P trong marketing gồm: Product, Price, Place và?",
+    "options": {
+      "A": "Promotion",
+      "B": "People",
+      "C": "Process",
+      "D": "Physical evidence"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Porter’s Five Forces không bao gồm?",
+    "options": {
+      "A": "Sức ép từ nhà cung cấp",
+      "B": "Đối thủ tiềm ẩn",
+      "C": "Sản phẩm thay thế",
+      "D": "Tốc độ tăng dân số"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "SWOT là viết tắt của?",
+    "options": {
+      "A": "Strengths, Weaknesses, Opportunities, Threats",
+      "B": "Sales, Work, Output, Turnover",
+      "C": "Supply, Warehousing, Order, Transport",
+      "D": "Service, Warranty, Offer, Terms"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chiến lược định giá 'penetration' là?",
+    "options": {
+      "A": "Giá thấp ban đầu để chiếm thị phần",
+      "B": "Giá cao để hớt váng",
+      "C": "Giá theo chi phí cộng biên",
+      "D": "Giá theo đối thủ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Giá động (dynamic pricing) phổ biến trong?",
+    "options": {
+      "A": "Hàng không/khách sạn",
+      "B": "Nông nghiệp",
+      "C": "Xây dựng cơ bản",
+      "D": "Khoáng sản"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CLV (Customer Lifetime Value) phản ánh?",
+    "options": {
+      "A": "Giá trị ròng từ khách trong toàn vòng đời",
+      "B": "Doanh thu mỗi đơn hàng",
+      "C": "Chi phí thu hút khách",
+      "D": "Tỷ lệ chuyển đổi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CAC là?",
+    "options": {
+      "A": "Chi phí để có một khách hàng mới",
+      "B": "Doanh thu bình quân khách",
+      "C": "Tỷ lệ rời bỏ",
+      "D": "Tỷ lệ giữ chân"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Bullwhip effect trong chuỗi cung ứng là?",
+    "options": {
+      "A": "Nhu cầu biến động nhỏ ở đầu ra khuếch đại lên thượng nguồn",
+      "B": "Giảm tồn kho toàn chuỗi",
+      "C": "Đứt gãy vận tải",
+      "D": "Sản xuất tinh gọn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "EOQ tối ưu phụ thuộc vào?",
+    "options": {
+      "A": "Chi phí đặt hàng và chi phí lưu kho",
+      "B": "Lương nhân công",
+      "C": "Khấu hao",
+      "D": "Thuế VAT"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Just-in-time (JIT) nhằm?",
+    "options": {
+      "A": "Giảm tồn kho và lãng phí",
+      "B": "Tăng dự trữ an toàn",
+      "C": "Tối đa hóa lô hàng",
+      "D": "Kéo dài lead time"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Incoterm FOB quy định người bán chịu rủi ro đến?",
+    "options": {
+      "A": "Qua lan can tàu tại cảng bốc",
+      "B": "Cảng dỡ",
+      "C": "Kho người mua",
+      "D": "Biên giới hải quan"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "CIF khác FOB ở điểm chính?",
+    "options": {
+      "A": "Người bán mua bảo hiểm và cước đến cảng dỡ",
+      "B": "Người mua mua bảo hiểm",
+      "C": "Không dùng đường biển",
+      "D": "Giao tại kho người mua"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vận đơn đường biển (B/L) là chứng từ?",
+    "options": {
+      "A": "Chứng nhận sở hữu hàng và biên lai vận chuyển",
+      "B": "Hóa đơn thương mại",
+      "C": "Giấy chứng nhận xuất xứ",
+      "D": "Bảo hiểm hàng hóa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thư tín dụng (L/C) giảm rủi ro cho?",
+    "options": {
+      "A": "Người bán khi ngân hàng cam kết thanh toán",
+      "B": "Người mua khỏi trả tiền",
+      "C": "Hải quan khỏi kiểm tra",
+      "D": "Bảo hiểm khỏi bồi thường"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Anti-dumping duty áp với?",
+    "options": {
+      "A": "Hàng nhập có giá thấp hơn giá trị bình thường",
+      "B": "Hàng xuất dư thừa",
+      "C": "Hàng xa xỉ",
+      "D": "Hàng công nghệ cao"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "MFN (đãi ngộ tối huệ quốc) của WTO yêu cầu?",
+    "options": {
+      "A": "Đối xử thương mại không phân biệt giữa các thành viên",
+      "B": "Ưu đãi đặc biệt cho nước giàu",
+      "C": "Miễn thuế toàn bộ",
+      "D": "Hạn ngạch bằng nhau"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình trọng lực (gravity) trong thương mại dự đoán thương mại dựa trên?",
+    "options": {
+      "A": "Quy mô kinh tế và khoảng cách",
+      "B": "Dân số trẻ",
+      "C": "Khí hậu",
+      "D": "Ngôn ngữ chung duy nhất"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Tài khoản vãng lai thặng dư thường đi cùng với?",
+    "options": {
+      "A": "Tài khoản vốn thâm hụt (xấp xỉ)",
+      "B": "Tài khoản vốn thặng dư",
+      "C": "CPI giảm",
+      "D": "Lãi suất âm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tỷ giá thực (real exchange rate) điều chỉnh theo?",
+    "options": {
+      "A": "Chênh lệch mức giá",
+      "B": "Dân số",
+      "C": "Thuế thu nhập",
+      "D": "Nợ công"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kỳ vọng lạm phát tăng thường làm?",
+    "options": {
+      "A": "Lãi suất danh nghĩa tăng",
+      "B": "Lãi suất danh nghĩa giảm",
+      "C": "Tiền thực tăng",
+      "D": "Cầu tiền giảm về 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chính sách 'inflation targeting' là NHTW đặt?",
+    "options": {
+      "A": "Mục tiêu lạm phát công khai",
+      "B": "Mục tiêu tỷ giá cố định",
+      "C": "Mục tiêu thâm hụt 0",
+      "D": "Mục tiêu tăng trưởng tín dụng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đường LM dịch chuyển khi?",
+    "options": {
+      "A": "Cung tiền thay đổi",
+      "B": "Thuế thu nhập thay đổi",
+      "C": "Chi tiêu công đổi",
+      "D": "Xuất khẩu ròng đổi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ricardian equivalence (với giả định mạnh) cho rằng?",
+    "options": {
+      "A": "Thuế hay nợ công tài trợ chi tiêu có hiệu ứng tương đương",
+      "B": "Thuế cao làm tăng tiêu dùng",
+      "C": "Nợ công luôn xấu",
+      "D": "Chi tiêu công vô hiệu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Laffer curve mô tả quan hệ giữa?",
+    "options": {
+      "A": "Thuế suất và thu ngân sách",
+      "B": "Lãi suất và đầu tư",
+      "C": "Lạm phát và thất nghiệp",
+      "D": "Tiết kiệm và tiêu dùng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Deadweight loss phát sinh khi?",
+    "options": {
+      "A": "Thuế/giá trần/giá sàn làm méo mó thị trường",
+      "B": "Cạnh tranh hoàn hảo",
+      "C": "Giá bằng chi phí biên",
+      "D": "Không có thuế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thuế Pigou nhằm?",
+    "options": {
+      "A": "Nội hóa ngoại ứng tiêu cực",
+      "B": "Giảm thâm hụt",
+      "C": "Bình ổn tỷ giá",
+      "D": "Khuyến khích tiết kiệm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Pareto efficiency xảy ra khi?",
+    "options": {
+      "A": "Không thể cải thiện ai mà không làm ai khác tệ hơn",
+      "B": "Mọi người đều tối đa hóa lợi ích",
+      "C": "Lợi nhuận DN tối đa",
+      "D": "CPI tối thiểu"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "MRS (marginal rate of substitution) là?",
+    "options": {
+      "A": "Tỷ lệ sẵn sàng đánh đổi giữa hai hàng hóa",
+      "B": "Tỷ lệ thất nghiệp tự nhiên",
+      "C": "Tỷ lệ thay thế kỹ thuật",
+      "D": "Tỷ lệ lợi nhuận"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Diminishing marginal utility nghĩa là?",
+    "options": {
+      "A": "Lợi ích cận biên giảm dần",
+      "B": "Chi phí cận biên giảm dần",
+      "C": "Doanh thu cận biên tăng dần",
+      "D": "Năng suất cận biên tăng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kinh tế theo quy mô (economies of scale) dẫn đến?",
+    "options": {
+      "A": "Chi phí bình quân giảm khi sản lượng tăng",
+      "B": "Chi phí bình quân tăng",
+      "C": "Doanh thu giảm",
+      "D": "Nhu cầu giảm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mạng lưới (network effects) khiến giá trị sản phẩm?",
+    "options": {
+      "A": "Tăng khi số người dùng tăng",
+      "B": "Giảm khi số người dùng tăng",
+      "C": "Không đổi",
+      "D": "Chỉ phụ thuộc giá"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thị trường hai mặt (two-sided) ví dụ?",
+    "options": {
+      "A": "Nền tảng thẻ thanh toán",
+      "B": "Siêu thị truyền thống",
+      "C": "Cửa hàng đơn lẻ",
+      "D": "Nông trại"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Heckscher–Ohlin dự đoán quốc gia sẽ xuất khẩu hàng hóa?",
+    "options": {
+      "A": "Thâm dụng yếu tố mà nước đó dồi dào",
+      "B": "Thiếu yếu tố dồi dào",
+      "C": "Giá cao nhất",
+      "D": "Hàm lượng công nghệ thấp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Terms of trade (TOT) xấp xỉ bằng?",
+    "options": {
+      "A": "Giá xuất khẩu / Giá nhập khẩu",
+      "B": "Xuất khẩu / Nhập khẩu",
+      "C": "GDP / Dân số",
+      "D": "Tiết kiệm / Đầu tư"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Arbitrage dựa trên?",
+    "options": {
+      "A": "Luật một giá",
+      "B": "Độc quyền",
+      "C": "Bảo hộ",
+      "D": "Kiểm soát giá"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hợp đồng forward khác futures ở?",
+    "options": {
+      "A": "Forward là OTC, futures niêm yết",
+      "B": "Forward ký quỹ chuẩn",
+      "C": "Futures OTC",
+      "D": "Forward thanh toán hàng ngày"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quyền chọn mua (call option) cho phép?",
+    "options": {
+      "A": "Quyền mua tài sản cơ sở",
+      "B": "Quyền bán tài sản cơ sở",
+      "C": "Nghĩa vụ mua",
+      "D": "Nghĩa vụ bán"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Basel III yêu cầu ngân hàng?",
+    "options": {
+      "A": "Tăng vốn tự có và thanh khoản",
+      "B": "Giảm CAR",
+      "C": "Bỏ stress test",
+      "D": "Chỉ dùng nợ ngắn hạn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Lãi suất thực xấp xỉ bằng?",
+    "options": {
+      "A": "Lãi suất danh nghĩa − Lạm phát kỳ vọng",
+      "B": "Danh nghĩa + Lạm phát",
+      "C": "Danh nghĩa × Lạm phát",
+      "D": "Danh nghĩa / Lạm phát"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Công thức tăng trưởng tiền theo số nhân tiền tệ liên hệ với?",
+    "options": {
+      "A": "Dự trữ bắt buộc và tiền cơ sở",
+      "B": "Tốc độ lưu chuyển tiền",
+      "C": "Tỷ giá thực",
+      "D": "Thuế biên"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chênh lệch lãi suất trong mô hình UIP ảnh hưởng đến?",
+    "options": {
+      "A": "Kỳ vọng thay đổi tỷ giá",
+      "B": "Kỳ vọng CPI",
+      "C": "Cầu lao động",
+      "D": "Giá dầu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tỷ giá thả nổi có quản lý là?",
+    "options": {
+      "A": "NHTW can thiệp định kỳ nhưng không ấn định cứng",
+      "B": "Cố định tuyệt đối",
+      "C": "Bắt buộc neo vàng",
+      "D": "Không can thiệp bao giờ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chu kỳ kinh doanh (business cycle) gồm các pha?",
+    "options": {
+      "A": "Phục hồi, mở rộng, đỉnh, suy thoái",
+      "B": "Suy thoái duy nhất",
+      "C": "Ổn định vĩnh viễn",
+      "D": "Lạm phát vĩnh viễn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "PMI (Purchasing Managers’ Index) là chỉ báo?",
+    "options": {
+      "A": "Dẫn dắt về hoạt động sản xuất/dịch vụ",
+      "B": "Trễ về lạm phát",
+      "C": "Đồng hành với GDP",
+      "D": "Chỉ số giá nông sản"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Price stickiness ám chỉ?",
+    "options": {
+      "A": "Giá điều chỉnh chậm trước cú sốc",
+      "B": "Giá điều chỉnh ngay",
+      "C": "Giá giảm nhanh hơn tăng",
+      "D": "Giá chỉ tăng không giảm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Menu costs là chi phí?",
+    "options": {
+      "A": "Điều chỉnh bảng giá",
+      "B": "Đặt hàng tồn kho",
+      "C": "Vận chuyển",
+      "D": "Khấu hao"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hiệu ứng 'anchoring' trong kinh tế hành vi là?",
+    "options": {
+      "A": "Thiên lệch do neo thông tin ban đầu",
+      "B": "Tối ưu kỳ vọng hợp lý",
+      "C": "Tối đa hóa lợi nhuận",
+      "D": "Trung lập rủi ro"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question": "Giá sàn (price floor) trên mức cân bằng thường gây?",
+    "options": {
+      "A": "Dư thừa",
+      "B": "Thiếu hụt",
+      "C": "Không đổi",
+      "D": "Tăng thặng dư tiêu dùng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình Cournot giả định doanh nghiệp cạnh tranh bằng?",
+    "options": {
+      "A": "Sản lượng",
+      "B": "Giá",
+      "C": "Chất lượng",
+      "D": "Quảng cáo"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình Bertrand giả định doanh nghiệp cạnh tranh bằng?",
+    "options": {
+      "A": "Giá",
+      "B": "Sản lượng",
+      "C": "Công suất",
+      "D": "Định vị"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Monopolistic competition có đặc trưng?",
+    "options": {
+      "A": "Nhiều doanh nghiệp, sản phẩm khác biệt",
+      "B": "Một doanh nghiệp",
+      "C": "Rào cản cao",
+      "D": "Đồng nhất hoàn toàn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hàng hóa Veblen là hàng mà khi giá tăng thì?",
+    "options": {
+      "A": "Cầu tăng do hiệu ứng phô trương",
+      "B": "Cầu giảm",
+      "C": "Cầu không đổi",
+      "D": "Cầu về 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hàng Giffen là trường hợp đặc biệt của?",
+    "options": {
+      "A": "Hàng thiết yếu có hiệu ứng thu nhập lấn át thay thế",
+      "B": "Hàng xa xỉ",
+      "C": "Hàng công",
+      "D": "Hàng bổ sung"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cross-price elasticity dương hàm ý hai hàng hóa là?",
+    "options": {
+      "A": "Thay thế",
+      "B": "Bổ sung",
+      "C": "Độc lập",
+      "D": "Công cộng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Income elasticity âm hàm ý hàng là?",
+    "options": {
+      "A": "Hàng thứ cấp (inferior)",
+      "B": "Hàng xa xỉ",
+      "C": "Hàng thông thường",
+      "D": "Hàng công"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mô hình Mundell–Fleming mở rộng IS-LM cho?",
+    "options": {
+      "A": "Kinh tế mở với tỷ giá",
+      "B": "Thị trường lao động",
+      "C": "Thị trường bất động sản",
+      "D": "Thị trường dầu mỏ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bộ ba bất khả thi (trilemma) cho rằng không thể đồng thời có?",
+    "options": {
+      "A": "Tỷ giá cố định, tự do vốn, chính sách tiền tệ độc lập",
+      "B": "Lạm phát thấp, tăng trưởng cao, thất nghiệp thấp",
+      "C": "Thuế thấp, chi tiêu cao, thâm hụt thấp",
+      "D": "Xuất siêu, tỷ giá cao, lãi suất thấp"
+    },
+    "answer": "A"
+  }
+]

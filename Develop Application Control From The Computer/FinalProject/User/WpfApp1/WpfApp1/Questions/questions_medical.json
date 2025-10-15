@@ -1,0 +1,1082 @@
+[
+  {
+    "question": "Cơ quan nào chịu trách nhiệm bơm máu đi khắp cơ thể?",
+    "options": {
+      "A": "Phổi",
+      "B": "Gan",
+      "C": "Tim",
+      "D": "Thận"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đơn vị đo huyết áp thường dùng là?",
+    "options": {
+      "A": "kg",
+      "B": "°C",
+      "C": "bpm",
+      "D": "mmHg"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Nhịp tim người trưởng thành khi nghỉ ngơi bình thường khoảng?",
+    "options": {
+      "A": "110–150 bpm",
+      "B": "60–100 bpm",
+      "C": "30–50 bpm",
+      "D": "10–20 bpm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vitamin nào tổng hợp chủ yếu nhờ ánh nắng mặt trời?",
+    "options": {
+      "A": "Vitamin K",
+      "B": "Vitamin B12",
+      "C": "Vitamin D",
+      "D": "Vitamin C"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cơ quan nào lọc máu và tạo nước tiểu?",
+    "options": {
+      "A": "Lách",
+      "B": "Thận",
+      "C": "Dạ dày",
+      "D": "Gan"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chỉ số BMI dùng để ước tính?",
+    "options": {
+      "A": "Tình trạng cân nặng theo chiều cao",
+      "B": "Đường huyết",
+      "C": "Mỡ máu",
+      "D": "Khối lượng cơ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đường huyết đói bình thường xấp xỉ (mg/dL)?",
+    "options": {
+      "A": "120–160",
+      "B": "70–99",
+      "C": "40–60",
+      "D": "200–240"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Loại tế bào máu giúp đông máu là?",
+    "options": {
+      "A": "Hồng cầu",
+      "B": "Bạch cầu lympho",
+      "C": "Tiểu cầu",
+      "D": "Bạch cầu ái toan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cúm mùa chủ yếu do loại tác nhân nào gây ra?",
+    "options": {
+      "A": "Nấm",
+      "B": "Virus",
+      "C": "Vi khuẩn",
+      "D": "Ký sinh trùng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khẩu trang y tế có tác dụng chính là?",
+    "options": {
+      "A": "Giảm huyết áp",
+      "B": "Giảm lây truyền giọt bắn",
+      "C": "Tăng thân nhiệt",
+      "D": "Tăng nồng độ oxy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cơ quan giải độc chính của cơ thể là?",
+    "options": {
+      "A": "Tim",
+      "B": "Gan",
+      "C": "Lách",
+      "D": "Phổi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Huyết áp tâm thu là trị số đo khi?",
+    "options": {
+      "A": "Khi ngủ",
+      "B": "Tim co bóp",
+      "C": "Khi nín thở",
+      "D": "Tim giãn ra"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tiêm chủng giúp phòng bệnh bằng cơ chế nào?",
+    "options": {
+      "A": "Tạo miễn dịch chủ động",
+      "B": "Tăng cân nhanh",
+      "C": "Diệt vi khuẩn ngay lập tức",
+      "D": "Giảm đau tạm thời"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bệnh tay–chân–miệng thường gặp ở nhóm tuổi nào?",
+    "options": {
+      "A": "Phụ nữ mang thai",
+      "B": "Trẻ em",
+      "C": "Người già",
+      "D": "Thanh niên"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sốt xuất huyết Dengue lây truyền qua vector nào?",
+    "options": {
+      "A": "Ruồi",
+      "B": "Muỗi Aedes",
+      "C": "Ve",
+      "D": "Bọ chét"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kháng sinh có tác dụng với tác nhân nào?",
+    "options": {
+      "A": "Vi khuẩn",
+      "B": "Virus",
+      "C": "Ký sinh trùng sốt rét",
+      "D": "Nấm mốc tường"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Triệu chứng nào thường gặp trong đột quỵ?",
+    "options": {
+      "A": "Ngứa nhẹ tay chân",
+      "B": "Yếu liệt nửa người đột ngột",
+      "C": "Tăng chiều cao",
+      "D": "Sụt cân từ từ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chỉ số SpO2 đo điều gì?",
+    "options": {
+      "A": "Độ bão hòa oxy máu ngoại vi",
+      "B": "Mỡ máu",
+      "C": "Đường huyết",
+      "D": "Thân nhiệt"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiếu máu thường do giảm thành phần nào?",
+    "options": {
+      "A": "Bạch cầu trung tính",
+      "B": "Tiểu cầu",
+      "C": "Natri máu",
+      "D": "Hồng cầu/hemoglobin"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đơn vị đo đường huyết phổ biến khác ngoài mg/dL là?",
+    "options": {
+      "A": "pg/mL",
+      "B": "mmol/L",
+      "C": "g/L",
+      "D": "IU/mL"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "X-quang ngực giúp đánh giá chủ yếu cơ quan nào?",
+    "options": {
+      "A": "Gan",
+      "B": "Phổi và tim",
+      "C": "Lách",
+      "D": "Thận"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vaccine MMR phòng những bệnh nào?",
+    "options": {
+      "A": "Uốn ván, bại liệt, thủy đậu",
+      "B": "Viêm gan A, B, C",
+      "C": "Cúm, ho gà, bạch hầu",
+      "D": "Sởi, quai bị, rubella"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đo điện tim (ECG) dùng để?",
+    "options": {
+      "A": "Đo dung tích phổi",
+      "B": "Định lượng hormone",
+      "C": "Ghi hoạt động điện của tim",
+      "D": "Đo mật độ xương"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tác dụng phụ thường gặp của thuốc kháng viêm NSAID là?",
+    "options": {
+      "A": "Tăng sắc tố da ngay",
+      "B": "Kích ứng dạ dày",
+      "C": "Mọc tóc nhanh",
+      "D": "Tăng chiều cao"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Rửa tay hiệu quả nên kéo dài ít nhất bao lâu?",
+    "options": {
+      "A": "20 giây",
+      "B": "60 giây luôn",
+      "C": "5 giây",
+      "D": "10 giây"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tăng huyết áp theo tiêu chuẩn thường khi HA tâm thu ≥?",
+    "options": {
+      "A": "90 mmHg",
+      "B": "100 mmHg",
+      "C": "120 mmHg",
+      "D": "140 mmHg"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đái tháo đường type 2 liên quan chặt chẽ đến?",
+    "options": {
+      "A": "Thiếu men G6PD",
+      "B": "Đề kháng insulin",
+      "C": "Thiếu insulin tuyệt đối",
+      "D": "Nhiễm toan ceton bẩm sinh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cholesterol 'tốt' thường được gọi là?",
+    "options": {
+      "A": "Triglycerid",
+      "B": "VLDL",
+      "C": "HDL",
+      "D": "LDL"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Suy hô hấp biểu hiện bằng?",
+    "options": {
+      "A": "Tiểu ít",
+      "B": "Đau khớp",
+      "C": "Khó thở, SpO2 giảm",
+      "D": "Hạ thân nhiệt"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bệnh lý nào sau đây không lây truyền qua đường không khí?",
+    "options": {
+      "A": "Sốt rét",
+      "B": "Sởi",
+      "C": "Cúm",
+      "D": "Lao phổi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vàng da tắc mật thường làm tăng men nào trong xét nghiệm?",
+    "options": {
+      "A": "Amylase",
+      "B": "Bilirubin trực tiếp",
+      "C": "CK-MB",
+      "D": "Creatinine"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đau thắt ngực ổn định thường liên quan đến?",
+    "options": {
+      "A": "Sỏi thận",
+      "B": "Thoát vị bẹn",
+      "C": "Viêm phế quản",
+      "D": "Xơ vữa động mạch vành"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Triệu chứng kinh điển của viêm ruột thừa cấp là đau khu trú ở?",
+    "options": {
+      "A": "Hố chậu phải",
+      "B": "Hạ sườn trái",
+      "C": "Mạn sườn phải",
+      "D": "Thượng vị"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cơn hen phế quản điển hình có tiếng?",
+    "options": {
+      "A": "Rít khi thở ra",
+      "B": "Ran ẩm to hạt",
+      "C": "Click tâm thu",
+      "D": "Tiếng cọ màng tim"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiếu i-ốt kéo dài dễ gây bệnh lý nào?",
+    "options": {
+      "A": "Còi xương",
+      "B": "Thiếu máu hồng cầu to",
+      "C": "Bướu cổ",
+      "D": "Gút"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bệnh tay–chân–miệng do nhóm virus nào gây chủ yếu?",
+    "options": {
+      "A": "Enterovirus (Coxsackie/EV71)",
+      "B": "Adenovirus",
+      "C": "Influenza",
+      "D": "Coronavirus NL63"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "HIV lây truyền qua đường nào sau đây?",
+    "options": {
+      "A": "Máu, tình dục, mẹ–con",
+      "B": "Không khí",
+      "C": "Dùng chung chén bát",
+      "D": "Bắt tay"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bệnh lao được điều trị chủ yếu bằng?",
+    "options": {
+      "A": "Vitamin C liều cao đơn độc",
+      "B": "Chỉ phẫu thuật",
+      "C": "Chỉ nằm nghỉ",
+      "D": "Phác đồ kháng sinh phối hợp nhiều thuốc"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Xét nghiệm HbA1c phản ánh?",
+    "options": {
+      "A": "Đường huyết tức thời",
+      "B": "Chức năng thận",
+      "C": "Đường huyết trung bình 2–3 tháng",
+      "D": "Chức năng gan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đau ngực kiểu bóp nghẹt lan lên tay trái gợi ý?",
+    "options": {
+      "A": "Co cứng cơ liên sườn",
+      "B": "Trào ngược dạ dày",
+      "C": "Hội chứng vành",
+      "D": "Viêm dạ dày"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cấp cứu sốc phản vệ ưu tiên đầu tiên là?",
+    "options": {
+      "A": "Tiêm Adrenaline",
+      "B": "Truyền glucose",
+      "C": "Xoa bóp tim ngoài lồng ngực ngay lập tức",
+      "D": "Cho uống nước"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thuốc hạ mỡ nhóm statin tác động chính lên?",
+    "options": {
+      "A": "Tăng nhịp tim",
+      "B": "Tăng hấp thu đường ruột",
+      "C": "Giảm tổng hợp cholesterol ở gan",
+      "D": "Tăng thải acid uric"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Kháng thể IgE tăng thường gặp trong?",
+    "options": {
+      "A": "Dị ứng/hen",
+      "B": "Suy giáp",
+      "C": "Suy thận",
+      "D": "Thiếu máu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Dấu hiệu Trousseau/Chvostek liên quan đến rối loạn nào?",
+    "options": {
+      "A": "Hạ natri máu",
+      "B": "Tăng đường huyết",
+      "C": "Hạ calci máu",
+      "D": "Tăng kali máu"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bệnh gút liên quan đến tăng chất nào trong máu?",
+    "options": {
+      "A": "Calci",
+      "B": "Bilirubin",
+      "C": "Magnesi",
+      "D": "Acid uric"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đo mật độ xương DXA dùng để chẩn đoán?",
+    "options": {
+      "A": "Loãng xương",
+      "B": "Gan nhiễm mỡ",
+      "C": "Sỏi thận",
+      "D": "Polyp đại tràng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Viêm gan B lây qua đường nào sau đây?",
+    "options": {
+      "A": "Ăn uống",
+      "B": "Hô hấp",
+      "C": "Máu, tình dục, mẹ–con",
+      "D": "Côn trùng đốt"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thuốc Metformin thuộc nhóm điều trị nào?",
+    "options": {
+      "A": "Hạ huyết áp ức chế men chuyển",
+      "B": "Kháng đông kháng vitamin K",
+      "C": "Đái tháo đường type 2 (Biguanide)",
+      "D": "Lợi tiểu quai"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Điện giải đồ cho biết nồng độ các ion nào chủ yếu?",
+    "options": {
+      "A": "Ca2+, Mg2+, Fe2+",
+      "B": "Na+, K+, Cl-, HCO3-",
+      "C": "PO4-, SO4-, NO3-",
+      "D": "Cu2+, Zn2+, Mn2+"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tiêu chuẩn vàng chẩn đoán nhồi máu cơ tim gồm men tim nào?",
+    "options": {
+      "A": "AST",
+      "B": "ALT",
+      "C": "Troponin",
+      "D": "Amylase"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Test nhanh H. pylori dương tính gợi ý bệnh lý nào?",
+    "options": {
+      "A": "Viêm tụy cấp",
+      "B": "Suy thận mạn",
+      "C": "Viêm loét dạ dày–tá tràng",
+      "D": "Viêm gan C"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khẩu phần giàu chất xơ giúp dự phòng bệnh nào sau đây?",
+    "options": {
+      "A": "Gãy xương",
+      "B": "Thiếu máu huyết tán",
+      "C": "Táo bón",
+      "D": "Cường giáp"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Corticoid dùng kéo dài có thể gây tác dụng phụ nào?",
+    "options": {
+      "A": "Tăng đường huyết, loãng xương",
+      "B": "Tăng thị lực vĩnh viễn",
+      "C": "Tăng chiều cao",
+      "D": "Giảm nhiễm trùng hoàn toàn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tiêm phòng uốn ván cho phụ nữ mang thai nhằm?",
+    "options": {
+      "A": "Giảm nghén",
+      "B": "Ngừa tiền sản giật",
+      "C": "Tăng cân thai nhi",
+      "D": "Phòng uốn ván sơ sinh"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Dấu hiệu nào gợi ý mất nước nặng ở trẻ tiêu chảy?",
+    "options": {
+      "A": "Ho khan",
+      "B": "Mắt trũng, da mất đàn hồi, khát nhiều/ly bì",
+      "C": "Ngứa da",
+      "D": "Sốt nhẹ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Điều trị hen phế quản kiểm soát lâu dài dùng thuốc nào chính?",
+    "options": {
+      "A": "Corticoid hít",
+      "B": "Vitamin tổng hợp",
+      "C": "Thuốc long đờm",
+      "D": "Kháng sinh"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vaccine HPV giúp phòng bệnh nào quan trọng ở nữ giới?",
+    "options": {
+      "A": "Ung thư buồng trứng",
+      "B": "Ung thư vú",
+      "C": "Ung thư cổ tử cung",
+      "D": "Ung thư gan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hội chứng chuyển hóa KHÔNG bao gồm yếu tố nào sau đây?",
+    "options": {
+      "A": "Thiếu máu thiếu sắt",
+      "B": "Rối loạn lipid",
+      "C": "Béo bụng",
+      "D": "Tăng đường huyết"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sàng lọc ung thư đại trực tràng thường khuyến cáo bắt đầu ở tuổi?",
+    "options": {
+      "A": "70",
+      "B": "30",
+      "C": "60",
+      "D": "50 (nhiều khuyến cáo mới: 45)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Test chẩn đoán thai sớm dựa trên hormon nào?",
+    "options": {
+      "A": "TSH",
+      "B": "Prolactin",
+      "C": "hCG",
+      "D": "LH"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tiền sản giật đặc trưng bởi?",
+    "options": {
+      "A": "Tăng huyết áp, protein niệu sau 20 tuần",
+      "B": "Đau lưng mạn tính",
+      "C": "Hạ đường huyết",
+      "D": "Sốt cao và phát ban"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "SARS-CoV-2 lây truyền chủ yếu qua?",
+    "options": {
+      "A": "Giọt bắn và khí dung",
+      "B": "Côn trùng đốt",
+      "C": "Thực phẩm đóng hộp",
+      "D": "Nước biển"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Phòng bệnh sốt rét biện pháp cốt lõi là?",
+    "options": {
+      "A": "Tiêm vaccine cúm",
+      "B": "Màn tẩm hóa chất và điều trị sớm",
+      "C": "Uống nhiều nước ngọt",
+      "D": "Tập thể dục nặng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Xét nghiệm PSA dùng sàng lọc bệnh lý nào?",
+    "options": {
+      "A": "Ung thư dạ dày",
+      "B": "Ung thư tuyến tiền liệt",
+      "C": "Ung thư tụy",
+      "D": "Ung thư phổi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hb giảm, MCV nhỏ gợi ý thiếu chất gì?",
+    "options": {
+      "A": "Thiếu sắt",
+      "B": "Thiếu folate",
+      "C": "Thiếu vitamin B12",
+      "D": "Thừa đồng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Gãy xương hở cần ưu tiên gì tại hiện trường?",
+    "options": {
+      "A": "Cầm máu và bất động",
+      "B": "Xoa bóp mạnh",
+      "C": "Kéo nắn ngay lập tức",
+      "D": "Cho ăn uống nhiều"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đau đầu kèm gáy cứng, sốt cao cần nghĩ đến?",
+    "options": {
+      "A": "Viêm tai ngoài",
+      "B": "Viêm họng nhẹ",
+      "C": "Viêm màng não",
+      "D": "Viêm da"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "COPD thường liên quan yếu tố nguy cơ nào?",
+    "options": {
+      "A": "Tập thể dục",
+      "B": "Hút thuốc lá lâu năm",
+      "C": "Uống sữa nhiều",
+      "D": "Ngủ muộn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Test Mantoux/PPD dùng để sàng lọc?",
+    "options": {
+      "A": "Rubella",
+      "B": "Lao",
+      "C": "Cúm",
+      "D": "Sởi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bệnh nhân suy tim thường xuất hiện dấu nào sau?",
+    "options": {
+      "A": "Phù chân, khó thở khi nằm",
+      "B": "Tiêu chảy",
+      "C": "Phát ban mụn nước",
+      "D": "Vàng da tươi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ống Naso-gastric (sonde dạ dày) đặt để?",
+    "options": {
+      "A": "Đo huyết áp",
+      "B": "Theo dõi nước tiểu",
+      "C": "Truyền tĩnh mạch",
+      "D": "Dẫn lưu/dinh dưỡng qua dạ dày"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thuốc ức chế men chuyển (ACEi) thường dùng điều trị?",
+    "options": {
+      "A": "Viêm họng",
+      "B": "Cường giáp",
+      "C": "Tăng huyết áp/suy tim",
+      "D": "Nhiễm nấm da"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tiêu chuẩn vàng chẩn đoán đột quỵ xuất huyết?",
+    "options": {
+      "A": "CT não không cản quang",
+      "B": "Đo mật độ xương",
+      "C": "Siêu âm tim",
+      "D": "X-quang phổi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "D-dimer tăng gợi ý bệnh cảnh nào?",
+    "options": {
+      "A": "Thiếu máu",
+      "B": "Hạ canxi",
+      "C": "Huyết khối/tắc mạch",
+      "D": "Cường giáp"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hội chứng Cushing do dư thừa hormon nào?",
+    "options": {
+      "A": "Aldosteron thấp",
+      "B": "Insulin",
+      "C": "Thyroxin",
+      "D": "Cortisol"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sốc nhiễm khuẩn cần biện pháp ban đầu nào theo gói giờ đầu?",
+    "options": {
+      "A": "Nhịn uống",
+      "B": "Truyền dịch sớm và kháng sinh sớm",
+      "C": "Cho thuốc lợi tiểu ngay",
+      "D": "Chườm lạnh toàn thân"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Rối loạn nhịp nhanh trên thất thường điều trị cấp bằng?",
+    "options": {
+      "A": "Vitamin B1",
+      "B": "Kháng sinh",
+      "C": "Insulin",
+      "D": "Nghiệm pháp phế vị/adenosine (khi phù hợp)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Ngộ độc paracetamol nặng có thuốc giải độc đặc hiệu là?",
+    "options": {
+      "A": "Flumazenil",
+      "B": "Naloxone",
+      "C": "N-acetylcysteine (NAC)",
+      "D": "Atropine"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Điều trị sốc phản vệ đường thở khó đặt nên ưu tiên đường dùng adrenaline nào?",
+    "options": {
+      "A": "Tiêm bắp mặt ngoài đùi",
+      "B": "Uống",
+      "C": "Khí dung",
+      "D": "Truyền tĩnh mạch liều cao ngay"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chống đông đường uống thế hệ mới (NOAC/DOAC) KHÔNG cần theo dõi định kỳ chỉ số nào?",
+    "options": {
+      "A": "INR (so với warfarin)",
+      "B": "Huyết áp",
+      "C": "Chức năng gan thận",
+      "D": "Công thức máu"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Xử trí bỏng nhiệt độ cao tại chỗ ngay sau tai nạn nên?",
+    "options": {
+      "A": "Làm mát bằng nước mát 10–20 phút",
+      "B": "Chọc vỡ bóng nước",
+      "C": "Đắp đá trực tiếp lâu",
+      "D": "Bôi kem đánh răng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Natri máu giảm nặng có thể gây triệu chứng thần kinh do?",
+    "options": {
+      "A": "Thiếu máu",
+      "B": "Phù não",
+      "C": "Tăng calci máu",
+      "D": "Tụt đường huyết"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thăm dò Holter ECG dùng để?",
+    "options": {
+      "A": "Ghi điện tim liên tục 24–48 giờ",
+      "B": "Đo bão hòa oxy",
+      "C": "Chụp mạch vành",
+      "D": "Đo huyết áp tại phòng khám"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Clostridioides difficile thường gây tiêu chảy liên quan đến?",
+    "options": {
+      "A": "Ăn nhiều đường",
+      "B": "Thiếu đạm",
+      "C": "Dùng kháng sinh kéo dài",
+      "D": "Nhiễm virus cúm"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Xét nghiệm ALT/AST tăng gợi ý tổn thương cơ quan nào?",
+    "options": {
+      "A": "Gan",
+      "B": "Phổi",
+      "C": "Tụy",
+      "D": "Thận"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Procalcitonin tăng thường gợi ý?",
+    "options": {
+      "A": "Nhiễm virus nhẹ",
+      "B": "Nhiễm khuẩn nặng",
+      "C": "Thiếu vitamin D",
+      "D": "Dị ứng phấn hoa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hội chứng thận hư đặc trưng bởi?",
+    "options": {
+      "A": "Protein niệu cao, phù, giảm albumin",
+      "B": "Đái máu đại thể",
+      "C": "Tăng calci niệu",
+      "D": "Thiếu máu nặng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thuốc ức chế bơm proton (PPI) dùng để điều trị?",
+    "options": {
+      "A": "Hen phế quản",
+      "B": "Trào ngược dạ dày–thực quản/loét dạ dày",
+      "C": "Suy thận",
+      "D": "Sỏi mật"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thang điểm Glasgow dùng để đánh giá?",
+    "options": {
+      "A": "Đau ngực",
+      "B": "Mức độ tri giác",
+      "C": "Khó thở",
+      "D": "Phù ngoại biên"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ngộ độc opioid biểu hiện bộ ba kinh điển: ức chế hô hấp, giảm tri giác và?",
+    "options": {
+      "A": "Đồng tử co nhỏ",
+      "B": "Đồng tử giãn to",
+      "C": "Sốt cao",
+      "D": "Hạ huyết áp nặng luôn"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Điều trị tăng kali máu nặng có biến đổi ECG, biện pháp bảo vệ tim ngay là?",
+    "options": {
+      "A": "Calci gluconat tĩnh mạch",
+      "B": "Truyền NaCl 0,9% nhanh",
+      "C": "Furosemide uống",
+      "D": "Vitamin K1"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Suy giáp tiên phát thường có TSH thay đổi thế nào?",
+    "options": {
+      "A": "TSH tăng, FT4 giảm",
+      "B": "TSH bình thường, FT4 tăng",
+      "C": "TSH tăng, FT4 tăng",
+      "D": "TSH giảm, FT4 tăng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Dấu hiệu Murphy dương tính gợi ý bệnh lý nào?",
+    "options": {
+      "A": "Viêm túi mật cấp",
+      "B": "Sỏi thận",
+      "C": "Loét dạ dày thủng",
+      "D": "Viêm tụy cấp"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Bệnh Addison là suy cơ quan nào?",
+    "options": {
+      "A": "Tuyến giáp",
+      "B": "Yên",
+      "C": "Tuyến thượng thận",
+      "D": "Tụy nội tiết"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Trong đột quỵ thiếu máu não cấp, cửa sổ dùng tiêu sợi huyết đường tĩnh mạch thường trong?",
+    "options": {
+      "A": "≤ 24 giờ",
+      "B": "≤ 72 giờ",
+      "C": "≤ 4,5 giờ đầu (tùy chỉ định)",
+      "D": "≤ 12 giờ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bệnh Kawasaki thường gặp ở đối tượng nào?",
+    "options": {
+      "A": "Trẻ nhỏ",
+      "B": "Phụ nữ mang thai",
+      "C": "Người cao tuổi",
+      "D": "Thanh niên hút thuốc"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thiếu G6PD cần tránh thuốc nào sau đây?",
+    "options": {
+      "A": "Paracetamol liều điều trị",
+      "B": "Amoxicillin liều điều trị",
+      "C": "Vitamin B12",
+      "D": "Một số thuốc oxy hóa như primaquine"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sốc mất máu cấp ưu tiên đầu tay là?",
+    "options": {
+      "A": "Cầm máu và hồi sức dịch",
+      "B": "Cho an thần",
+      "C": "Đặt nội khí quản tất cả",
+      "D": "Truyền insulin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Điều trị hen cấp cơn nặng, thuốc giãn phế quản ưu tiên?",
+    "options": {
+      "A": "Kháng sinh phổ rộng",
+      "B": "Chẹn beta giao cảm",
+      "C": "SABA (salbutamol) khí dung",
+      "D": "Thuốc lợi tiểu"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Trong cấp cứu ngừng tuần hoàn, tỉ lệ ép ngực : thổi ngạt cho người lớn khi có 1 người cấp cứu là?",
+    "options": {
+      "A": "30 : 2",
+      "B": "5 : 1",
+      "C": "15 : 2",
+      "D": "10 : 2"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Điều trị viêm phổi cộng đồng nhẹ ở người lớn thường ưu tiên nhóm kháng sinh nào (tùy bối cảnh địa phương)?",
+    "options": {
+      "A": "Glycopeptide",
+      "B": "Thuốc kháng virus cúm",
+      "C": "Beta-lactam ± macrolide",
+      "D": "Aminoglycoside đơn độc"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thở máy chế độ VCV kiểm soát chủ yếu biến số nào?",
+    "options": {
+      "A": "Áp lực đỉnh",
+      "B": "PEEP tự do",
+      "C": "FiO2 cố định 0% ",
+      "D": "Thể tích khí lưu thông (VT)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hội chứng đáp ứng viêm hệ thống (SIRS) cổ điển gồm sốt/hạ thân nhiệt, nhịp tim nhanh và?",
+    "options": {
+      "A": "Tăng nhịp thở hoặc PaCO2 giảm",
+      "B": "Đau khớp",
+      "C": "Đau ngực",
+      "D": "Phát ban"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Test Schober dùng để đánh giá bệnh lý nào?",
+    "options": {
+      "A": "Khớp vai",
+      "B": "Khớp gối",
+      "C": "Cột sống thắt lưng (viêm cột sống dính khớp)",
+      "D": "Khớp cổ tay"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ferritin tăng rất cao có thể gợi ý hội chứng viêm nào nặng?",
+    "options": {
+      "A": "Thiếu máu thiếu sắt",
+      "B": "Loãng xương",
+      "C": "Suy giáp",
+      "D": "Hội chứng thực bào (HLH)/viêm nặng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Điều trị rung nhĩ để phòng đột quỵ thường dùng thuốc?",
+    "options": {
+      "A": "Kháng sinh",
+      "B": "Probiotics",
+      "C": "Kháng đông đường uống",
+      "D": "Vitamin C"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đột quỵ do tắc mạch lớn có thể can thiệp cơ học trong cửa sổ thời gian đến?",
+    "options": {
+      "A": "Tối đa 4 giờ",
+      "B": "Tối đa 24 giờ ở bệnh nhân phù hợp",
+      "C": "Tối đa 8 giờ",
+      "D": "Không có can thiệp cơ học"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phòng ung thư gan nguyên phát hiệu quả nhất là?",
+    "options": {
+      "A": "Nhịn ăn gián đoạn",
+      "B": "Tiêm vaccine viêm gan B và kiểm soát viêm gan",
+      "C": "Uống nhiều vitamin E",
+      "D": "Tập tạ nặng"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Tiền mặt và tương đương tiền thường nằm ở báo cáo nào?",
+    "options": {
+      "A": "Báo cáo lưu chuyển tiền tệ",
+      "B": "Bảng cân đối kế toán",
+      "C": "Báo cáo kết quả kinh doanh",
+      "D": "Thuyết minh BCTC"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Chỉ số P/E là viết tắt của?",
+    "options": {
+      "A": "Price to Equity",
+      "B": "Price to Earnings",
+      "C": "Profit to Earnings",
+      "D": "Premium to Equity"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tỷ suất sinh lời trên vốn chủ sở hữu viết tắt là?",
+    "options": {
+      "A": "ROA",
+      "B": "ROI",
+      "C": "ROE",
+      "D": "ROC"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thị trường sơ cấp là nơi?",
+    "options": {
+      "A": "Mua bán chứng khoán đã phát hành",
+      "B": "Giao dịch phái sinh",
+      "C": "Giao dịch ngoại hối",
+      "D": "Phát hành chứng khoán lần đầu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "ETF là quỹ gì?",
+    "options": {
+      "A": "Quỹ giao dịch hoán đổi",
+      "B": "Quỹ trái phiếu chính phủ",
+      "C": "Quỹ phòng hộ",
+      "D": "Quỹ từ thiện"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "NAV của quỹ là?",
+    "options": {
+      "A": "Giá trị sổ sách",
+      "B": "Giá trị tài sản ròng",
+      "C": "Giá trị thị trường",
+      "D": "Giá trị hoàn lại"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Beta của cổ phiếu đo lường?",
+    "options": {
+      "A": "Tốc độ tăng trưởng lợi nhuận",
+      "B": "Tỷ lệ nợ/vốn",
+      "C": "Mức độ rủi ro hệ thống so với thị trường",
+      "D": "Hệ số thanh khoản"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "IPO là gì?",
+    "options": {
+      "A": "Tăng vốn thêm cho cổ đông hiện hữu",
+      "B": "Chia tách cổ phiếu",
+      "C": "Hủy niêm yết",
+      "D": "Phát hành cổ phiếu lần đầu ra công chúng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Chỉ số VN-Index đo lường điều gì?",
+    "options": {
+      "A": "Hiệu suất cổ phiếu niêm yết trên HOSE",
+      "B": "Tăng trưởng GDP Việt Nam",
+      "C": "Lạm phát hàng tháng",
+      "D": "Tỷ giá USD/VND"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trái phiếu coupon 8%/năm nghĩa là?",
+    "options": {
+      "A": "Trả 8% theo giá thị trường",
+      "B": "Trả lãi định kỳ 8% theo mệnh giá",
+      "C": "Không trả lãi",
+      "D": "Lãi trả cuối kỳ gộp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Lợi suất đáo hạn (YTM) là?",
+    "options": {
+      "A": "Cổ tức dự kiến năm tới",
+      "B": "Tỷ lệ chiết khấu kế toán",
+      "C": "Lợi suất nội bộ khi giữ đến đáo hạn",
+      "D": "Chi phí vốn bình quân"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chi phí sử dụng vốn bình quân gia quyền viết tắt là?",
+    "options": {
+      "A": "IRR",
+      "B": "NPV",
+      "C": "CAPM",
+      "D": "WACC"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mô hình CAPM liên hệ lợi suất kỳ vọng với?",
+    "options": {
+      "A": "Beta và phần bù rủi ro thị trường",
+      "B": "Doanh thu và chi phí",
+      "C": "Lạm phát và thất nghiệp",
+      "D": "P/E và P/B"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hệ số nợ trên vốn chủ (D/E) phản ánh?",
+    "options": {
+      "A": "Khả năng thanh toán tức thời",
+      "B": "Đòn bẩy tài chính",
+      "C": "Hiệu quả sử dụng tài sản",
+      "D": "Biên lợi nhuận gộp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tỷ số thanh toán hiện hành (Current Ratio) =?",
+    "options": {
+      "A": "Tiền/Nợ ngắn hạn",
+      "B": "Doanh thu/Chi phí",
+      "C": "Tài sản ngắn hạn/Nợ ngắn hạn",
+      "D": "Vốn chủ sở hữu/Tổng tài sản"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "EPS là gì?",
+    "options": {
+      "A": "Giá trên mỗi cổ phiếu",
+      "B": "Cổ tức trên mỗi cổ phiếu",
+      "C": "Tỷ lệ cổ tức",
+      "D": "Lợi nhuận trên mỗi cổ phiếu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Cổ tức tiền mặt là?",
+    "options": {
+      "A": "Tiền trả cho cổ đông định kỳ",
+      "B": "Cổ phiếu thưởng",
+      "C": "Quyền mua ưu đãi",
+      "D": "Trái phiếu chuyển đổi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thị trường gấu (bear market) thường được hiểu khi chỉ số giảm từ đỉnh?",
+    "options": {
+      "A": "≥ 10%",
+      "B": "≥ 20%",
+      "C": "≥ 5%",
+      "D": "≥ 30%"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tài sản nào sau đây thường được coi là \"trú ẩn an toàn\" trong khủng hoảng?",
+    "options": {
+      "A": "Cổ phiếu tăng trưởng",
+      "B": "Tiền mã hóa nhỏ",
+      "C": "Vàng",
+      "D": "Bất động sản cao cấp"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Duration của trái phiếu đo?",
+    "options": {
+      "A": "Kỳ hạn danh nghĩa",
+      "B": "Lợi suất hiện tại",
+      "C": "Tần suất trả lãi",
+      "D": "Độ nhạy giá với lãi suất"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "BCTC gồm 3 báo cáo chính là: Cân đối kế toán, KQKD và?",
+    "options": {
+      "A": "Lưu chuyển tiền tệ",
+      "B": "Thay đổi vốn",
+      "C": "Ngân sách",
+      "D": "Hợp nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tỷ giá hối đoái là?",
+    "options": {
+      "A": "Giá một cổ phiếu",
+      "B": "Giá một đồng tiền tính theo đồng khác",
+      "C": "Giá một trái phiếu",
+      "D": "Giá một hàng hóa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "NIM trong ngân hàng là?",
+    "options": {
+      "A": "Nợ xấu",
+      "B": "Vốn tự có",
+      "C": "Biên lãi ròng",
+      "D": "Thanh khoản tức thời"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tăng trưởng kép hàng năm viết tắt là?",
+    "options": {
+      "A": "YOY",
+      "B": "QoQ",
+      "C": "MoM",
+      "D": "CAGR"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Free Cash Flow (FCF) gần đúng =?",
+    "options": {
+      "A": "Dòng tiền HĐKD – Chi đầu tư CAPEX",
+      "B": "Lợi nhuận sau thuế + Khấu hao",
+      "C": "Doanh thu – Chi phí",
+      "D": "Tiền cuối kỳ – Tiền đầu kỳ"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ma trận rủi ro–lợi nhuận thường cho thấy?",
+    "options": {
+      "A": "Rủi ro cao → lợi nhuận thấp",
+      "B": "Rủi ro cao → kỳ vọng lợi nhuận cao hơn",
+      "C": "Rủi ro thấp → lợi nhuận vô hạn",
+      "D": "Không liên quan"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Lạm phát đo bằng?",
+    "options": {
+      "A": "PMI",
+      "B": "PPI duy nhất",
+      "C": "CPI/HICP",
+      "D": "GDP Deflator duy nhất"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Ngân hàng trung ương điều hành chính sách tiền tệ thông qua?",
+    "options": {
+      "A": "Thuế thu nhập",
+      "B": "Chi tiêu công",
+      "C": "Thuế xuất nhập khẩu",
+      "D": "Lãi suất, dự trữ bắt buộc, OMO"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "QE (nới lỏng định lượng) là việc NHTW?",
+    "options": {
+      "A": "Mua trái phiếu quy mô lớn bơm tiền",
+      "B": "Tăng lãi suất mạnh",
+      "C": "Tăng dự trữ bắt buộc",
+      "D": "Siết tín dụng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khi lãi suất tăng, giá trái phiếu thường?",
+    "options": {
+      "A": "Tăng",
+      "B": "Giảm",
+      "C": "Không đổi",
+      "D": "Ngẫu nhiên"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sharpe ratio đo lường?",
+    "options": {
+      "A": "Tốc độ tăng trưởng doanh thu",
+      "B": "Khả năng thanh toán",
+      "C": "Lợi nhuận vượt trội trên mỗi đơn vị rủi ro",
+      "D": "Đòn bẩy"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Alpha trong quản lý quỹ là?",
+    "options": {
+      "A": "Độ nhạy theo thị trường",
+      "B": "Độ lệch chuẩn",
+      "C": "Tương quan danh mục",
+      "D": "Lợi nhuận vượt chuẩn tham chiếu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "T-accounts trong kế toán dùng minh họa?",
+    "options": {
+      "A": "Bên Nợ và Có của tài khoản",
+      "B": "Dòng tiền vào/ra",
+      "C": "Lợi nhuận gộp",
+      "D": "Khấu hao lũy kế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "IFRS là bộ chuẩn mực?",
+    "options": {
+      "A": "Kiểm toán nội bộ",
+      "B": "Báo cáo tài chính quốc tế",
+      "C": "Quản trị rủi ro",
+      "D": "Thuế thu nhập"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Goodwill (lợi thế thương mại) phát sinh chủ yếu khi?",
+    "options": {
+      "A": "Khấu hao tài sản cố định",
+      "B": "Phát hành trái phiếu",
+      "C": "Mua lại DN với giá cao hơn giá trị sổ sách thuần",
+      "D": "Chia tách công ty"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Dòng tiền từ HĐKD dương, lợi nhuận âm có thể do?",
+    "options": {
+      "A": "Doanh thu tăng mạnh",
+      "B": "Trả cổ tức cao",
+      "C": "Giảm vốn lưu động",
+      "D": "Khấu hao lớn/chi phí phi tiền tệ"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Phái sinh tài chính KHÔNG bao gồm công cụ nào sau đây?",
+    "options": {
+      "A": "Hợp đồng kỳ hạn, hợp đồng tương lai, quyền chọn, hoán đổi",
+      "B": "Quyền chọn",
+      "C": "Hợp đồng tương lai",
+      "D": "Hoán đổi lãi suất"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Quyền chọn mua (call) cho phép?",
+    "options": {
+      "A": "Bán tài sản cơ sở",
+      "B": "Mua tài sản cơ sở tại giá thực hiện",
+      "C": "Đổi sang trái phiếu",
+      "D": "Nhận cổ tức trước"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Delta của quyền chọn đo?",
+    "options": {
+      "A": "Độ nhạy với lãi suất",
+      "B": "Độ nhạy với thời gian",
+      "C": "Độ nhạy giá quyền chọn với giá cơ sở",
+      "D": "Độ nhạy với biến động"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Black–Scholes dùng để định giá?",
+    "options": {
+      "A": "Trái phiếu chiết khấu",
+      "B": "Cổ phiếu cổ tức cao",
+      "C": "Hợp đồng kỳ hạn lãi suất",
+      "D": "Quyền chọn kiểu châu Âu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "VaR (Value at Risk) đo?",
+    "options": {
+      "A": "Mức lỗ tối đa kỳ vọng ở mức tin cậy",
+      "B": "Lợi nhuận kỳ vọng",
+      "C": "Tốc độ quay vòng",
+      "D": "Biên LN ròng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Stress test trong quản trị rủi ro dùng để?",
+    "options": {
+      "A": "Tăng vốn tự có",
+      "B": "Đánh giá tổn thất trong kịch bản cực đoan",
+      "C": "Tối ưu thuế",
+      "D": "Tăng cổ tức"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ số an toàn vốn (CAR) áp dụng cho?",
+    "options": {
+      "A": "Công ty bảo hiểm",
+      "B": "Quỹ mở",
+      "C": "Ngân hàng",
+      "D": "Doanh nghiệp sản xuất"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Basel III yêu cầu ngân hàng nâng cao?",
+    "options": {
+      "A": "Chi phí hoạt động",
+      "B": "Tăng trưởng tín dụng vô hạn",
+      "C": "Rủi ro đạo đức",
+      "D": "Chất lượng vốn và thanh khoản"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "IFRS 9 tập trung vào phân loại và đo lường?",
+    "options": {
+      "A": "Tài sản tài chính và dự phòng tổn thất kỳ vọng",
+      "B": "TSCĐ hữu hình",
+      "C": "Hàng tồn kho",
+      "D": "Doanh thu hợp đồng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "EV/EBITDA là thước đo định giá dựa trên?",
+    "options": {
+      "A": "Vốn hóa so với doanh thu",
+      "B": "Giá trị DN so với lợi nhuận trước lãi vay, thuế, KH, PHA",
+      "C": "Giá trị sổ sách",
+      "D": "CF tự do"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "P/B là tỷ số giữa?",
+    "options": {
+      "A": "Giá/Doanh thu",
+      "B": "Giá/EPS",
+      "C": "Giá thị trường/Vốn chủ sở hữu sổ sách",
+      "D": "Giá/FCF"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Chỉ báo RSI dùng để đo?",
+    "options": {
+      "A": "Biến động giá",
+      "B": "Khối lượng giao dịch",
+      "C": "Xu hướng dài hạn",
+      "D": "Động lượng và vùng quá mua/quá bán"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đường trung bình động EMA phản ứng so với SMA như thế nào?",
+    "options": {
+      "A": "Nhanh hơn do trọng số lớn cho dữ liệu mới",
+      "B": "Chậm hơn",
+      "C": "Bằng nhau",
+      "D": "Ngẫu nhiên"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Hệ số tương quan r nằm trong khoảng?",
+    "options": {
+      "A": "[0, 1]",
+      "B": "[-1, 1]",
+      "C": "(-∞, +∞)",
+      "D": ">= 0"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Diversification giúp?",
+    "options": {
+      "A": "Xóa rủi ro hệ thống",
+      "B": "Tăng lợi nhuận chắc chắn",
+      "C": "Giảm rủi ro phi hệ thống",
+      "D": "Tăng phí giao dịch"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tracking error đo?",
+    "options": {
+      "A": "Sai số định giá",
+      "B": "Sai số đo lường",
+      "C": "Độ lệch chuẩn của thị trường",
+      "D": "Độ lệch lợi suất quỹ so với chỉ số tham chiếu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "SICAV là loại hình quỹ phổ biến ở?",
+    "options": {
+      "A": "Châu Âu (Luxembourg)",
+      "B": "Mỹ",
+      "C": "Nhật",
+      "D": "ASEAN"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "GDR/ADR là chứng chỉ lưu ký giao dịch ở?",
+    "options": {
+      "A": "Sở giao dịch nội địa duy nhất",
+      "B": "Sở giao dịch ngoài quốc gia niêm yết gốc",
+      "C": "OTC phi tập trung",
+      "D": "Chỉ thị trường trái phiếu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "MiFID II của EU tập trung vào?",
+    "options": {
+      "A": "Tăng thuế",
+      "B": "Bảo hộ thương mại",
+      "C": "Minh bạch thị trường và bảo vệ nhà đầu tư",
+      "D": "Quản lý nhân sự"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "LIBOR trước đây là tham chiếu cho?",
+    "options": {
+      "A": "Tỷ giá châu Âu",
+      "B": "Chỉ số chứng khoán",
+      "C": "Giá dầu thô",
+      "D": "Lãi suất liên ngân hàng London"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "SOFR hiện là tham chiếu mới cho?",
+    "options": {
+      "A": "Lãi suất qua đêm có thế chấp tại Mỹ",
+      "B": "Lãi suất EUR",
+      "C": "Lãi suất JPY",
+      "D": "Lãi suất GBP"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Haircut trong giao dịch repo là?",
+    "options": {
+      "A": "Phí môi giới",
+      "B": "Chiết khấu so với giá trị tài sản đảm bảo",
+      "C": "Chi phí lưu ký",
+      "D": "Phí thanh toán bù trừ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "CDS bảo hiểm cho rủi ro?",
+    "options": {
+      "A": "Rủi ro tỷ giá",
+      "B": "Rủi ro lãi suất",
+      "C": "Vỡ nợ trái phiếu/tổ chức phát hành",
+      "D": "Rủi ro hàng hóa"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Securitization (chứng khoán hóa) chuyển tài sản thành?",
+    "options": {
+      "A": "Tiền mặt",
+      "B": "Vốn chủ sở hữu",
+      "C": "Quyền chọn mua",
+      "D": "Chứng khoán có thể giao dịch"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "MBS là chứng khoán đảm bảo bằng?",
+    "options": {
+      "A": "Khoản vay thế chấp nhà ở",
+      "B": "Khoản vay ô tô",
+      "C": "Khoản vay sinh viên",
+      "D": "Thẻ tín dụng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mark-to-market nghĩa là?",
+    "options": {
+      "A": "Định giá theo giá gốc",
+      "B": "Định giá theo giá thị trường hiện tại",
+      "C": "Định giá theo chi phí lịch sử",
+      "D": "Định giá nội bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hedging là?",
+    "options": {
+      "A": "Đầu cơ tăng giá",
+      "B": "Đầu tư giá trị",
+      "C": "Phòng ngừa rủi ro bằng vị thế đối ứng",
+      "D": "Giao dịch tần suất cao"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Pairs trading là chiến lược?",
+    "options": {
+      "A": "Mua và giữ dài hạn",
+      "B": "Theo xu hướng",
+      "C": "Arbitrage chỉ số",
+      "D": "Long/short hai tài sản tương quan"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Arbitrage là?",
+    "options": {
+      "A": "Kiếm lời từ chênh lệch giá không rủi ro",
+      "B": "Đầu tư theo đà",
+      "C": "Đầu tư theo giá trị",
+      "D": "Đầu tư ESG"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Momentum strategy dựa vào?",
+    "options": {
+      "A": "Đảo chiều giá",
+      "B": "Tiếp diễn xu hướng lợi suất",
+      "C": "Giá trị sổ sách",
+      "D": "Dòng tiền tự do"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Backtest là?",
+    "options": {
+      "A": "Kiểm định giả thuyết",
+      "B": "Kiểm tra bảo mật",
+      "C": "Kiểm chứng chiến lược bằng dữ liệu quá khứ",
+      "D": "Kiểm thử đơn vị"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Overfitting trong mô hình định lượng nghĩa là?",
+    "options": {
+      "A": "Thiếu học",
+      "B": "Dữ liệu thiếu",
+      "C": "Sai số đo lường",
+      "D": "Khớp quá mức dữ liệu quá khứ, kém tổng quát"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Kelly criterion dùng để?",
+    "options": {
+      "A": "Tối ưu tỷ lệ đặt cược/size vị thế",
+      "B": "Tối ưu thuế",
+      "C": "Tối ưu phí giao dịch",
+      "D": "Tối ưu đòn bẩy"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Công thức Gordon (DDM) định giá cổ phiếu dựa trên?",
+    "options": {
+      "A": "Dòng tiền tự do",
+      "B": "Dòng cổ tức tăng trưởng đều",
+      "C": "Thu nhập bất thường",
+      "D": "Tài sản thanh lý"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "EV khác vốn hóa thị trường ở chỗ?",
+    "options": {
+      "A": "Loại trừ cổ tức",
+      "B": "Thêm tiền mặt",
+      "C": "Tính cả nợ ròng",
+      "D": "Bỏ qua cổ phần ưu đãi"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Clean price và dirty price của trái phiếu khác nhau do?",
+    "options": {
+      "A": "Thuế",
+      "B": "Phí giao dịch",
+      "C": "Thanh khoản",
+      "D": "Lãi tích lũy"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Convexity bổ sung cho duration để đo?",
+    "options": {
+      "A": "Độ cong quan hệ giá–lãi suất",
+      "B": "Biến động lợi suất",
+      "C": "Thanh khoản",
+      "D": "Khối lượng giao dịch"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Callable bond cho phép?",
+    "options": {
+      "A": "Nhà đầu tư bán lại trước hạn",
+      "B": "Tổ chức phát hành mua lại trước hạn",
+      "C": "Chuyển đổi thành cổ phiếu",
+      "D": "Gia hạn kỳ hạn tự động"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Putable bond cho phép?",
+    "options": {
+      "A": "Tổ chức phát hành mua lại bắt buộc",
+      "B": "Chuyển đổi thành cổ phiếu",
+      "C": "Nhà đầu tư bán lại cho tổ chức phát hành",
+      "D": "Trả lãi theo lạm phát"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Floating-rate note (FRN) có lãi suất?",
+    "options": {
+      "A": "Cố định",
+      "B": "Bằng 0",
+      "C": "Lũy tiến",
+      "D": "Thả nổi theo tham chiếu + spread"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Covered bond khác MBS ở?",
+    "options": {
+      "A": "Nhà đầu tư có quyền truy đòi với tổ chức phát hành",
+      "B": "Không có tài sản đảm bảo",
+      "C": "Lãi suất cố định",
+      "D": "Chỉ do nhà nước phát hành"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Trái phiếu zero-coupon có đặc điểm?",
+    "options": {
+      "A": "Trả lãi hằng kỳ",
+      "B": "Không trả lãi định kỳ, phát hành chiết khấu",
+      "C": "Lãi suất thả nổi",
+      "D": "Có quyền chọn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "T-bills của Mỹ là công cụ?",
+    "options": {
+      "A": "Nợ dài hạn",
+      "B": "Cổ phiếu ưu đãi",
+      "C": "Nợ ngắn hạn phi coupon của Kho bạc",
+      "D": "Chứng chỉ quỹ"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Liquidity premium phản ánh?",
+    "options": {
+      "A": "Bù đắp rủi ro tín dụng",
+      "B": "Bù đắp rủi ro vỡ nợ",
+      "C": "Bù đắp rủi ro lạm phát",
+      "D": "Bù đắp cho rủi ro kém thanh khoản"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Credit spread là chênh lệch lợi suất giữa?",
+    "options": {
+      "A": "Trái phiếu doanh nghiệp và trái phiếu chính phủ cùng kỳ hạn",
+      "B": "Cổ phiếu và trái phiếu",
+      "C": "Kỳ hạn ngắn và dài",
+      "D": "Lãi suất danh nghĩa và thực"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tỷ giá thực (real exchange rate) điều chỉnh theo?",
+    "options": {
+      "A": "Chênh lệch lãi suất",
+      "B": "Chênh lệch mức giá giữa hai nước",
+      "C": "Cán cân thương mại",
+      "D": "Dự trữ ngoại hối"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "PPP (ngang giá sức mua) giả định?",
+    "options": {
+      "A": "Lãi suất bằng nhau",
+      "B": "Thuế bằng nhau",
+      "C": "Một giỏ hàng có giá như nhau khi quy đổi",
+      "D": "Tiền lương bằng nhau"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Fisher equation liên hệ lãi suất danh nghĩa với?",
+    "options": {
+      "A": "Tăng trưởng GDP",
+      "B": "Tỷ giá",
+      "C": "Thất nghiệp",
+      "D": "Lãi suất thực và lạm phát kỳ vọng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Covered interest parity (CIP) dùng hợp đồng nào để khóa chênh lệch?",
+    "options": {
+      "A": "Kỳ hạn ngoại hối (forward)",
+      "B": "Quyền chọn FX",
+      "C": "Hoán đổi lãi suất",
+      "D": "Tương lai hàng hóa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Carry trade trong FX là vay đồng có lãi suất thấp để?",
+    "options": {
+      "A": "Mua vàng",
+      "B": "Mua đồng có lãi suất cao",
+      "C": "Mua dầu",
+      "D": "Mua cổ phiếu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Forward premium/discount phản ánh?",
+    "options": {
+      "A": "Chênh lệch lạm phát",
+      "B": "Chênh lệch GDP",
+      "C": "Chênh lệch lãi suất hai đồng tiền",
+      "D": "Chênh lệch cán cân"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Commodity futures thường dùng để?",
+    "options": {
+      "A": "Cố định tỷ giá",
+      "B": "Giảm lãi suất",
+      "C": "Tăng thanh khoản cổ phiếu",
+      "D": "Phòng ngừa biến động giá hàng hóa"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Roll yield trong hàng hóa phát sinh từ?",
+    "options": {
+      "A": "Chênh lệch giá giữa kỳ hạn gần và xa (contango/backwardation)",
+      "B": "Chênh lệch lãi suất",
+      "C": "Chi phí lưu kho",
+      "D": "Biến động"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "ESG đầu tư tập trung vào?",
+    "options": {
+      "A": "Kinh tế, Xã hội, Văn hóa",
+      "B": "Môi trường, Xã hội, Quản trị",
+      "C": "Giá, Khối lượng, Xu hướng",
+      "D": "Lợi nhuận, Doanh thu, Chi phí"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Green bond là trái phiếu tài trợ cho?",
+    "options": {
+      "A": "Dự án quân sự",
+      "B": "Dự án BĐS cao cấp",
+      "C": "Dự án thân thiện môi trường",
+      "D": "Dự án CNTT"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tỷ lệ an toàn vốn Solvency II áp dụng cho?",
+    "options": {
+      "A": "Ngân hàng Mỹ",
+      "B": "Quỹ hưu trí",
+      "C": "DN sản xuất",
+      "D": "Công ty bảo hiểm ở EU"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Bảo hiểm nhân thọ sản phẩm 'term life' có đặc điểm?",
+    "options": {
+      "A": "Bảo vệ rủi ro tử vong trong thời hạn, không tích lũy",
+      "B": "Có giá trị hoàn lại cao",
+      "C": "Đầu tư đảm bảo lợi suất cao",
+      "D": "Không cần thẩm định"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Premium trong bảo hiểm là?",
+    "options": {
+      "A": "Tiền bồi thường",
+      "B": "Phí bảo hiểm",
+      "C": "Hoa hồng",
+      "D": "Chi phí tái bảo hiểm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Loss ratio =?",
+    "options": {
+      "A": "Chi phí/Hoa hồng",
+      "B": "Lợi nhuận/Doanh thu",
+      "C": "Bồi thường/Gross premium earned",
+      "D": "Dự phòng/Khấu hao"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Reinsurance giúp?",
+    "options": {
+      "A": "Tăng phí khách hàng",
+      "B": "Giảm bồi thường",
+      "C": "Loại bỏ hoàn toàn rủi ro",
+      "D": "Chia sẻ rủi ro giữa các hãng bảo hiểm"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "IFRS 17 quy định về?",
+    "options": {
+      "A": "Hợp đồng bảo hiểm",
+      "B": "Công cụ tài chính",
+      "C": "Thuế thu nhập DN",
+      "D": "Doanh thu theo hợp đồng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Fintech là?",
+    "options": {
+      "A": "Tài chính công",
+      "B": "Công nghệ tài chính",
+      "C": "Tài chính hành vi",
+      "D": "Tài chính doanh nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Blockchain là sổ cái?",
+    "options": {
+      "A": "Tập trung",
+      "B": "Riêng tư duy nhất",
+      "C": "Phân tán",
+      "D": "Chỉ đọc"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Stablecoin neo theo?",
+    "options": {
+      "A": "Giá cổ phiếu",
+      "B": "Giá dầu",
+      "C": "Chỉ số CPI",
+      "D": "Một tài sản ổn định (fiat/kim loại quý)"
+    },
+    "answer": "D"
+  }
+]

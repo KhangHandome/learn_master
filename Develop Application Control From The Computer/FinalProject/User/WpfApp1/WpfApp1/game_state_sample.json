@@ -1,0 +1,50 @@
+{
+  "gameStatus": "",
+  "currentQuestion": 0,
+  "players": [
+    {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    },
+    {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    },
+    {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    },
+    {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    },
+    {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    },
+        {
+      "name": "",
+      "hasPlayed": false,
+      "score": 0,
+      "lastAnswerTime": 0,
+      "currentAnswer": 0
+    }
+  ],
+  "maxPlayers": 6,
+  "roundTimeSeconds": 30
+}

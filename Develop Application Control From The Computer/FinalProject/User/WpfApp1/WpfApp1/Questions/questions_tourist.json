@@ -1,0 +1,992 @@
+[
+  {
+    "question": "Thủ đô của Ý là thành phố nào thường được du khách ghé thăm để xem Đấu trường La Mã?",
+    "options": {
+      "A": "Venice",
+      "B": "Florence",
+      "C": "Milan",
+      "D": "Rome"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tháp Eiffel là biểu tượng nổi tiếng của thành phố nào?",
+    "options": {
+      "A": "London",
+      "B": "Paris",
+      "C": "Madrid",
+      "D": "Berlin"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kỳ quan Machu Picchu thuộc quốc gia nào ở Nam Mỹ?",
+    "options": {
+      "A": "Bolivia",
+      "B": "Chile",
+      "C": "Ecuador",
+      "D": "Peru"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vịnh Hạ Long – Di sản thiên nhiên thế giới – thuộc tỉnh/thành nào của Việt Nam?",
+    "options": {
+      "A": "Thanh Hóa",
+      "B": "Đà Nẵng",
+      "C": "Quảng Ninh",
+      "D": "Hải Phòng"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thành phố nào ở Nhật Bản nổi tiếng với đền Kiyomizu-dera và rừng tre Arashiyama?",
+    "options": {
+      "A": "Tokyo",
+      "B": "Kyoto",
+      "C": "Osaka",
+      "D": "Nagoya"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kênh đào nối Địa Trung Hải với Biển Đỏ giúp rút ngắn hải trình châu Âu–châu Á là?",
+    "options": {
+      "A": "Kênh Kiel",
+      "B": "Kênh Panama",
+      "C": "Kênh Suez",
+      "D": "Kênh Corinth"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thành cổ Petra với kiến trúc khắc vào vách đá thuộc quốc gia nào?",
+    "options": {
+      "A": "Israel",
+      "B": "Jordan",
+      "C": "Ai Cập",
+      "D": "Lebanon"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tượng Nữ thần Tự do nằm ở thành phố nào của Hoa Kỳ?",
+    "options": {
+      "A": "Washington, D.C.",
+      "B": "Boston",
+      "C": "Philadelphia",
+      "D": "New York"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Công trình Taj Mahal thuộc thành phố Agra của quốc gia nào?",
+    "options": {
+      "A": "Pakistan",
+      "B": "Ấn Độ",
+      "C": "Sri Lanka",
+      "D": "Bangladesh"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thành phố nào của Úc nổi tiếng với Nhà hát Opera hình cánh buồm?",
+    "options": {
+      "A": "Melbourne",
+      "B": "Perth",
+      "C": "Brisbane",
+      "D": "Sydney"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Bangkok là thủ đô của quốc gia nào ở Đông Nam Á?",
+    "options": {
+      "A": "Myanmar",
+      "B": "Campuchia",
+      "C": "Thái Lan",
+      "D": "Lào"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bãi biển Patong nổi tiếng thuộc đảo nào của Thái Lan?",
+    "options": {
+      "A": "Krabi",
+      "B": "Phuket",
+      "C": "Koh Samui",
+      "D": "Phi Phi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Angkor Wat – kỳ quan kiến trúc Khmer – thuộc thành phố nào của Campuchia?",
+    "options": {
+      "A": "Battambang",
+      "B": "Phnom Penh",
+      "C": "Siem Reap",
+      "D": "Sihanoukville"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bali – thiên đường du lịch biển – thuộc quốc gia nào?",
+    "options": {
+      "A": "Philippines",
+      "B": "Malaysia",
+      "C": "Singapore",
+      "D": "Indonesia"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Tháp đôi Petronas là biểu tượng của thành phố nào?",
+    "options": {
+      "A": "Kuala Lumpur",
+      "B": "Jakarta",
+      "C": "Hà Nội",
+      "D": "Manila"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thành phố nào ở Việt Nam được mệnh danh là 'thành phố ngàn hoa'?",
+    "options": {
+      "A": "Đà Lạt",
+      "B": "Nha Trang",
+      "C": "Hội An",
+      "D": "Huế"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cố đô Huế nằm bên dòng sông nào?",
+    "options": {
+      "A": "Sông Thu Bồn",
+      "B": "Sông Hương",
+      "C": "Sông Nhật Lệ",
+      "D": "Sông Hàn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phố cổ Hội An nổi tiếng với loại đèn trang trí nào?",
+    "options": {
+      "A": "Đèn dầu",
+      "B": "Đèn LED tuyết",
+      "C": "Đèn neon",
+      "D": "Đèn lồng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Vịnh Nha Trang thuộc tỉnh nào của Việt Nam?",
+    "options": {
+      "A": "Bình Thuận",
+      "B": "Phú Yên",
+      "C": "Khánh Hòa",
+      "D": "Ninh Thuận"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Thành phố nào được mệnh danh là 'Venice của phương Bắc' với hệ thống kênh rạch dày đặc?",
+    "options": {
+      "A": "Bruges",
+      "B": "Amsterdam",
+      "C": "Copenhagen",
+      "D": "Stockholm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cung điện Buckingham là điểm tham quan nổi tiếng ở đâu?",
+    "options": {
+      "A": "Edinburgh",
+      "B": "London",
+      "C": "Belfast",
+      "D": "Cardiff"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quảng trường Đỏ và điện Kremlin nằm ở thủ đô nào?",
+    "options": {
+      "A": "Saint Petersburg",
+      "B": "Kazan",
+      "C": "Sochi",
+      "D": "Moscow"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đấu trường Colosseum thuộc thời kỳ đế chế nào?",
+    "options": {
+      "A": "Ba Tư",
+      "B": "Hy Lạp",
+      "C": "Byzantine",
+      "D": "La Mã"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thành phố nào nổi tiếng với hệ thống ga tàu điện ngầm nghệ thuật nhất châu Âu?",
+    "options": {
+      "A": "Berlin",
+      "B": "Moscow",
+      "C": "Paris",
+      "D": "Madrid"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Miền rượu vang Bordeaux thuộc quốc gia nào?",
+    "options": {
+      "A": "Pháp",
+      "B": "Bồ Đào Nha",
+      "C": "Ý",
+      "D": "Tây Ban Nha"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Dãy núi Alps là điểm đến trượt tuyết nổi tiếng của châu lục nào?",
+    "options": {
+      "A": "Châu Âu",
+      "B": "Châu Mỹ",
+      "C": "Châu Đại Dương",
+      "D": "Châu Á"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Sagrada Família – kiệt tác của Gaudí – nằm ở thành phố nào?",
+    "options": {
+      "A": "Seville",
+      "B": "Valencia",
+      "C": "Madrid",
+      "D": "Barcelona"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thành phố Venice nổi tiếng với phương tiện giao thông nào trên kênh rạch?",
+    "options": {
+      "A": "Catamaran",
+      "B": "Kayak",
+      "C": "Ferry",
+      "D": "Gondola"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thung lũng Loire nổi tiếng với hàng trăm tòa lâu đài thuộc quốc gia nào?",
+    "options": {
+      "A": "Áo",
+      "B": "Bỉ",
+      "C": "Đức",
+      "D": "Pháp"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Công viên quốc gia Yellowstone nổi tiếng với mạch phun Old Faithful thuộc nước nào?",
+    "options": {
+      "A": "Argentina",
+      "B": "Canada",
+      "C": "Hoa Kỳ",
+      "D": "Mexico"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Grand Canyon là điểm đến thiên nhiên nổi tiếng của bang nào ở Mỹ?",
+    "options": {
+      "A": "Nevada",
+      "B": "Utah",
+      "C": "Colorado",
+      "D": "Arizona"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thành phố Rio de Janeiro nổi tiếng với bãi biển Copacabana thuộc quốc gia nào?",
+    "options": {
+      "A": "Peru",
+      "B": "Uruguay",
+      "C": "Chile",
+      "D": "Brazil"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thác Niagara nằm giữa biên giới hai quốc gia nào?",
+    "options": {
+      "A": "Canada và Greenland",
+      "B": "Mỹ và Cuba",
+      "C": "Mỹ và Canada",
+      "D": "Mỹ và Mexico"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "New Orleans nổi tiếng với lễ hội âm nhạc nào thu hút du khách?",
+    "options": {
+      "A": "La Tomatina",
+      "B": "Carnival Rio",
+      "C": "Oktoberfest",
+      "D": "Mardi Gras"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đường cao tốc Pan-American nối dài qua nhiều quốc gia ở châu lục nào?",
+    "options": {
+      "A": "Châu Phi",
+      "B": "Châu Mỹ",
+      "C": "Châu Á",
+      "D": "Châu Âu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Patagonia là vùng đất hoang sơ trải dài qua Argentina và quốc gia nào?",
+    "options": {
+      "A": "Peru",
+      "B": "Bolivia",
+      "C": "Paraguay",
+      "D": "Chile"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thành phố Vancouver thuộc tỉnh bang nào của Canada?",
+    "options": {
+      "A": "Alberta",
+      "B": "Ontario",
+      "C": "British Columbia",
+      "D": "Quebec"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đảo quốc nào ở Caribbe nổi tiếng với âm nhạc reggae và bãi biển đẹp?",
+    "options": {
+      "A": "Bahamas",
+      "B": "Cuba",
+      "C": "Jamaica",
+      "D": "Barbados"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vịnh Hạ Long trên đất Mỹ thường được ví với công viên nào vì hàng ngàn trụ sa thạch?",
+    "options": {
+      "A": "Arches",
+      "B": "Canyonlands",
+      "C": "Bryce Canyon",
+      "D": "Zion"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Khu bảo tồn Maasai Mara nổi tiếng với đại di cư linh dương thuộc quốc gia nào?",
+    "options": {
+      "A": "Botswana",
+      "B": "Kenya",
+      "C": "Tanzania",
+      "D": "Nam Phi"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Sa mạc Sahara nằm chủ yếu ở khu vực nào của châu Phi?",
+    "options": {
+      "A": "Bắc Phi",
+      "B": "Tây Phi",
+      "C": "Nam Phi",
+      "D": "Đông Phi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kim tự tháp Giza nằm gần thành phố nào?",
+    "options": {
+      "A": "Giza là tỉnh riêng",
+      "B": "Alexandria",
+      "C": "Luxor",
+      "D": "Cairo"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thác Victoria nằm trên biên giới Zambia và quốc gia nào?",
+    "options": {
+      "A": "Zimbabwe",
+      "B": "Mozambique",
+      "C": "Nam Phi",
+      "D": "Angola"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cape Town là thành phố du lịch nổi tiếng thuộc nước nào?",
+    "options": {
+      "A": "Zimbabwe",
+      "B": "Botswana",
+      "C": "Namibia",
+      "D": "Nam Phi"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đảo quốc Seychelles nằm ở đại dương nào?",
+    "options": {
+      "A": "Ấn Độ Dương",
+      "B": "Bắc Băng Dương",
+      "C": "Đại Tây Dương",
+      "D": "Thái Bình Dương"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Marakech là điểm đến nổi tiếng của quốc gia nào ở Bắc Phi?",
+    "options": {
+      "A": "Morocco",
+      "B": "Algeria",
+      "C": "Tunisia",
+      "D": "Libya"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Núi Kilimanjaro – nóc nhà châu Phi – thuộc nước nào?",
+    "options": {
+      "A": "Tanzania",
+      "B": "Uganda",
+      "C": "Ethiopia",
+      "D": "Kenya"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Kỳ quan thiên nhiên Table Mountain nhìn xuống vịnh nào tại Nam Phi?",
+    "options": {
+      "A": "False Bay",
+      "B": "Table Bay",
+      "C": "Algoa Bay",
+      "D": "Saldanha Bay"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quần thể đá sa thạch Blyde River Canyon nổi tiếng ở quốc gia nào?",
+    "options": {
+      "A": "Zambia",
+      "B": "Nam Phi",
+      "C": "Namibia",
+      "D": "Zimbabwe"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "New Zealand có hai đảo chính tên là gì?",
+    "options": {
+      "A": "Đảo Trung và Đảo Ngoài",
+      "B": "Đảo Bắc và Đảo Nam",
+      "C": "Đảo Lớn và Đảo Nhỏ",
+      "D": "Đảo Đông và Đảo Tây"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Rạn san hô Great Barrier Reef thuộc quốc gia nào?",
+    "options": {
+      "A": "Australia",
+      "B": "Fiji",
+      "C": "New Zealand",
+      "D": "Papua New Guinea"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Thủ đô của New Zealand là?",
+    "options": {
+      "A": "Wellington",
+      "B": "Auckland",
+      "C": "Queenstown",
+      "D": "Christchurch"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Ayers Rock (Uluru) là khối đá sa thạch khổng lồ nằm ở bang nào của Australia?",
+    "options": {
+      "A": "Queensland",
+      "B": "New South Wales",
+      "C": "Northern Territory",
+      "D": "Western Australia"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Bờ biển 'Gold Coast' là điểm nghỉ dưỡng nổi tiếng thuộc bang nào?",
+    "options": {
+      "A": "Tasmania",
+      "B": "Victoria",
+      "C": "South Australia",
+      "D": "Queensland"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thành phố nào của New Zealand được mệnh danh 'thủ phủ mạo hiểm'?",
+    "options": {
+      "A": "Rotorua",
+      "B": "Taupo",
+      "C": "Queenstown",
+      "D": "Dunedin"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Đảo Bora Bora – thiên đường nghỉ dưỡng – thuộc quốc gia/vùng lãnh thổ nào?",
+    "options": {
+      "A": "Tonga",
+      "B": "Polynésie française (Pháp)",
+      "C": "Fiji",
+      "D": "Samoa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bờ biển Twelve Apostles là thắng cảnh nổi tiếng của bang nào ở Australia?",
+    "options": {
+      "A": "New South Wales",
+      "B": "Victoria",
+      "C": "Tasmania",
+      "D": "South Australia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đảo quốc Maldives nằm chủ yếu trên đại dương nào?",
+    "options": {
+      "A": "Thái Bình Dương",
+      "B": "Biển Caribe",
+      "C": "Ấn Độ Dương",
+      "D": "Đại Tây Dương"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Tahiti là đảo lớn nhất của quần đảo nào ở nam Thái Bình Dương?",
+    "options": {
+      "A": "Cook Islands",
+      "B": "Tonga Islands",
+      "C": "Samoa Islands",
+      "D": "Society Islands"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mã sân bay IATA 'HND' thuộc sân bay quốc tế nào ở Tokyo?",
+    "options": {
+      "A": "Haneda",
+      "B": "Chubu",
+      "C": "Narita",
+      "D": "Kansai"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Mã sân bay 'SGN' là của sân bay nào tại Việt Nam?",
+    "options": {
+      "A": "Cam Ranh",
+      "B": "Nội Bài",
+      "C": "Tân Sơn Nhất",
+      "D": "Đà Nẵng"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hãng hàng không quốc gia Việt Nam có mã IATA là?",
+    "options": {
+      "A": "VJ",
+      "B": "VN",
+      "C": "BL",
+      "D": "QH"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hệ số chênh lệch múi giờ giữa Việt Nam (UTC+7) và Nhật Bản (UTC+9) là bao nhiêu?",
+    "options": {
+      "A": "-1 giờ",
+      "B": "+2 giờ",
+      "C": "+1 giờ",
+      "D": "-2 giờ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Hộ chiếu phổ thông thường có giá trị bao nhiêu năm đối với người trưởng thành (tham khảo nhiều quốc gia)?",
+    "options": {
+      "A": "15 năm",
+      "B": "10 năm",
+      "C": "2 năm",
+      "D": "3 năm"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thuật ngữ 'visa on arrival' nghĩa là gì?",
+    "options": {
+      "A": "Chỉ cấp tại đại sứ quán",
+      "B": "Cấp thị thực khi đến cửa khẩu",
+      "C": "Chỉ dùng cho công tác",
+      "D": "Miễn thị thực vĩnh viễn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Khoang hạng thương gia trong máy bay thường viết tắt là?",
+    "options": {
+      "A": "Y",
+      "B": "W",
+      "C": "F",
+      "D": "C hoặc J"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Hành lý xách tay quốc tế phổ biến giới hạn khoảng bao nhiêu kg?",
+    "options": {
+      "A": "12–15 kg",
+      "B": "20–23 kg",
+      "C": "3–5 kg",
+      "D": "7–10 kg tùy hãng"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mã 'Schengen' liên quan đến loại hình nào khi du lịch châu Âu?",
+    "options": {
+      "A": "Thẻ đi tàu cao tốc",
+      "B": "Thẻ cư trú vĩnh viễn",
+      "C": "Bảo hiểm du lịch",
+      "D": "Thị thực vào khối 26 nước"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Thuật ngữ 'red-eye flight' chỉ chuyến bay diễn ra vào thời gian nào?",
+    "options": {
+      "A": "Đêm muộn đến rạng sáng",
+      "B": "Giữa trưa",
+      "C": "Giờ cao điểm buổi chiều",
+      "D": "Sáng sớm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị tiền tệ sử dụng ở Nhật Bản là?",
+    "options": {
+      "A": "Yên (JPY)",
+      "B": "Nhân dân tệ (CNY)",
+      "C": "Đô la (USD)",
+      "D": "Won (KRW)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Đơn vị tiền tệ chính thức của Thái Lan là?",
+    "options": {
+      "A": "Ringgit (MYR)",
+      "B": "Riel (KHR)",
+      "C": "Kip (LAK)",
+      "D": "Baht (THB)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Khi du lịch châu Âu, loại ổ cắm phổ biến là?",
+    "options": {
+      "A": "Type G",
+      "B": "Type C (Europlug)",
+      "C": "Type I",
+      "D": "Type A"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Bảo hiểm du lịch quốc tế thường bao gồm quyền lợi nào cơ bản?",
+    "options": {
+      "A": "Nâng hạng phòng",
+      "B": "Chi phí y tế khẩn cấp",
+      "C": "Mua sắm miễn thuế",
+      "D": "Miễn phí vé tham quan"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Chính sách 'tax refund' tại nhiều nước châu Âu áp dụng cho đối tượng nào?",
+    "options": {
+      "A": "Người đi công tác",
+      "B": "Học sinh du học",
+      "C": "Cư dân EU mua nội địa",
+      "D": "Khách du lịch mua hàng mang ra khỏi EU"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Mùa cao điểm du lịch hè ở châu Âu thường rơi vào tháng nào?",
+    "options": {
+      "A": "Tháng 6–8",
+      "B": "Tháng 3–4",
+      "C": "Tháng 9–10",
+      "D": "Tháng 11–12"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Khi đi trekking độ cao, vật dụng quan trọng nhất để tránh mất nước là?",
+    "options": {
+      "A": "Ô gấp",
+      "B": "Bình nước/ túi nước",
+      "C": "Gậy selfie",
+      "D": "Sạc dự phòng"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Quy tắc 3-1-1 trong an ninh hàng không Hoa Kỳ liên quan đến?",
+    "options": {
+      "A": "3 giờ check-in/1 hộ chiếu/1 vé",
+      "B": "3 lớp kiểm tra/1 cửa/1 máy soi",
+      "C": "Chất lỏng xách tay 100 ml/1 túi zip/1 hành khách",
+      "D": "3 kg hành lý/1 kiện/1 người"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "City Pass ở nhiều thành phố lớn thường giúp du khách?",
+    "options": {
+      "A": "Miễn visa",
+      "B": "Vào nhiều điểm tham quan với giá ưu đãi",
+      "C": "Nâng hạng khách sạn",
+      "D": "Bay miễn phí nội địa"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tỷ giá động thường tốt nhất khi đổi tiền bằng cách nào (thực tế phổ biến)?",
+    "options": {
+      "A": "Đổi tại khách sạn",
+      "B": "Rút ATM quốc tế/đổi tại ngân hàng uy tín",
+      "C": "Đổi tại sân bay",
+      "D": "Đổi chợ đen"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vòng tròn Bắc Cực ánh sáng phương Bắc (Aurora) thường thấy rõ nhất vào mùa nào?",
+    "options": {
+      "A": "Đông – đầu xuân",
+      "B": "Cuối xuân",
+      "C": "Đầu thu",
+      "D": "Hè"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Tuyến đường sắt xuyên Siberia nối Moscow với thành phố nào ở Viễn Đông Nga?",
+    "options": {
+      "A": "Irkutsk",
+      "B": "Novosibirsk",
+      "C": "Khabarovsk",
+      "D": "Vladivostok"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Con đường tơ lụa cổ đi qua sa mạc Taklamakan thuộc quốc gia nào?",
+    "options": {
+      "A": "Mông Cổ",
+      "B": "Kazakhstan",
+      "C": "Trung Quốc",
+      "D": "Uzbekistan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Cung đường Pamir Highway nổi tiếng thuộc khu vực địa lý nào?",
+    "options": {
+      "A": "Nam Á",
+      "B": "Trung Á",
+      "C": "Caucasus",
+      "D": "Đông Âu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Tuyến Camino de Santiago kết thúc tại thành phố nào của Tây Ban Nha?",
+    "options": {
+      "A": "Seville",
+      "B": "Granada",
+      "C": "Santiago de Compostela",
+      "D": "Valencia"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Vùng Cappadocia (Thổ Nhĩ Kỳ) nổi tiếng với hoạt động du lịch nào vào buổi sớm?",
+    "options": {
+      "A": "Lặn biển",
+      "B": "Trượt tuyết",
+      "C": "Lướt ván",
+      "D": "Khinh khí cầu"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Con đường Great Ocean Road nằm ở bang nào của Australia?",
+    "options": {
+      "A": "Queensland",
+      "B": "New South Wales",
+      "C": "Tasmania",
+      "D": "Victoria"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Đảo Jeju (Hàn Quốc) nổi tiếng với cảnh quan núi lửa và bờ biển ở vùng biển nào?",
+    "options": {
+      "A": "Nhật Bản",
+      "B": "Hoàng Hải – Hoa Đông",
+      "C": "Philippines",
+      "D": "Okhotsk"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Phong Nha – Kẻ Bàng nổi tiếng với hệ thống hang động đá vôi nằm ở tỉnh nào của Việt Nam?",
+    "options": {
+      "A": "Quảng Bình",
+      "B": "Hà Tĩnh",
+      "C": "Nghệ An",
+      "D": "Quảng Trị"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cao nguyên đá Đồng Văn – Công viên địa chất toàn cầu – thuộc tỉnh nào?",
+    "options": {
+      "A": "Hà Giang",
+      "B": "Yên Bái",
+      "C": "Lào Cai",
+      "D": "Cao Bằng"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Vườn quốc gia Kruger là điểm safari nổi tiếng thuộc nước nào?",
+    "options": {
+      "A": "Tanzania",
+      "B": "Nam Phi",
+      "C": "Kenya",
+      "D": "Botswana"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Thủ đô nào của châu Âu nổi tiếng với hệ thống kênh và nhà thuyền sống động?",
+    "options": {
+      "A": "Prague",
+      "B": "Amsterdam",
+      "C": "Vienna",
+      "D": "Budapest"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Điểm đến nào được mệnh danh là 'thành phố của gió' ở Mỹ, bên bờ hồ Michigan?",
+    "options": {
+      "A": "Chicago",
+      "B": "Cleveland",
+      "C": "Milwaukee",
+      "D": "Detroit"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Istanbul nổi tiếng nằm trên hai châu lục nào?",
+    "options": {
+      "A": "Châu Âu và châu Á",
+      "B": "Châu Á và châu Phi",
+      "C": "Châu Âu và châu Phi",
+      "D": "Châu Mỹ và châu Âu"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Đền Borobudur – quần thể Phật giáo lớn – thuộc quốc gia nào?",
+    "options": {
+      "A": "Myanmar",
+      "B": "Indonesia",
+      "C": "Thái Lan",
+      "D": "Lào"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Kyoto Pass hoặc Osaka Amazing Pass thường dùng cho loại hình phương tiện gì?",
+    "options": {
+      "A": "Tàu/xe công cộng và điểm tham quan",
+      "B": "Taxi",
+      "C": "Du thuyền biển",
+      "D": "Máy bay nội địa"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Swiss Travel Pass phổ biến cho khách du lịch vì cho phép?",
+    "options": {
+      "A": "Đi không giới hạn nhiều loại tàu/xe công cộng",
+      "B": "Miễn phí khách sạn",
+      "C": "Miễn visa Thụy Sĩ",
+      "D": "Miễn phí cáp treo mọi nơi"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "JR Pass hữu ích nhất cho khách du lịch quốc tế tại quốc gia nào?",
+    "options": {
+      "A": "Đài Loan",
+      "B": "Hàn Quốc",
+      "C": "Trung Quốc",
+      "D": "Nhật Bản"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Eurail/Interrail nổi tiếng dành cho việc di chuyển bằng phương tiện nào ở châu Âu?",
+    "options": {
+      "A": "Phà biển",
+      "B": "Máy bay",
+      "C": "Tàu hỏa",
+      "D": "Xe buýt"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Điểm đến nào ở Việt Nam nổi tiếng với danh hiệu 'thành phố biển' và tháp Po Nagar Chăm?",
+    "options": {
+      "A": "Quy Nhơn",
+      "B": "Phan Thiết",
+      "C": "Vũng Tàu",
+      "D": "Nha Trang"
+    },
+    "answer": "D"
+  }
+]

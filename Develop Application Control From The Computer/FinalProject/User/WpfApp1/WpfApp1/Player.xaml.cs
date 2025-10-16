@@ -15,14 +15,13 @@ namespace WpfApp1
     // ===== CLASS XỬ LÝ FIREBASE =====
     public class FirebaseService
     {
-        private const string FIREBASE_URL = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
         private readonly static HttpClient httpClient = new HttpClient();
 
-        public static async Task<List<DataQuestion.CauHoi>> LayTatCaCauHoi()
+        public static async Task<List<DataQuestion.CauHoi>> LayTatCaCauHoi(string url)
         {
             try
             {
-                string json = await httpClient.GetStringAsync(FIREBASE_URL);
+                string json = await httpClient.GetStringAsync(url);
                 var danhSach = JsonConvert.DeserializeObject<List<DataQuestion.CauHoi>>(json);
                 return danhSach ?? new List<DataQuestion.CauHoi>();
             }
@@ -37,6 +36,7 @@ namespace WpfApp1
     // ===== CLASS CHÍNH GAME =====
     public partial class Player : System.Windows.Controls.UserControl
     {
+        private const string FIREBASE_URL = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
         // Mảng tiền thưởng
         private readonly int[] prizeMilestones = new int[]
         {
@@ -77,7 +77,7 @@ namespace WpfApp1
             DisableAllButtons();
 
             // Tải câu hỏi từ Firebase
-            danhSachCauHoi = await FirebaseService.LayTatCaCauHoi();
+            danhSachCauHoi = await FirebaseService.LayTatCaCauHoi(FIREBASE_URL);
 
             if (danhSachCauHoi == null || danhSachCauHoi.Count == 0)
             {

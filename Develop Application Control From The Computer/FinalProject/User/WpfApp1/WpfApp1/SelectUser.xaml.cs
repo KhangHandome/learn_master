@@ -27,10 +27,11 @@ namespace WpfApp1
     
     public partial class SelectUser : System.Windows.Controls.UserControl
     {
-        static string url_user = "https://user-play-game-default-rtdb.firebaseio.com/User.json";
+        static string url_user = "https://user-play-game-default-rtdb.firebaseio.com";
         static string url_question = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
         private static readonly HttpClient httpClient = new HttpClient();
         private List<DataQuestion.CauHoi>? danhSachCauHoi;
+        private List<UserControl>? danhSachUser;
         private DispatcherTimer countdownTimer = new DispatcherTimer();
         private int seconds = 30;
         private string correctAnswer = string.Empty;
@@ -65,7 +66,7 @@ namespace WpfApp1
                 return new List<UserControl>();
             }
         }
-        private async void LoadAllQuestionFromFireBase()
+        private async Task LoadAllQuestionFromFireBase()
         {
             
             danhSachCauHoi = await SelectUSERLayTatCaCauHoi();
@@ -79,6 +80,29 @@ namespace WpfApp1
             }
             // Trộn ngẫu nhiên câu hỏi
             danhSachCauHoi = danhSachCauHoi.OrderBy(x => Guid.NewGuid()).ToList();
+        }
+        private async Task LoadAllUserFromFireBase()
+        {
+            danhSachUser = await LayTatCaUser();
+            if (danhSachUser == null)
+            {
+                return;
+            }
+            else
+            {
+
+            }
+            // Trộn ngẫu nhiên câu hỏi
+        }
+        // Tạo hàm khởi tạo bất đồng bộ
+        private async void InitializeAsync()
+        {
+            await LoadAllUserFromFireBase();
+            // await (Chờ) cho đến khi dữ liệu được tải xong.
+            await LoadAllQuestionFromFireBase();
+
+            // CHỈ KHI dữ liệu đã xong, mới tiến hành hiển thị câu hỏi.
+            StartQuestionToPickUser();
         }
         private void StartQuestionToPickUser()
         {
@@ -100,8 +124,8 @@ namespace WpfApp1
         {
             InitializeComponent();
             StartCountdown();
-            LoadAllQuestionFromFireBase();
-            StartQuestionToPickUser();
+            // DÒNG CHỦ CHỐT: await (Chờ) cho đến khi dữ liệu được tải xong.
+            InitializeAsync();
         }
         public void StartCountdown()
         {
@@ -109,36 +133,108 @@ namespace WpfApp1
             countdownTimer.Interval = TimeSpan.FromSeconds(1);
 
             // Đăng ký phương thức sẽ được gọi mỗi khi timer tick
-            countdownTimer.Tick += CountdownTimer_Tick;
+            countdownTimer.Tick +=  CountdownTimer_Tick;
 
         }
 
-        private void CountdownTimer_Tick(object? sender, EventArgs e)
+        private async void CountdownTimer_Tick(object? sender, EventArgs e)
         {
             // Giảm số giây và cập nhật TextBlock (giả sử có một TextBlock tên là txtTimer)
             seconds--;
             txtTimer.Text = seconds.ToString();
-
-            if (seconds <= 0)
+            bool isWiner;
+            if (seconds <= 1)
             {
                 countdownTimer.Stop();
                 txtTimer.Text = countdownTimer.ToString();
+                isWiner = await DetermineWiner();
+                if (isWiner)
+                {
+                    ChangeDisplayToPlayer();
+                }
+                else
+                {
+                    MessageBox.Show("Bạn đã hết thời gian hoặc không phải người trả lời nhanh nhất.");
+                }
             }
             /*Get user data to read all timer */
             /*Check if user have the minium time to answer */
         }
-        private void HandleAnswer(string answer)
+        private async Task<bool> DetermineWiner()
         {
-            if (answer == null) { }
+            int minumTimeToAnswer = 30;
+            bool retVal;
+            await LoadAllUserFromFireBase();
+            if (danhSachUser == null) { return false; }
+            /* Get minium to ansswer */
+            for ( int i = 0; i < danhSachUser.Count; i++)
+            {
+                if(danhSachUser[i].lastAnswerTime < minumTimeToAnswer && danhSachUser[i].lastAnswerTime < 30 && danhSachUser[i].hasPlayed == false )
+                {
+                    minumTimeToAnswer = (int)danhSachUser[i].lastAnswerTime;
+                }
+            }
+            if (danhSachUser[UserControl.ID_Player].lastAnswerTime <= minumTimeToAnswer && danhSachUser[UserControl.ID_Player].hasPlayed == false)
+            {
+                retVal = true;
+            }
             else
             {
-                if (answer == correctAnswer)
-                {
+                retVal = false;
+            }
+            return retVal;
+        }
 
+        private async void HandleAnswer(string answer)
+        {
+            if (answer == null) { return; }
+
+            // Vô hiệu hóa tất cả nút để tránh click thêm
+            DisableAllAnswerButtons();
+
+            // Lấy nút được chọn
+            Button selectedButton = GetButtonByAnswer(answer);
+
+            if (answer == correctAnswer)
+            {
+                // ✅ Trả lời đúng - Hiển thị màu xanh
+                selectedButton.Background = new SolidColorBrush(Colors.Green);
+                txtStatus.Text = "Chính xác! 🎉";
+                try
+                {
+                    if (danhSachUser == null) { return; }
+                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 30 - seconds;
+
+                    string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
+                    string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
+                    var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
+
+                    var response = await httpClient.PutAsync(playerUrl, content);
                 }
-                else
+                catch (Exception ex)
                 {
+                    MessageBox.Show($"Lỗi khi cập nhật Firebase: {ex.Message}");
+                }
+            }
+            else
+            {
+                // ❌ Trả lời sai - Hiển thị màu đỏ cho nút được chọn
+                selectedButton.Background = new SolidColorBrush(Colors.Red);
+                txtStatus.Text = $"Sai rồi! Đáp án đúng là {correctAnswer}.";
+                try
+                {
+                    if (danhSachUser == null) { return; }
+                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 100;
 
+                    string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
+                    string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
+                    var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
+
+                    var response = await httpClient.PutAsync(playerUrl, content);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Lỗi khi cập nhật Firebase: {ex.Message}");
                 }
             }
         }
@@ -169,6 +265,44 @@ namespace WpfApp1
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             HandleAnswer("D");
+        }
+        private Button GetButtonByAnswer(string answer)
+        {
+            return answer.ToUpper() switch
+            {
+                "A" => btnAnswer1,
+                "B" => btnAnswer2,
+                "C" => btnAnswer3,
+                "D" => btnAnswer4,
+                _ => btnAnswer1
+            };
+        }
+        // Hàm tắt tất cả nút để tránh click liên tiếp
+        private void DisableAllAnswerButtons()
+        {
+            btnAnswer1.IsEnabled = false;
+            btnAnswer2.IsEnabled = false;
+            btnAnswer3.IsEnabled = false;
+            btnAnswer4.IsEnabled = false;
+        }
+
+        // Hàm bật lại tất cả nút
+        private void EnableAllAnswerButtons()
+        {
+            btnAnswer1.IsEnabled = true;
+            btnAnswer2.IsEnabled = true;
+            btnAnswer3.IsEnabled = true;
+            btnAnswer4.IsEnabled = true;
+        }
+
+        // Hàm reset màu các nút về trạng thái ban đầu
+        private void ResetAnswerButtons()
+        {
+            btnAnswer1.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243));  // #2196F3
+            btnAnswer2.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243));
+            btnAnswer3.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243));
+            btnAnswer4.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243));
+            EnableAllAnswerButtons();
         }
     }
 }

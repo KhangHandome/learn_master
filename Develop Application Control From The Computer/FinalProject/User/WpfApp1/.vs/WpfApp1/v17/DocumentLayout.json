@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\player.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\player.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\player.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\player.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\firebaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\firebaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\register_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\register_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\selectuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\selectuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\player.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\player.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\selectuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\selectuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\selectuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\selectuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\register_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\register_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\dataquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\player.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\player.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\register_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\register_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5EE67E3-7E44-4CDB-8B09-7E42CAE24742}|WpfApp1\\WpfApp1.csproj|c:\\users\\maith\\documents\\learning\\learn_master\\develop application control from the computer\\finalproject\\user\\wpfapp1\\wpfapp1\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -66,85 +74,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Player.xaml",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\Player.xaml",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml",
-              "RelativeToolTip": "WpfApp1\\Player.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T14:34:26.099Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WpfApp1",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T14:43:31.425Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Player.xaml.cs",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\Player.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowNEAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T02:59:00.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserControl.cs",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\UserControl.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UserControl.cs",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\UserControl.cs",
-              "RelativeToolTip": "WpfApp1\\UserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Title": "FireBaseAPI.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\FireBaseAPI.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\FireBaseAPI.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\FireBaseAPI.cs",
+              "RelativeToolTip": "WpfApp1\\FireBaseAPI.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T03:58:47.366Z",
+              "WhenOpened": "2025-10-16T17:13:59.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAASwBAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T00:12:00.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SelectUser.xaml.cs",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\SelectUser.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\SelectUser.xaml.cs",
               "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\SelectUser.xaml.cs",
               "RelativeToolTip": "WpfApp1\\SelectUser.xaml.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwKsAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T12:49:18.461Z",
               "EditorCaption": ""
@@ -152,6 +105,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Register_User.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Register_User.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Register_User.xaml.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Register_User.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Register_User.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T16:14:13.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserControl.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\UserControl.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UserControl.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\UserControl.cs",
+              "RelativeToolTip": "WpfApp1\\UserControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T03:58:47.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T00:12:00.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SelectUser.xaml",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\SelectUser.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\SelectUser.xaml",
@@ -163,32 +154,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataQuestion.cs",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\DataQuestion.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\DataQuestion.cs",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\DataQuestion.cs",
-              "RelativeToolTip": "WpfApp1\\DataQuestion.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA0wCMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T04:11:05.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "WpfApp1.csproj",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
               "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T14:34:07.934Z"
+              "WhenOpened": "2025-10-13T14:34:07.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Player.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Player.xaml.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Player.xaml.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwHEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T02:59:00.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.xaml",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Player.xaml",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Player.xaml",
+              "RelativeToolTip": "WpfApp1\\Player.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-13T14:34:26.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-13T00:12:02.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Register_User.xaml",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Register_User.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\Register_User.xaml",
@@ -201,17 +221,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T00:12:02.689Z"
+              "Title": "DataQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\DataQuestion.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\DataQuestion.cs",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\DataQuestion.cs",
+              "RelativeToolTip": "WpfApp1\\DataQuestion.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:11:05.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "WpfApp1",
+              "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T14:43:31.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "WpfApp1\\Properties\\Resources.resx",
@@ -222,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
@@ -234,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\Users\\maith\\Documents\\Learning\\learn_master\\Develop Application Control From The Computer\\FinalProject\\User\\WpfApp1\\WpfApp1\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Properties\\Resources.Designer.cs",

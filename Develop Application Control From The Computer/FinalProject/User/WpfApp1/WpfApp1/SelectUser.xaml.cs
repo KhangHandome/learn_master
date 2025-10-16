@@ -35,6 +35,8 @@ namespace WpfApp1
         private DispatcherTimer countdownTimer = new DispatcherTimer();
         private int seconds = 30;
         private string correctAnswer = string.Empty;
+        private bool hasChoicePlayer = false;
+        private bool isAnswer = false;
         int currentQuestionIndex = 0; 
         public static async Task<List<DataQuestion.CauHoi>> SelectUSERLayTatCaCauHoi()
         {
@@ -50,7 +52,21 @@ namespace WpfApp1
                 return new List<DataQuestion.CauHoi>();
             }
         }
-
+        public static async Task<List<UserControl>> GetStatus()
+        {
+            try
+            {
+                string url = $"{url_user}/players.json";
+                string json = await httpClient.GetStringAsync(url);
+                var danhSach = JsonConvert.DeserializeObject<List<UserControl>>(json);
+                return danhSach ?? new List<UserControl>();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return new List<UserControl>();
+            }
+        }
         public static async Task<List<UserControl>> LayTatCaUser()
         {
             try
@@ -79,7 +95,6 @@ namespace WpfApp1
 
             }
             // Trộn ngẫu nhiên câu hỏi
-            danhSachCauHoi = danhSachCauHoi.OrderBy(x => Guid.NewGuid()).ToList();
         }
         private async Task LoadAllUserFromFireBase()
         {
@@ -116,8 +131,11 @@ namespace WpfApp1
                 txtQuestion.Text = question.NoiDung;
                 correctAnswer = question.DapAn;
                 currentQuestionIndex += 1;
+                seconds = 30;
                 /* Start timer */
                 countdownTimer.Start();
+                isAnswer = false;
+                ResetAnswerButtons();
             }
         }
         public SelectUser()
@@ -147,14 +165,26 @@ namespace WpfApp1
             {
                 countdownTimer.Stop();
                 txtTimer.Text = countdownTimer.ToString();
-                isWiner = await DetermineWiner();
-                if (isWiner)
+                if(isAnswer == false)
                 {
-                    ChangeDisplayToPlayer();
+                    HandleAnswer("X");
+                }
+                isWiner = await DetermineWiner();
+                if (hasChoicePlayer == true)
+                {
+                    if(isWiner == true)
+                    {
+                        ChangeDisplayToPlayer();
+                    }
+                    else
+                    {
+                        txtStatus.Text = "Mất lượt ";
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Bạn đã hết thời gian hoặc không phải người trả lời nhanh nhất.");
+                    hasChoicePlayer = false;
+                    StartQuestionToPickUser();
                 }
             }
             /*Get user data to read all timer */
@@ -172,13 +202,14 @@ namespace WpfApp1
                 if(danhSachUser[i].lastAnswerTime < minumTimeToAnswer && danhSachUser[i].lastAnswerTime < 30 && danhSachUser[i].hasPlayed == false )
                 {
                     minumTimeToAnswer = (int)danhSachUser[i].lastAnswerTime;
+                    hasChoicePlayer = true;
                 }
             }
             if (danhSachUser[UserControl.ID_Player].lastAnswerTime <= minumTimeToAnswer && danhSachUser[UserControl.ID_Player].hasPlayed == false)
             {
                 retVal = true;
             }
-            else
+            else 
             {
                 retVal = false;
             }
@@ -195,6 +226,7 @@ namespace WpfApp1
             // Lấy nút được chọn
             Button selectedButton = GetButtonByAnswer(answer);
 
+            isAnswer = true;
             if (answer == correctAnswer)
             {
                 // ✅ Trả lời đúng - Hiển thị màu xanh
@@ -229,7 +261,6 @@ namespace WpfApp1
                     string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
                     string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
                     var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
-
                     var response = await httpClient.PutAsync(playerUrl, content);
                 }
                 catch (Exception ex)

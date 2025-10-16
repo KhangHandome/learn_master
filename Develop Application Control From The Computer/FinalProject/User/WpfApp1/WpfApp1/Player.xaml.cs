@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Policy;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -36,6 +37,8 @@ namespace WpfApp1
     // ===== CLASS CHÍNH GAME =====
     public partial class Player : System.Windows.Controls.UserControl
     {
+        private List<UserControl>? danhSachUser;
+        static string url_user = "https://user-play-game-default-rtdb.firebaseio.com";
         private const string FIREBASE_URL = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
         // Mảng tiền thưởng
         private readonly int[] prizeMilestones = new int[]
@@ -43,6 +46,22 @@ namespace WpfApp1
             200000, 400000, 600000, 1000000, 2000000, 3000000, 6000000, 10000000,
             14000000, 22000000, 30000000, 40000000, 60000000, 85000000, 150000000
         };
+        public static async Task<List<UserControl>> LayTatCaUser()
+        {
+            HttpClient httpClient = new HttpClient();
+            try
+            {
+                string url = $"{url_user}/players.json";
+                string json = await httpClient.GetStringAsync(url);
+                var danhSach = JsonConvert.DeserializeObject<List<UserControl>>(json);
+                return danhSach ?? new List<UserControl>();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return new List<UserControl>();
+            }
+        }
 
         // Danh sách câu hỏi
         private List<DataQuestion.CauHoi>? danhSachCauHoi;
@@ -69,9 +88,32 @@ namespace WpfApp1
             InitializeComponent();
             KhoiTaoGame();
         }
+        private async void ExitGame()
+        {
+            HttpClient httpClient = new HttpClient();
+            try
+            {
+                if (danhSachUser == null) { return; }
+                danhSachUser[UserControl.ID_Player].lastAnswerTime = 100;
+                danhSachUser[UserControl.ID_Player].hasPlayed = true;
+                danhSachUser[UserControl.ID_Player].currentAnswer = correctAnswer;
+                danhSachUser[UserControl.ID_Player].score = prizeMilestones[Math.Max(0, currentQuestionIndex - 1)];
+                danhSachUser[UserControl.ID_Player].name = string.Empty;
+                string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
+                string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
+                var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
 
+                var response = await httpClient.PutAsync(playerUrl, content);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi cập nhật Firebase: {ex.Message}");
+            }
+        }
         private async void KhoiTaoGame()
         {
+            danhSachUser = await LayTatCaUser();
             // Hiển thị loading
             labelQuestion.Text = "Đang tải câu hỏi...";
             DisableAllButtons();
@@ -315,7 +357,7 @@ namespace WpfApp1
             int prize = currentQuestionIndex > 0 ? prizeMilestones[currentQuestionIndex - 1] : 0;
             MessageBox.Show($"Bạn dừng cuộc chơi!\nSố tiền nhận được: {prize:N0} đ",
                           "Kết thúc", MessageBoxButton.OK, MessageBoxImage.Information);
-
+            ExitGame();
             BackToMenu();
         }
 
@@ -325,7 +367,7 @@ namespace WpfApp1
             int prize = currentQuestionIndex > 0 ? prizeMilestones[currentQuestionIndex - 1] : 0;
             MessageBox.Show($"{message}\n\nSố tiền nhận được: {prize:N0} đ",
                           "Game Over", MessageBoxButton.OK, MessageBoxImage.Warning);
-
+            ExitGame();
             BackToMenu();
         }
 
@@ -335,7 +377,7 @@ namespace WpfApp1
             timer?.Stop();
             MessageBox.Show($"🎉 CHÚC MỪNG! 🎉\n\nBạn đã chiến thắng!\nTổng giải thưởng: {prizeMilestones[14]:N0} đ",
                           "Chiến thắng!", MessageBoxButton.OK, MessageBoxImage.Information);
-
+            ExitGame();
             BackToMenu();
         }
 

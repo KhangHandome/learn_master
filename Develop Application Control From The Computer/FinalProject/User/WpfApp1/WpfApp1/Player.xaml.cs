@@ -1,72 +1,41 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Security.Policy;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
-using Newtonsoft.Json;
 
 namespace WpfApp1
 {
-    // ===== CLASS MÔ TẢ LỰA CHỌN =====
-    public class LuaChon
-    {
-        /*Use this to matching with json file on firebase */
-        [JsonProperty("A")]
-        public string A { get; set; } = string.Empty;
-
-        [JsonProperty("B")]
-        public string B { get; set; } = string.Empty;
-
-        [JsonProperty("C")]
-        public string C { get; set; } = string.Empty;
-
-        [JsonProperty("D")]
-        public string D { get; set; } = string.Empty;
-    }
-
-    // ===== CLASS MÔ TẢ CÂU HỎI =====
-    public class CauHoi
-    {
-        [JsonProperty("answer")]
-        public string DapAn { get; set; } = string.Empty;
-
-        [JsonProperty("question")]
-        public string NoiDung { get; set; } = string.Empty;
-
-        [JsonProperty("options")]
-        public LuaChon LuaChon { get; set; } = new LuaChon();
-    }
-
     // ===== CLASS XỬ LÝ FIREBASE =====
     public class FirebaseService
     {
         private const string FIREBASE_URL = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
+        private readonly static HttpClient httpClient = new HttpClient();
 
-        public static async Task<List<CauHoi>> LayTatCaCauHoi()
+        public static async Task<List<DataQuestion.CauHoi>> LayTatCaCauHoi()
         {
             try
             {
-                using (HttpClient client = new HttpClient())
-                {
-                    string json = await client.GetStringAsync(FIREBASE_URL);
-                    var danhSach = JsonConvert.DeserializeObject<List<CauHoi>>(json);
-                    return danhSach ?? new List<CauHoi>();
-                }
+                string json = await httpClient.GetStringAsync(FIREBASE_URL);
+                var danhSach = JsonConvert.DeserializeObject<List<DataQuestion.CauHoi>>(json);
+                return danhSach ?? new List<DataQuestion.CauHoi>();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<CauHoi>();
+                return new List<DataQuestion.CauHoi>();
             }
         }
     }
 
     // ===== CLASS CHÍNH GAME =====
-    public partial class Player : UserControl
+    public partial class Player : System.Windows.Controls.UserControl
     {
         // Mảng tiền thưởng
         private readonly int[] prizeMilestones = new int[]
@@ -76,7 +45,7 @@ namespace WpfApp1
         };
 
         // Danh sách câu hỏi
-        private List<CauHoi>? danhSachCauHoi;
+        private List<DataQuestion.CauHoi>? danhSachCauHoi;
 
         // Câu hỏi hiện tại
         private int currentQuestionIndex = 0;

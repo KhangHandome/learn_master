@@ -11,28 +11,13 @@ using Newtonsoft.Json.Serialization;
 
 namespace WpfApp1
 {
-    public partial class Register_User : UserControl
+    public partial class Register_User : System.Windows.Controls.UserControl
     {
-        // ===================== CLASS NGƯỜI CHƠI =====================
-        public class PlayerData
-        {
-            [JsonProperty("name")]
-            public string name { get; set; } = string.Empty;
-            [JsonProperty("score")]
-            public int score { get; set; } = 0;
-            [JsonProperty("hasPlayed")]
-            public bool hasPlayed { get; set; } = false;
-            [JsonProperty("currentAnswer")]
-            public string currentAnswer { get; set; } = string.Empty;   
-            [JsonProperty("lastAnswerTime")]
-            public long lastAnswerTime { get; set; } = 0;
-        }
-
         private readonly string firebaseUrl = "https://user-play-game-default-rtdb.firebaseio.com";
         private readonly int maxPlayers = 6;
         private readonly HttpClient httpClient = new HttpClient();
-        private DispatcherTimer? timer;
-
+        private DispatcherTimer timer = new DispatcherTimer();
+        bool isInputData = false;
         public Register_User()
         {
             InitializeComponent();
@@ -48,12 +33,6 @@ namespace WpfApp1
             if (string.IsNullOrEmpty(playerName))
             {
                 MessageBox.Show("Vui lòng nhập tên người chơi!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return;
-            }
-
-            if (playerName.Length < 2)
-            {
-                MessageBox.Show("Tên phải có ít nhất 2 ký tự!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -90,35 +69,44 @@ namespace WpfApp1
         // ===================== ĐĂNG KÝ NGƯỜI CHƠI =====================
         private async Task<bool> RegisterPlayer(string playerName)
         {
+            List<UserControl> players;
+            string url = string.Empty;
+            string json = string.Empty;
             try
             {
                 /* Lấy danh sách người chơi hiện tại với node dữ liệu là players */
-                string url = $"{firebaseUrl}/players.json";
+                url = $"{firebaseUrl}/players.json";
                 /* Lấy dữ liệu JSON từ trên node players */
-                string json = await httpClient.GetStringAsync(url);
-
-                List<PlayerData> players;
+                json = await httpClient.GetStringAsync(url);
 
                 // Kiểm tra xem chuỗi json có đang bị trống hoặc "null"
                 if (string.IsNullOrEmpty(json) || json == "null")
                 {
                     // Chưa có dữ liệu -> tạo danh sách mới
-                    players = new List<PlayerData>();
+                    players = new List<UserControl>();
                     for (int i = 0; i < maxPlayers; i++)
                     {
-                        players.Add(new PlayerData());
+                        players.Add(new UserControl());
                     }
                 }
                 else
                 {
                     // Deserialize JSON
-                    var deserialized = JsonConvert.DeserializeObject<List<PlayerData>>(json);
-                    players = deserialized ?? new List<PlayerData>();
+                    var deserialized = JsonConvert.DeserializeObject<List<UserControl>>(json);
+                    if (deserialized != null)
+                    {
+                        players = deserialized;
+                    }
+                    else
+                    {
+                        players = new List<UserControl>();
+                    }
 
                     // Nếu JSON có ít hơn maxPlayers, thêm các slot trống
                     while (players.Count < maxPlayers)
                     {
-                        players.Add(new PlayerData());
+                        /* Add new slot */
+                        players.Add(new UserControl());
                     }
                 }
 
@@ -138,6 +126,8 @@ namespace WpfApp1
                         var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
 
                         var response = await httpClient.PutAsync(playerUrl, content);
+                        isInputData = true;
+                        UserControl.ID_Player = i;
                         return response.IsSuccessStatusCode;
                     }
                 }
@@ -153,58 +143,65 @@ namespace WpfApp1
         // ===================== THEO DÕI NGƯỜI CHƠI =====================
         private void StartMonitoringPlayers()
         {
-            timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(2);
+            /* Register a timer to check players every 1 seconds */
+            timer.Interval = TimeSpan.FromMilliseconds(500);
             timer.Tick += async (s, e) => await CheckPlayers();
             timer.Start();
-
-            // Check ngay lần đầu
-            _ = CheckPlayers();
         }
 
         private async Task CheckPlayers()
         {
+            /* Clear current player list */
+            List<UserControl> players;
+            // Đếm số người đã đăng ký
+            int user_registered = 0;
+            /* URL to get data from firebase */
+            string url = "";
+            /* Json export from firebase */
+            string json_export = string.Empty;
             try
             {
-                string url = $"{firebaseUrl}/players.json";
-                string json = await httpClient.GetStringAsync(url);
+                /* Get data from Firebase node players */
+                url = $"{firebaseUrl}/players.json";
+                /* Json export is data from firebase node players */
+                json_export = await httpClient.GetStringAsync(url);
 
-                List<PlayerData> players;
-
-                if (string.IsNullOrEmpty(json) || json == "null")
+                /* Check if json_export is null or node players is empty */
+                if (string.IsNullOrEmpty(json_export) || json_export == "null")
                 {
-                    players = new List<PlayerData>();
+                    players = new List<UserControl>();
                 }
                 else
                 {
-                    var deserialized = JsonConvert.DeserializeObject<List<PlayerData>>(json);
-                    players = deserialized ?? new List<PlayerData>();
+                    /* Deserialize json_export to List<UserControl> */
+                    var deserialized = JsonConvert.DeserializeObject<List<UserControl>>(json_export);
+                    players = deserialized ?? new List<UserControl>();
                 }
-
-                // Đếm số người đã đăng ký
-                int registered = 0;
                 foreach (var player in players)
                 {
                     if (!string.IsNullOrEmpty(player.name))
-                        registered++;
+                    {
+                        user_registered++;
+                    }
                 }
 
                 // Cập nhật UI
-                txtPlayerCount.Text = $"{registered}/{maxPlayers}";
+                txtPlayerCount.Text = $"{user_registered}/{maxPlayers}";
 
                 // Nếu đủ người chơi
-                if (registered >= maxPlayers)
+                if (user_registered >= maxPlayers)
                 {
-                    timer?.Stop();
-
                     // Cập nhật trạng thái game
-                    string statusUrl = $"{firebaseUrl}/gameStatus.json";
+                    url = $"{firebaseUrl}/gameStatus.json";
+                    /* Update gameStatus to "playing" */
                     var content = new StringContent("\"playing\"", Encoding.UTF8, "application/json");
-                    await httpClient.PutAsync(statusUrl, content);
+                    /* Put data to firebase by httpClient */
+                    await httpClient.PutAsync(url, content);
 
                     // Chuyển sang màn hình SelectUser
-                    if (Application.Current.MainWindow is MainWindow main)
+                    if (Application.Current.MainWindow is MainWindow main && isInputData == true)
                     {
+                        timer?.Stop();
                         main.MainContent.Children.Clear();
                         main.MainContent.Children.Add(new SelectUser());
                     }

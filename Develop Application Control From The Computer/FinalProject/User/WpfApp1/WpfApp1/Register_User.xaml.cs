@@ -193,8 +193,8 @@ namespace WpfApp1
                 {
                     // Cập nhật trạng thái game
                     url = $"{firebaseUrl}/gameStatus.json";
-                    /* Update gameStatus to "playing" */
-                    var content = new StringContent("\"playing\"", Encoding.UTF8, "application/json");
+                    /* Update gameStatus to "select_user" */
+                    var content = new StringContent("\"select_user\"", Encoding.UTF8, "application/json");
                     /* Put data to firebase by httpClient */
                     await httpClient.PutAsync(url, content);
 

@@ -33,6 +33,7 @@ namespace WpfApp1
         private List<DataQuestion.CauHoi>? danhSachCauHoi;
         private List<UserControl>? danhSachUser;
         private DispatcherTimer countdownTimer = new DispatcherTimer();
+        private DispatcherTimer checkGameStatus = new DispatcherTimer();
         private int seconds = 30;
         private string correctAnswer = string.Empty;
         private bool hasChoicePlayer = false;
@@ -105,9 +106,8 @@ namespace WpfApp1
             }
             else
             {
-
+                txtPlayerIDDisplay.Text = danhSachUser[UserControl.ID_Player].name;
             }
-            // Trộn ngẫu nhiên câu hỏi
         }
         // Tạo hàm khởi tạo bất đồng bộ
         private async void InitializeAsync()
@@ -115,15 +115,14 @@ namespace WpfApp1
             await LoadAllUserFromFireBase();
             // await (Chờ) cho đến khi dữ liệu được tải xong.
             await LoadAllQuestionFromFireBase();
-
-            // CHỈ KHI dữ liệu đã xong, mới tiến hành hiển thị câu hỏi.
-            StartQuestionToPickUser();
+            checkGameStatus.Start();
         }
-        private void StartQuestionToPickUser()
+        private async Task StartQuestionToPickUser()
         {
+            FireBaseAPI.currentQuestion = await FireBaseAPI.GetQuestionNumber();
             if (danhSachCauHoi != null)
             {
-                var question = danhSachCauHoi[currentQuestionIndex];
+                var question = danhSachCauHoi[FireBaseAPI.currentQuestion];
                 btnAnswer1.Content = $"A) {question.LuaChon.A}";
                 btnAnswer2.Content = $"B) {question.LuaChon.B}";
                 btnAnswer3.Content = $"C) {question.LuaChon.C}";
@@ -149,12 +148,21 @@ namespace WpfApp1
         {
             // Đặt khoảng thời gian lặp lại (ví dụ: mỗi 1 giây)
             countdownTimer.Interval = TimeSpan.FromSeconds(1);
-
+            checkGameStatus.Interval = TimeSpan.FromMilliseconds(500);
             // Đăng ký phương thức sẽ được gọi mỗi khi timer tick
             countdownTimer.Tick +=  CountdownTimer_Tick;
-
+            checkGameStatus.Tick += CheckGameStatus_Tick;
         }
-
+        private async void CheckGameStatus_Tick(object? sender, EventArgs e)
+        {
+            string gameStatus = await FireBaseAPI.getGameStatus();
+            if ( gameStatus == "\"select_user\"")
+            {
+                /* Stop check game status */
+                checkGameStatus.Stop();
+                await StartQuestionToPickUser();
+            }
+        }
         private async void CountdownTimer_Tick(object? sender, EventArgs e)
         {
             // Giảm số giây và cập nhật TextBlock (giả sử có một TextBlock tên là txtTimer)
@@ -174,17 +182,22 @@ namespace WpfApp1
                 {
                     if(isWiner == true)
                     {
+                        await FireBaseAPI.PushGameStatus("playing");
                         ChangeDisplayToPlayer();
                     }
                     else
                     {
                         txtStatus.Text = "Mất lượt ";
-                    }
+                        checkGameStatus.Start();
+                    }     
                 }
                 else
                 {
+                    txtStatus.Text = "Mất lượt ";
+                    checkGameStatus.Start();
                     hasChoicePlayer = false;
-                    StartQuestionToPickUser();
+                    await FireBaseAPI.PushQuestionNumber(FireBaseAPI.currentQuestion + 1);
+                    ChangeDisplayToPlayer();
                 }
             }
             /*Get user data to read all timer */

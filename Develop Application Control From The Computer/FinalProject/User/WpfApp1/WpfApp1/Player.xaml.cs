@@ -104,7 +104,8 @@ namespace WpfApp1
                 var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
 
                 var response = await httpClient.PutAsync(playerUrl, content);
-
+                await FireBaseAPI.PushGameStatus("select_user");
+                await FireBaseAPI.PushQuestionNumber(FireBaseAPI.currentQuestion + 1);
             }
             catch (Exception ex)
             {
@@ -358,6 +359,7 @@ namespace WpfApp1
             MessageBox.Show($"Bạn dừng cuộc chơi!\nSố tiền nhận được: {prize:N0} đ",
                           "Kết thúc", MessageBoxButton.OK, MessageBoxImage.Information);
             ExitGame();
+            
             BackToMenu();
         }
 

@@ -207,7 +207,7 @@
                                   Foreground="White"
                                   VerticalAlignment="Center"/>
                         <TextBlock x:Name="txtTimer" 
-                                  Text="60" 
+                                  Text="20" 
                                   FontSize="36" 
                                   FontWeight="Bold"
                                   Foreground="White"

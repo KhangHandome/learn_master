@@ -13,80 +13,40 @@ using System.Windows.Threading;
 
 namespace WpfApp1
 {
-    // ===== CLASS XỬ LÝ FIREBASE =====
-    public class FirebaseService
-    {
-        private readonly static HttpClient httpClient = new HttpClient();
-
-        public static async Task<List<DataQuestion.CauHoi>> LayTatCaCauHoi(string url)
-        {
-            try
-            {
-                string json = await httpClient.GetStringAsync(url);
-                var danhSach = JsonConvert.DeserializeObject<List<DataQuestion.CauHoi>>(json);
-                return danhSach ?? new List<DataQuestion.CauHoi>();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<DataQuestion.CauHoi>();
-            }
-        }
-    }
-
     // ===== CLASS CHÍNH GAME =====
     public partial class Player : System.Windows.Controls.UserControl
     {
+        /* List user play */
         private List<UserControl>? danhSachUser;
-        static string url_user = "https://user-play-game-default-rtdb.firebaseio.com";
-        private const string FIREBASE_URL = "https://ailatrieuphu-34a98-default-rtdb.firebaseio.com/.json";
-        // Mảng tiền thưởng
+        /* List question */
+        private List<DataQuestion.CauHoi>? danhSachCauHoi;
+        /* Bonus array */
         private readonly int[] prizeMilestones = new int[]
         {
             200000, 400000, 600000, 1000000, 2000000, 3000000, 6000000, 10000000,
             14000000, 22000000, 30000000, 40000000, 60000000, 85000000, 150000000
         };
-        public static async Task<List<UserControl>> LayTatCaUser()
-        {
-            HttpClient httpClient = new HttpClient();
-            try
-            {
-                string url = $"{url_user}/players.json";
-                string json = await httpClient.GetStringAsync(url);
-                var danhSach = JsonConvert.DeserializeObject<List<UserControl>>(json);
-                return danhSach ?? new List<UserControl>();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<UserControl>();
-            }
-        }
-
-        // Danh sách câu hỏi
-        private List<DataQuestion.CauHoi>? danhSachCauHoi;
-
-        // Câu hỏi hiện tại
+        /* Current question */
         private int currentQuestionIndex = 0;
 
-        // Timer
+        /* Use this timer to running */
         private DispatcherTimer? timer;
         private int timeLeft = 30;
 
-        // Trợ giúp đã dùng
+        /* Help used */
         private bool used5050 = false;
         private bool usedAudience = false;
 
-        // Câu trả lời đúng
+        /* Correct answer */
         private string correctAnswer = string.Empty;
 
-        // Các đáp án đã bị loại bởi 50:50
+        /* Answers were eliminated by 50:50 */
         private readonly List<string> removedAnswers = new List<string>();
 
         public Player()
         {
             InitializeComponent();
-            KhoiTaoGame();
+            Initialization();
         }
         private async void ExitGame()
         {
@@ -98,12 +58,8 @@ namespace WpfApp1
                 danhSachUser[UserControl.ID_Player].hasPlayed = true;
                 danhSachUser[UserControl.ID_Player].currentAnswer = correctAnswer;
                 danhSachUser[UserControl.ID_Player].score = prizeMilestones[Math.Max(0, currentQuestionIndex - 1)];
-                danhSachUser[UserControl.ID_Player].name = string.Empty;
-                string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
-                string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
-                var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
-
-                var response = await httpClient.PutAsync(playerUrl, content);
+                danhSachUser[UserControl.ID_Player].name = string.Empty;  
+                await FireBaseAPI.pushUserPlay(danhSachUser[UserControl.ID_Player]);
                 await FireBaseAPI.PushGameStatus("select_user");
                 await FireBaseAPI.PushQuestionNumber(FireBaseAPI.currentQuestion + 1);
             }
@@ -112,15 +68,15 @@ namespace WpfApp1
                 MessageBox.Show($"Lỗi khi cập nhật Firebase: {ex.Message}");
             }
         }
-        private async void KhoiTaoGame()
+        private async void Initialization()
         {
-            danhSachUser = await LayTatCaUser();
+            danhSachUser = await FireBaseAPI.getUserPlay();
             // Hiển thị loading
             labelQuestion.Text = "Đang tải câu hỏi...";
             DisableAllButtons();
 
             // Tải câu hỏi từ Firebase
-            danhSachCauHoi = await FirebaseService.LayTatCaCauHoi(FIREBASE_URL);
+            danhSachCauHoi = await FireBaseAPI.getQuestions();
 
             if (danhSachCauHoi == null || danhSachCauHoi.Count == 0)
             {
@@ -199,7 +155,7 @@ namespace WpfApp1
                 txtTimer.Foreground = new SolidColorBrush(Colors.White);
             }
 
-            // Hết giờ
+            /* Time out game over */
             if (timeLeft <= 0)
             {
                 timer?.Stop();
@@ -301,19 +257,19 @@ namespace WpfApp1
         // ===== TRỢ GIÚP HỎI KHÁN GIẢ =====
         private void Button_Click_Audience(object sender, RoutedEventArgs e)
         {
+            // Tạo message
+            string message = "Kết quả khán giả:\n\n";
+            List<string> answers = new List<string> { "A", "B", "C", "D" };
+            int otherIndex = 0;
             if (usedAudience) return;
-
             usedAudience = true;
             btnAudience.IsEnabled = false;
-
             // Tạo tỷ lệ % cho đáp án đúng (60-80%)
             Random random = new Random();
             int correctPercent = random.Next(60, 81);
-
             // Chia phần còn lại cho các đáp án khác
             List<int> otherPercents = new List<int>();
             int remaining = 100 - correctPercent;
-
             for (int i = 0; i < 2; i++)
             {
                 int percent = random.Next(0, remaining / 2);
@@ -322,12 +278,6 @@ namespace WpfApp1
             }
             otherPercents.Add(remaining);
             otherPercents = otherPercents.OrderByDescending(x => x).ToList();
-
-            // Tạo message
-            string message = "Kết quả khán giả:\n\n";
-            List<string> answers = new List<string> { "A", "B", "C", "D" };
-
-            int otherIndex = 0;
             foreach (string ans in answers)
             {
                 if (ans == correctAnswer)

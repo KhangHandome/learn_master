@@ -47,7 +47,6 @@ namespace WpfApp1
 
                 if (success)
                 {
-                    MessageBox.Show($"Đăng ký thành công! Đang chờ {maxPlayers} người chơi...", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
                     txtPlayerName.IsEnabled = false;
                     btnPlay.Content = "ĐÃ ĐĂNG KÝ ✓";
                 }
@@ -75,41 +74,14 @@ namespace WpfApp1
             try
             {
                 /* Lấy danh sách người chơi hiện tại với node dữ liệu là players */
-                url = $"{firebaseUrl}/players.json";
-                /* Lấy dữ liệu JSON từ trên node players */
-                json = await httpClient.GetStringAsync(url);
+                players = await FireBaseAPI.getUserPlay();
 
-                // Kiểm tra xem chuỗi json có đang bị trống hoặc "null"
-                if (string.IsNullOrEmpty(json) || json == "null")
+                // Nếu JSON có ít hơn maxPlayers, thêm các slot trống
+                while (players.Count < maxPlayers)
                 {
-                    // Chưa có dữ liệu -> tạo danh sách mới
-                    players = new List<UserControl>();
-                    for (int i = 0; i < maxPlayers; i++)
-                    {
-                        players.Add(new UserControl());
-                    }
+                    /* Add new slot */
+                    players.Add(new UserControl());
                 }
-                else
-                {
-                    // Deserialize JSON
-                    var deserialized = JsonConvert.DeserializeObject<List<UserControl>>(json);
-                    if (deserialized != null)
-                    {
-                        players = deserialized;
-                    }
-                    else
-                    {
-                        players = new List<UserControl>();
-                    }
-
-                    // Nếu JSON có ít hơn maxPlayers, thêm các slot trống
-                    while (players.Count < maxPlayers)
-                    {
-                        /* Add new slot */
-                        players.Add(new UserControl());
-                    }
-                }
-
                 // Tìm slot trống
                 for (int i = 0; i < players.Count; i++)
                 {
@@ -155,28 +127,10 @@ namespace WpfApp1
             List<UserControl> players;
             // Đếm số người đã đăng ký
             int user_registered = 0;
-            /* URL to get data from firebase */
-            string url = "";
-            /* Json export from firebase */
-            string json_export = string.Empty;
             try
             {
-                /* Get data from Firebase node players */
-                url = $"{firebaseUrl}/players.json";
-                /* Json export is data from firebase node players */
-                json_export = await httpClient.GetStringAsync(url);
-
-                /* Check if json_export is null or node players is empty */
-                if (string.IsNullOrEmpty(json_export) || json_export == "null")
-                {
-                    players = new List<UserControl>();
-                }
-                else
-                {
-                    /* Deserialize json_export to List<UserControl> */
-                    var deserialized = JsonConvert.DeserializeObject<List<UserControl>>(json_export);
-                    players = deserialized ?? new List<UserControl>();
-                }
+                /* URL to get data from firebase */
+                players = await FireBaseAPI.getUserPlay();
                 foreach (var player in players)
                 {
                     if (!string.IsNullOrEmpty(player.name))
@@ -191,13 +145,7 @@ namespace WpfApp1
                 // Nếu đủ người chơi
                 if (user_registered >= maxPlayers)
                 {
-                    // Cập nhật trạng thái game
-                    url = $"{firebaseUrl}/gameStatus.json";
-                    /* Update gameStatus to "select_user" */
-                    var content = new StringContent("\"select_user\"", Encoding.UTF8, "application/json");
-                    /* Put data to firebase by httpClient */
-                    await httpClient.PutAsync(url, content);
-
+                    await FireBaseAPI.PushGameStatus("select_user");
                     // Chuyển sang màn hình SelectUser
                     if (Application.Current.MainWindow is MainWindow main && isInputData == true)
                     {

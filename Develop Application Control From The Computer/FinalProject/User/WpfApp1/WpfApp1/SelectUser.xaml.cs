@@ -39,54 +39,10 @@ namespace WpfApp1
         private bool hasChoicePlayer = false;
         private bool isAnswer = false;
         int currentQuestionIndex = 0; 
-        public static async Task<List<DataQuestion.CauHoi>> SelectUSERLayTatCaCauHoi()
-        {
-            try
-            {
-                string json = await httpClient.GetStringAsync(url_question);
-                var danhSach = JsonConvert.DeserializeObject<List<DataQuestion.CauHoi>>(json);
-                return danhSach ?? new List<DataQuestion.CauHoi>();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<DataQuestion.CauHoi>();
-            }
-        }
-        public static async Task<List<UserControl>> GetStatus()
-        {
-            try
-            {
-                string url = $"{url_user}/players.json";
-                string json = await httpClient.GetStringAsync(url);
-                var danhSach = JsonConvert.DeserializeObject<List<UserControl>>(json);
-                return danhSach ?? new List<UserControl>();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<UserControl>();
-            }
-        }
-        public static async Task<List<UserControl>> LayTatCaUser()
-        {
-            try
-            {
-                string url = $"{url_user}/players.json";
-                string json = await httpClient.GetStringAsync(url);
-                var danhSach = JsonConvert.DeserializeObject<List<UserControl>>(json);
-                return danhSach ?? new List<UserControl>();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<UserControl>();
-            }
-        }
         private async Task LoadAllQuestionFromFireBase()
         {
             
-            danhSachCauHoi = await SelectUSERLayTatCaCauHoi();
+            danhSachCauHoi = await FireBaseAPI.getQuestions();
             if(danhSachCauHoi == null)
             {
                 return; 
@@ -99,7 +55,7 @@ namespace WpfApp1
         }
         private async Task LoadAllUserFromFireBase()
         {
-            danhSachUser = await LayTatCaUser();
+            danhSachUser = await FireBaseAPI.getUserPlay();
             if (danhSachUser == null)
             {
                 return;
@@ -130,7 +86,7 @@ namespace WpfApp1
                 txtQuestion.Text = question.NoiDung;
                 correctAnswer = question.DapAn;
                 currentQuestionIndex += 1;
-                seconds = 30;
+                seconds = 20;
                 /* Start timer */
                 countdownTimer.Start();
                 isAnswer = false;
@@ -167,12 +123,13 @@ namespace WpfApp1
         {
             // Giảm số giây và cập nhật TextBlock (giả sử có một TextBlock tên là txtTimer)
             seconds--;
-            txtTimer.Text = seconds.ToString();
+            if (seconds < 0) { } else {
+            txtTimer.Text = seconds.ToString();}
             bool isWiner;
             if (seconds <= 1)
             {
                 countdownTimer.Stop();
-                txtTimer.Text = countdownTimer.ToString();
+                txtTimer.Text = seconds.ToString();
                 if(isAnswer == false)
                 {
                     HandleAnswer("X");
@@ -197,7 +154,6 @@ namespace WpfApp1
                     checkGameStatus.Start();
                     hasChoicePlayer = false;
                     await FireBaseAPI.PushQuestionNumber(FireBaseAPI.currentQuestion + 1);
-                    ChangeDisplayToPlayer();
                 }
             }
             /*Get user data to read all timer */

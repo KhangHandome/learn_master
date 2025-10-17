@@ -34,10 +34,9 @@ namespace WpfApp1
         private List<UserControl>? danhSachUser;
         private DispatcherTimer countdownTimer = new DispatcherTimer();
         private DispatcherTimer checkGameStatus = new DispatcherTimer();
-        private int seconds = 30;
+        private int seconds = 20;
         private string correctAnswer = string.Empty;
         private bool hasChoicePlayer = false;
-        private bool isAnswer = false;
         int currentQuestionIndex = 0; 
         private async Task LoadAllQuestionFromFireBase()
         {
@@ -74,7 +73,14 @@ namespace WpfApp1
             checkGameStatus.Start();
         }
         private async Task StartQuestionToPickUser()
-        {
+        {   
+            if (danhSachUser == null) { return; }
+            danhSachUser[UserControl.ID_Player].lastAnswerTime = 999;
+            string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
+            string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
+            var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
+            var response = await httpClient.PutAsync(playerUrl, content);
+
             FireBaseAPI.currentQuestion = await FireBaseAPI.GetQuestionNumber();
             if (danhSachCauHoi != null)
             {
@@ -89,7 +95,6 @@ namespace WpfApp1
                 seconds = 20;
                 /* Start timer */
                 countdownTimer.Start();
-                isAnswer = false;
                 ResetAnswerButtons();
             }
         }
@@ -130,10 +135,6 @@ namespace WpfApp1
             {
                 countdownTimer.Stop();
                 txtTimer.Text = seconds.ToString();
-                if(isAnswer == false)
-                {
-                    HandleAnswer("X");
-                }
                 isWiner = await DetermineWiner();
                 if (hasChoicePlayer == true)
                 {
@@ -161,14 +162,14 @@ namespace WpfApp1
         }
         private async Task<bool> DetermineWiner()
         {
-            int minumTimeToAnswer = 30;
+            int minumTimeToAnswer = 20;
             bool retVal;
-            await LoadAllUserFromFireBase();
+            danhSachUser = await FireBaseAPI.getUserPlay();
             if (danhSachUser == null) { return false; }
             /* Get minium to ansswer */
             for ( int i = 0; i < danhSachUser.Count; i++)
             {
-                if(danhSachUser[i].lastAnswerTime < minumTimeToAnswer && danhSachUser[i].lastAnswerTime < 30 && danhSachUser[i].hasPlayed == false )
+                if(danhSachUser[i].lastAnswerTime < minumTimeToAnswer && danhSachUser[i].lastAnswerTime < 20 && danhSachUser[i].hasPlayed == false )
                 {
                     minumTimeToAnswer = (int)danhSachUser[i].lastAnswerTime;
                     hasChoicePlayer = true;
@@ -195,7 +196,6 @@ namespace WpfApp1
             // Lấy nút được chọn
             Button selectedButton = GetButtonByAnswer(answer);
 
-            isAnswer = true;
             if (answer == correctAnswer)
             {
                 // ✅ Trả lời đúng - Hiển thị màu xanh
@@ -204,12 +204,10 @@ namespace WpfApp1
                 try
                 {
                     if (danhSachUser == null) { return; }
-                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 30 - seconds;
-
+                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 20 - seconds;
                     string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
                     string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);
                     var content = new StringContent(playerJson, Encoding.UTF8, "application/json");
-
                     var response = await httpClient.PutAsync(playerUrl, content);
                 }
                 catch (Exception ex)
@@ -225,7 +223,7 @@ namespace WpfApp1
                 try
                 {
                     if (danhSachUser == null) { return; }
-                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 100;
+                    danhSachUser[UserControl.ID_Player].lastAnswerTime = 999;
 
                     string playerUrl = $"{url_user}/players/{UserControl.ID_Player}.json";
                     string playerJson = JsonConvert.SerializeObject(danhSachUser[UserControl.ID_Player]);

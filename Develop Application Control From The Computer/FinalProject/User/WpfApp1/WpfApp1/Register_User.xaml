@@ -169,5 +169,6 @@
                         Click="Button_Click"/>
             </StackPanel>
         </Border>
+        <Label Content="Design and Develop by KhangMT, Embedded Software Engineer" HorizontalAlignment="Left" Margin="776,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
     </Grid>
 </UserControl>

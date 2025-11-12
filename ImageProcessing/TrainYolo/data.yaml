@@ -1,0 +1,5 @@
+train: ./TrainYolo/images/train
+val: ./TrainYolo/images/val
+
+nc: 1
+names: ['licence']
